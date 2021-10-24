@@ -1,16 +1,18 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
+import logo from '../../img/sjuacmlogo.png';
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
         <>
             <Nav>
                 <NavbarContainer>
                     
-                    <NavLogo to='/'>SJU ACM</NavLogo>
+                    <img src={logo} alt="SJU ACM Logo" />
+
                     
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
 
@@ -30,7 +32,7 @@ const Navbar = () => {
                     </NavMenu>
 
                     <NavBtn>
-                        <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+                        <NavBtnLink to='/signin'>Register</NavBtnLink>
                     </NavBtn> 
 
                 </NavbarContainer>

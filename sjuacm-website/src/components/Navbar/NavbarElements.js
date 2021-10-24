@@ -6,7 +6,7 @@ import {Link as LinkS} from 'react-scroll'
 export const Nav = styled.nav`
     background-color: black;
     height: 80px;
-    /* margin-top: -80px; */
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,6 +55,7 @@ export const MobileIcon = styled.div`
         font-size: 1.8rem;
         cursor: pointer;
         color: white;
+    }
 
 `;
 
@@ -86,6 +87,11 @@ export const NavLinks = styled(LinkS)`
     &.active {
         border-bottom: 3px solid #01bf71;
     }
+
+    &:hover {
+        border-bottom: 2px solid red;
+    }
+
 `;
 
 export const NavBtn = styled.nav`

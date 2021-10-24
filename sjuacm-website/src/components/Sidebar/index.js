@@ -9,23 +9,16 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
 
             <SidebarWrapper>
+
                 <SidebarMenu>
-                    <SidebarLink to="about">
-                        About
-                    </SidebarLink>
-                    <SidebarLink to="meetings">
-                        Meetings
-                    </SidebarLink>
-                    <SidebarLink to="eboard">
-                        E-Board
-                    </SidebarLink>
-                    <SidebarLink to="membership">
-                        Membership
-                    </SidebarLink>
+                    <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
+                    <SidebarLink to="meetings" onClick={toggle}>Meetings</SidebarLink>
+                    <SidebarLink to="eboard" onClick={toggle}>E-Board</SidebarLink>
+                    <SidebarLink to="membership" onClick={toggle}>Membership</SidebarLink>
                 </SidebarMenu>
 
                 <SideBtnWrap>
-                    <SidebarRoute to="/signin">Register</SidebarRoute>
+                    <SidebarRoute to="/signin">Join our Mailing List</SidebarRoute>
                 </SideBtnWrap>
 
             </SidebarWrapper>

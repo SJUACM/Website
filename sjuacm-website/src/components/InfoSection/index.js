@@ -33,7 +33,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                         
                         <Column2>
                             <ImgWrap>
-                                <Img src={aboutSection} alt={alt}/>
+                                <Img src={img} alt={alt}/>
                             </ImgWrap>
                         </Column2>
                     

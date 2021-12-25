@@ -8,7 +8,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: 1600px;
     position: relative;
     z-index: 1;
 
@@ -23,6 +23,25 @@ export const HeroContainer = styled.div`
         z-index: 2;
     }
 
+`;
+
+export const CarouselContainer = styled.div`
+    margin-top: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+`;
+
+export const HeroContent = styled.div`
+    margin-top: -800px;
+    z-index: 3;
+    max-width: 1200px;
+    position: absolute;
+    padding: 8px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;
 
 export const HeroBg = styled.div`
@@ -45,15 +64,6 @@ export const VideoBg = styled.video`
     background: #232a34;
 `;
 
-export const HeroContent = styled.div`
-    z-index: 3;
-    max-width: 1200px;
-    position: absolute;
-    padding: 8px 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-`;
 
 export const HeroH1 = styled.h1`
     color: #fff;
@@ -106,3 +116,4 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
 `;
+

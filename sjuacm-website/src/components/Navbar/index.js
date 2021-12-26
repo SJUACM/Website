@@ -33,9 +33,13 @@ const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavLinks to='meetings'>Meetings</NavLinks>
                         </NavItem>
+
                         <NavItem>
-                            <NavLinks to='eboard'>E-Board</NavLinks>
+                            <NavLinks>
+                                <Link to='/eboard' style={{textDecoration: 'none', color: 'white'}}>E-Board</Link>
+                            </NavLinks>
                         </NavItem>
+
                         <NavItem>
                             <NavLinks to='membership'>Membership</NavLinks>
                         </NavItem>

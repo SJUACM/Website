@@ -19,7 +19,7 @@ const ImgCarousel = () => {
         
     return (
         <CarouselContainer>
-            <Carousel showThumbs={false}>
+            <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true}>
 
                 <CarouselImg src={ labPic1 } />  
                 <CarouselImg src={ labPic2 } />

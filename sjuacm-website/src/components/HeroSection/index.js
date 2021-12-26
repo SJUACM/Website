@@ -27,12 +27,12 @@ const HeroSection = () => {
                     SJU's Premier Organization for Computer Science and Cyber Security
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' onClick={() => window.location.href='https://forms.gle/CGcyq93XaLUfMAkz9'}>
                         Join our Mailing List {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
+                    
                 </HeroBtnWrapper>
             </HeroContent>
-            
 
             <CarouselContainer>
                 <ImgCarousel />

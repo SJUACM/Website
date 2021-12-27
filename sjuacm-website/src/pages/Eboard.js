@@ -15,7 +15,7 @@ const About = () => {
     return (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
-            <Navbar toggle={toggle}/>
+            <Navbar toggle={toggle} about_border_bottom={false} meeting_border_bottom={false} eboard_border_bottom={true}/>
             <EboardSection {...Faizan} />
             <EboardSection {...Tom} />
             <EboardSection {...Raymond} />

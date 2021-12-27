@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
 import About from '../../pages/About';
 
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_border_bottom }) => {
 
     return (
         <>
@@ -25,19 +25,19 @@ const Navbar = ({ toggle }) => {
 
                     <NavMenu>
                         <NavItem>
-                            <NavLinks>
+                            <NavLinks style={{borderBottom : about_border_bottom ? "2px solid red" : ''}}>
                                 <Link to='/about' style={{textDecoration: 'none', color: 'white'}}>About</Link>
                             </NavLinks>
                         </NavItem>
 
                         <NavItem>
-                        <NavLinks>
+                        <NavLinks style={{borderBottom : meeting_border_bottom ? "2px solid red" : ''}}>
                                 <Link to='/meetings' style={{textDecoration: 'none', color: 'white'}}>Meetings</Link>
                             </NavLinks>
                         </NavItem>
 
                         <NavItem>
-                            <NavLinks>
+                            <NavLinks style={{borderBottom : eboard_border_bottom ? "2px solid red" : ''}}>
                                 <Link to='/eboard' style={{textDecoration: 'none', color: 'white'}}>E-Board</Link>
                             </NavLinks>
                         </NavItem>

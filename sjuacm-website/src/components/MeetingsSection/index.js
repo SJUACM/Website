@@ -8,14 +8,14 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-const MeetingSection = ({date, name, description, slidesLink, codeLink, youtubeLink, img, margin_top}) => {
+const MeetingSection = ({date, name, description, slidesLink, codeLink, youtubeLink, img, margin_top, margin_left}) => {
     return (
         <>
             <MeetingContainer style={{marginTop : margin_top }}>
                 <InfoWrapper>
                     <InfoRow>
                         
-                        <Column1>
+                        <Column1 style={{marginLeft : margin_left}}>
                             <TextWrapper>
                                 
                                 <TopLine>{date}</TopLine>
@@ -30,6 +30,9 @@ const MeetingSection = ({date, name, description, slidesLink, codeLink, youtubeL
                                     <><a href={slidesLink} download style={{ color: 'white' }}>Download Slides</a></>  
                                 }
                                 
+                                {(slidesLink == '' && codeLink != '') && 
+                                    <><a href={codeLink} style={{ color: 'white'}}>Run the Source Code</a></>  
+                                }
 
                             </TextWrapper>
                         </Column1>

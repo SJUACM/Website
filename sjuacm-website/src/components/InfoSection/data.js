@@ -2,7 +2,7 @@ import aboutSection from '../../img/aboutSection.png'
 import eboardSection from '../../img/eboardSection.png'
 
 export const homeObjOne = {
-    id: 'about',
+    id: 'meetings',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -19,7 +19,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-    id: 'e-board',
+    id: 'eboard',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,

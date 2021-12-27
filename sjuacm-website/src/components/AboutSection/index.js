@@ -1,5 +1,3 @@
-
-
 import React, {useState} from 'react'
 import ReactDOM from 'react-dom';
 import {AboutPageContainer, AboutPageContent, AboutPageHeader, AboutPageText, AboutPageImg, TextWrapper, ImgWrap, Column1, Column2, InfoRow} from './AboutElements';

@@ -1,5 +1,6 @@
 import faizanPic from '../../img/eboardPics/faizan_eboardpic.jpg';
 import tomPic from '../../img/eboardPics/tom_eboardpic.png';
+import raymondPic from '../../img/eboardPics/raymond_eboardpic.png';
 import jadePic from '../../img/eboardPics/jade_eboardpic.png';
 
 export const Faizan = {
@@ -23,6 +24,18 @@ export const Tom = {
     linkedIn : 'https://www.linkedin.com/in/thomaslatona/',
     achievements: ['Founder of Tektonik Software', 'Published Game Developer'],
     img: tomPic,
+    margin_top: '-1200px',
+};
+
+export const Raymond = {
+    name: 'Raymond Ramdat',
+    position: 'Treasurer',
+    major: 'Cyber Security',
+    gradYear: 'May 2024',
+    email: 'raymond.ramdat20@stjohns.edu',
+    linkedIn : 'https://www.linkedin.com/in/raymondramdat',
+    achievements: ['Cisco High Intern', 'CCNET, MTA Networking Fundamentals'],
+    img: raymondPic,
     margin_top: '-1200px',
 };
 

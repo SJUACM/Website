@@ -1,5 +1,6 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements'
+import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
 
 const Sidebar = ({ isOpen, toggle }) => {
     return (
@@ -11,10 +12,23 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarWrapper>
 
                 <SidebarMenu>
-                    <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
-                    <SidebarLink to="meetings" onClick={toggle}>Meetings</SidebarLink>
-                    <SidebarLink to="eboard" onClick={toggle}>E-Board</SidebarLink>
-                    <SidebarLink to="membership" onClick={toggle}>Membership</SidebarLink>
+
+                    <SidebarLink>
+                        <Link to='/about' style={{textDecoration: 'none', color: 'white'}}>About</Link>
+                    </SidebarLink>
+                    
+                    <SidebarLink>
+                        <Link to='/meetings' style={{textDecoration: 'none', color: 'white'}}>Meetings</Link>
+                    </SidebarLink>
+                    
+                    <SidebarLink>
+                        <Link to='/eboard' style={{textDecoration: 'none', color: 'white'}}>E-Board</Link>
+                    </SidebarLink>
+
+                    <SidebarLink>
+                        <Link to='/membership' style={{textDecoration: 'none', color: 'white'}}>Membership</Link>
+                    </SidebarLink>
+
                 </SidebarMenu>
 
                 <SideBtnWrap>

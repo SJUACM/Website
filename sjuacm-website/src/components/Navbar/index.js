@@ -31,7 +31,9 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
 
                         <NavItem>
-                            <NavLinks to='meetings'>Meetings</NavLinks>
+                        <NavLinks>
+                                <Link to='/meetings' style={{textDecoration: 'none', color: 'white'}}>Meetings</Link>
+                            </NavLinks>
                         </NavItem>
 
                         <NavItem>

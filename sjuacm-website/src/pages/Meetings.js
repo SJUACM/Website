@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
-import EboardSection from '../components/EboardSection'
-import {Faizan, Tom, Raymond, Jade} from '../components/EboardSection/data'
+import MeetingsSection from '../components/MeetingsSection'
+import {SWEInterviewPrep, RevEng} from '../components/MeetingsSection/data'
 
-const About = () => {
+const Meetings = () => {
 
     const [isOpen, setIsOpen] = useState(false)
 
@@ -16,13 +16,11 @@ const About = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
-            <EboardSection {...Faizan} />
-            <EboardSection {...Tom} />
-            <EboardSection {...Raymond} />
-            <EboardSection {...Jade} />
+            <MeetingsSection {...SWEInterviewPrep} />
+            <MeetingsSection {...RevEng} />
          
         </>
     )
 }
 
-export default About
+export default Meetings

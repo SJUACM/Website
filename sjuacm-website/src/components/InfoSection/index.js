@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'
+import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
     return (
@@ -15,7 +16,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <Button to="home"
+                                    <Button
                                     smooth={true}
                                     duration={500}
                                     spy={true}
@@ -24,7 +25,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                     primary={primary ? 1 : 0}
                                     dark = {dark ? 1 : 0}
                                     dark2 = {dark2 ? 1 : 0}
-
+                                    onClick={event =>  window.location.href=id}
                                     >{buttonLabel}</Button>
                                 </BtnWrap>
                             </TextWrapper>

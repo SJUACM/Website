@@ -3,6 +3,7 @@ import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import MeetingsSection from '../components/MeetingsSection'
 import {SWEInterviewPrep, RevEng, DayInTheLife, WomenInTech, GameDev, DataAnalytics, Fall2021Kickoff} from '../components/MeetingsSection/data'
+import GoToTop from '../GoToTop';
 
 const Meetings = () => {
 
@@ -23,7 +24,9 @@ const Meetings = () => {
             <MeetingsSection {...GameDev} />
             <MeetingsSection {...DataAnalytics} />
             <MeetingsSection {...Fall2021Kickoff} />
-         
+
+
+            <GoToTop />
         </>
     )
 }

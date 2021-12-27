@@ -16,7 +16,7 @@ export const SWEInterviewPrep = {
     youtubeLink: '',
     img : sweInterviewPrep,
     margin_top : '0px',
-
+    alt_margin : true,
 };
 
 export const RevEng = {

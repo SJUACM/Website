@@ -5,7 +5,7 @@ import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
 import {homeObjOne} from '../components/InfoSection/data'
 import {homeObjTwo} from '../components/InfoSection/data'
-import ImgCarousel from '../components/Carousel'
+import GoToTop from '../GoToTop';
 
 const Home = () => {
 
@@ -22,6 +22,9 @@ const Home = () => {
          <HeroSection />
          <InfoSection {...homeObjOne}/>
          <InfoSection {...homeObjTwo}/>
+
+
+         <GoToTop />
         </>
     )
 }

@@ -3,6 +3,7 @@ import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import EboardSection from '../components/EboardSection'
 import {Faizan, Tom, Raymond, Jade} from '../components/EboardSection/data'
+import GoToTop from '../GoToTop';
 
 const About = () => {
 
@@ -20,6 +21,9 @@ const About = () => {
             <EboardSection {...Tom} />
             <EboardSection {...Raymond} />
             <EboardSection {...Jade} />
+
+
+            <GoToTop />
          
         </>
     )

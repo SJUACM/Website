@@ -14,6 +14,11 @@ export const MeetingContainer = styled.div`
     @media screen and (max-width: 768px) {
         margin-bottom: 350px;
     }
+
+    @media screen and (max-width: 400px) {
+        margin-top : ${({ alt_margin }) => (alt_margin ? "150px" : "-100px")};
+        padding-top : ${({ alt_margin }) => (alt_margin ? "100px" : "-100px")};
+    }
 `;
 
 export const InfoWrapper = styled.div`
@@ -48,9 +53,21 @@ export const Column1 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
+    margin-left : ${({ margin_left }) => (margin_left ? "-100px" : "0px")};
+    margin-top: 50px;
+
 
     @media screen and (max-width: 768px) {
         margin-top: 125px;
+    }
+
+    @media screen and (max-width:  650px) {
+        margin: auto;
+        margin-left : ${({ margin_left }) => (margin_left ? "0px" : "0px")};
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -20px;
+
     }
 `;
 
@@ -69,6 +86,13 @@ export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
+`;
+
+export const LinkWrapper = styled.div`
+    margin-bottom: 80px;
+
+    
+    
 `;
 
 export const TopLine = styled.p`
@@ -134,6 +158,10 @@ export const ImgWrap = styled.div`
 
     @media screen and (max-width: 768px) {
         margin-top: 100px;
+    }
+
+    @media screen and (max-width: 400px) {
+        margin-top: 40px;
     }
 
 `; 

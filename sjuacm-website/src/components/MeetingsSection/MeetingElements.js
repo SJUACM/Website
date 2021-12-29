@@ -15,6 +15,10 @@ export const MeetingContainer = styled.div`
         margin-bottom: 350px;
     }
 
+    @media screen and (max-width: 768px) {
+        padding-top: 150px;
+    }
+
     @media screen and (max-width: 400px) {
         margin-top : ${({ alt_margin }) => (alt_margin ? "150px" : "-100px")};
         padding-top : ${({ alt_margin }) => (alt_margin ? "100px" : "-100px")};

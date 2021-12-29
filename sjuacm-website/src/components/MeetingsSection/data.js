@@ -6,6 +6,12 @@ import womenInTech from '../../img/meetingPics/womenInTech.jpg'
 import gameDev from '../../img/meetingPics/gameDev.jpg'
 import dataAnalytics from '../../img/meetingPics/dataAnalytics.jpg'
 import kickoff from '../../img/meetingPics/kickoff.JPG'
+import computerVision from '../../img/meetingPics/computerVision.jpg'
+import metasploitable from '../../img/meetingPics/metasploitable.jpg'
+import spring2021Kickoff from '../../img/meetingPics/spring2021Kickoff.jpg'
+import javaProjects from '../../img/meetingPics/javaProjects.jpg'
+import RAT_ from '../../img/meetingPics/RAT.jpg'
+import chatBot from '../../img/meetingPics/chatbot.jpg'
 
 export const SWEInterviewPrep = {
     date: '11/18/2021',
@@ -64,12 +70,14 @@ export const GameDev = {
     youtubeLink: '',
     img : gameDev,
     margin_top : '-1150px',
+    customMessage : 'Download the Game',
+    customLink : 'https://tektonik-software.itch.io/sky-cycle'
 };
 
 export const DataAnalytics = {
     date: '9/30/2021',
     name : 'Data Analytics with Python',
-    description : "Learn how to use python to effectively analyze worldwide COVID-19 data and create interactive visualizations with just a few lines of code! ",
+    description : "Learn how to use Python to effectively analyze worldwide COVID-19 data and create interactive visualizations with just a few lines of code! ",
     slidesLink: '',
     codeLink: 'https://colab.research.google.com/github/SJUACM/COVID-19-Data-Analysis/blob/main/COVID_19_Data_Analysis_Lab.ipynb',
     youtubeLink: '',
@@ -85,6 +93,77 @@ export const Fall2021Kickoff = {
     codeLink: '',
     youtubeLink: '',
     img : kickoff,
+    margin_top : '-1050px',
+    margin_left: '-100px',
+    semesterDivider: 'Spring 2021 Semester',
+};
+
+export const CompVision = {
+    date: '3/25/2021',
+    name : 'Computer Vision & Applications', 
+    description : "This meeting provides a high-level overview of Computer Vision, which is one of the most exciting frontiers in Artificial Intelligence. By mimicking the functions of the human brain, scientists have allowed computers to 'see', and this has opened up a world of possibilities in autonomous driving, healthcare, and even space exploration.",
+    slidesLink: '',
+    codeLink: '',
+    youtubeLink: 'https://www.youtube.com/watch?v=ugCHGbzswGE',
+    img : computerVision,
+    margin_top : '-950px',
+};
+
+export const Metasploitable = {
+    date: '3/04/2021',
+    name : 'Getting Started with Metasploitable', 
+    description : "In this meeting, you'll be introduced to a cornerstone of pen-testing: Metasploit. Discover vulnerabilities and execute exploit code through the use of scripts we have ready for you. Unleash your inner script kiddie!",
+    slidesLink: '',
+    codeLink: '',
+    youtubeLink: 'https://www.youtube.com/watch?v=w3MfpAT218o',
+    img : metasploitable,
     margin_top : '-1150px',
-    margin_left: '-100px'
+};
+
+
+export const Spring2021Kickoff = {
+    date: '2/18/2021',
+    name : 'Projects & Inspiration! Spring 2021 Kickoff', 
+    description : "For the kick-off meeting of the Spring Semester, we as the board present some of our projects, hobbies, and activism that we've been a part of since we left off the Fall Semester. Check out the recording for some good advice and even better projects!",
+    slidesLink: '',
+    codeLink: '',
+    youtubeLink: 'https://www.youtube.com/watch?v=-Zt8-Zbwy0s',
+    img : spring2021Kickoff,
+    margin_top : '-1050px',
+    semesterDivider: 'Fall 2020 Semester',
+};
+
+
+export const JavaProjects = {
+    date: '11/12/2020',
+    name : 'Java Projects for Beginners', 
+    description : "This meeting provides insight on how to easily make a JSwing GUI using a Netbeans tool and hook it up to some data. After, we head into a presentation with an array of projects to inspire beginner coders! ",
+    slidesLink: '',
+    codeLink: '',
+    youtubeLink: 'https://www.youtube.com/watch?v=abW7AQ-Lc9E',
+    img : javaProjects,
+    margin_top : '-950px',
+};
+
+export const RAT = {
+    date: '11/5/2020',
+    name : 'Setting up a RAT / Social Engineering', 
+    description : "In this meeting, we go over what RATs are, how to make one, their capabilities, and how to protect against them. When our presenter, Martin, attempted to demo the RAT between two VMs, things quickly took a turn and Martin hit the street to show us how it's really done...",
+    slidesLink: '',
+    codeLink: '',
+    youtubeLink: 'https://www.youtube.com/watch?v=xDqmxO7v67U',
+    img : RAT_,
+    margin_top : '-1050px',
+};
+
+
+export const ChatBot = {
+    date: '10/22/2020',
+    name : 'Creating a ChatBot with Python', 
+    description : "In this meeting, our VP, Faizan, shows us how to create a ChatBot that can answer questions by pulling data from Wolfram Alpha and Wikipedia using their APIs as well as using Twilio to send SMS messages programmatically. Bonus presentation at the end by board member DeJonte July on the key features of Git!",
+    slidesLink: '',
+    codeLink: '',
+    youtubeLink: 'https://www.youtube.com/watch?v=hgEiYBjft8A',
+    img : chatBot,
+    margin_top : '-1050px',
 };

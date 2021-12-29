@@ -22,7 +22,7 @@ const Meetings = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle} about_border_bottom={false} meeting_border_bottom={true} eboard_border_bottom={false} resources_border_bottom={false}/>
-            <MeetingsSection {...SWEInterviewPrep} />
+            {/* <MeetingsSection {...SWEInterviewPrep} />
             <MeetingsSection {...RevEng} />
             <MeetingsSection {...DayInTheLife} />
             <MeetingsSection {...WomenInTech} />
@@ -36,7 +36,8 @@ const Meetings = () => {
 
             <MeetingsSection {...JavaProjects} />
             <MeetingsSection {...RAT} />
-            <MeetingsSection {...ChatBot} />
+            <MeetingsSection {...ChatBot} /> */}
+            <MeetingsSection />
             
 
 

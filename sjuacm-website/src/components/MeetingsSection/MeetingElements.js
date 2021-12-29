@@ -1,27 +1,52 @@
 import styled from "styled-components";
 
+export const DropdownSection = styled.div`
+    background : #0c0c0c;
+    padding-bottom: 350px;
+    margin: auto;
+    display: flex;
+    justify-content : center
+    
+
+`;
+
+export const DropdownContainer = styled.div`
+    max-width: 175px;
+    width: 175px;
+    padding-bottom : 150px;
+    padding-top: 150px;
+
+    @media screen and (max-width: 768px) {
+        padding-bottom : 150px;
+    }
+`;
+
 export const MeetingContainer = styled.div`
     background: #0c0c0c;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
-    height: 1600px;
+    height: 900px;
     position: relative;
     z-index: 1;
-    margin-bottom: 100px;
+
+    padding-top : ${({ alt_ }) => (alt_ ? "50px" : "")};
+    padding-bottom : ${({ alt_ }) => (alt_ ? "100px" : "")};
+    padding-top : ${({ alt_margin }) => (alt_margin ? "-250px" : "")};
+    height : ${({ alt_margin }) => (alt_margin ? "700px" : "600px")};
+    height : ${({ alt_ }) => (alt_ ? "650px" : "")};
+
 
     @media screen and (max-width: 768px) {
-        margin-bottom: 350px;
-    }
-
-    @media screen and (max-width: 768px) {
+        height: 1200px;
         padding-top: 150px;
+        
     }
 
     @media screen and (max-width: 400px) {
-        margin-top : ${({ alt_margin }) => (alt_margin ? "150px" : "-100px")};
-        padding-top : ${({ alt_margin }) => (alt_margin ? "100px" : "-100px")};
+        height: 900px;
+        margin-top : ${({ alt_margin }) => (alt_margin ? "250px" : "-450px")};
+        padding-top : ${({ alt_margin }) => (alt_margin ? "400px" : "-450px")};
     }
 `;
 

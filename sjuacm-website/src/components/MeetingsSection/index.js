@@ -1,68 +1,98 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
-import { MeetingContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, LinkWrapper,  TopLine, Heading, Subtitle, ImgWrap, Img } from './MeetingElements'
-import {
-    faYoutube,
-    faGithub
-} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { DropdownSection, DropdownContainer, MeetingContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, LinkWrapper,  TopLine, Heading, Subtitle, ImgWrap, Img } from './MeetingElements'
+import {meetings} from './data'
 
+import { useMemo, useState } from "react";  
+import Dropdown from 'react-dropdown';
+import 'react-dropdown/style.css';  
 
-const MeetingSection = ({date, name, description, slidesLink, codeLink, youtubeLink, customMessage, customLink, img, margin_top, margin_left, alt_margin, semesterDivider}) => {
+const semesters = ["All", "Fall 2021", "Spring 2021", "Fall 2020"]
+  
+
+function addMeeting({date, name, description, slidesLink, codeLink, youtubeLink, customMessage, customLink, img, margin_top, margin_left, alt_margin, alt_, start_sem}) { 
+    
     return (
-        <>
-            <MeetingContainer alt_margin={alt_margin} style={{marginTop : margin_top }}>
-                <InfoWrapper>
-                    <InfoRow>
-                        
-                        <Column1 margin_left={margin_left}>
-                            <TextWrapper>
+        <MeetingContainer start_sem={start_sem} alt_={alt_} alt_margin={alt_margin} style={{marginTop : '0px'}}>
+            
+            <InfoWrapper>
+                <InfoRow>
+                    <Column1>
+                        <TextWrapper>
+            
+                            <TopLine>{date}</TopLine>
+                            <Heading>{name}</Heading>
+                            <Subtitle>{description}</Subtitle>
+                            
+                            <LinkWrapper>
+                                {(slidesLink != '' && codeLink != '') && 
+                                    <><a href={slidesLink} download style={{ color: 'white' }}>Download Slides</a><a href={codeLink} style={{ color: 'white', marginLeft: '40px' }}>Run the Source Code</a></>  
+                                }
+
+                                {(slidesLink != '' && codeLink == '') && 
+                                    <><a href={slidesLink} download style={{ color: 'white' }}>Download Slides</a></>  
+                                }
                                 
-                                <TopLine>{date}</TopLine>
-                                <Heading>{name}</Heading>
-                                <Subtitle>{description}</Subtitle>
-                                
-                                <LinkWrapper>
-                                    {(slidesLink != '' && codeLink != '') && 
-                                        <><a href={slidesLink} download style={{ color: 'white' }}>Download Slides</a><a href={codeLink} style={{ color: 'white', marginLeft: '40px' }}>Run the Source Code</a></>  
-                                    }
+                                {(slidesLink == '' && codeLink != '') && 
+                                    <><a href={codeLink} style={{ color: 'white'}}>Run the Source Code</a></>  
+                                }
 
-                                    {(slidesLink != '' && codeLink == '') && 
-                                        <><a href={slidesLink} download style={{ color: 'white' }}>Download Slides</a></>  
-                                    }
-                                    
-                                    {(slidesLink == '' && codeLink != '') && 
-                                        <><a href={codeLink} style={{ color: 'white'}}>Run the Source Code</a></>  
-                                    }
+                                {(youtubeLink != '') && 
+                                    <><a href={youtubeLink} style={{ color: 'white'}}>Watch the Recording on YouTube</a></>  
+                                }
 
-                                    {(youtubeLink != '') && 
-                                        <><a href={youtubeLink} style={{ color: 'white'}}>Watch the Recording on YouTube</a></>  
-                                    }
+                                {(customMessage != '') && 
+                                    <><a href={customLink} style={{ color: 'white'}}>{customMessage}</a></>  
+                                }
 
-                                    {(customMessage != '') && 
-                                        <><a href={customLink} style={{ color: 'white'}}>{customMessage}</a></>  
-                                    }
+                            </LinkWrapper>
+                        </TextWrapper>
 
-                                </LinkWrapper>
-
-                            </TextWrapper>
-                        </Column1>
-                        
-
-                        <Column2>
-                            <ImgWrap>
-                                <Img src={img}/>
-                            </ImgWrap>
-                        </Column2>
+                    </Column1>
                     
-                    </InfoRow>
-                    
-                    {(semesterDivider != null && semesterDivider.length > 1) &&
-                        <h1 style={{marginTop: '50px', textAlign: 'center', color: 'white'}}>{semesterDivider}</h1>
-                    }
+                    <Column2>
+                        <ImgWrap>
+                            <Img src={img}/>
+                        </ImgWrap>
+                    </Column2>
+                
+                </InfoRow>
+                
+            </InfoWrapper>
+        </MeetingContainer>
+    )
+}
 
-                </InfoWrapper>
-            </MeetingContainer>  
+
+
+const MeetingSection = () => {
+    
+    const [semester, setSemester] = useState("");  
+    
+    // Memoized results. Will re-evaluate any time selected  
+    // category changes  
+    const filteredData = useMemo(() => {  
+        if (!semester || semester === "All") return meetings;  
+    
+        return meetings.filter(item => item.semester === semester);  
+    }, [semester]);  
+
+    
+    return (
+        <>  
+            <DropdownSection>
+                <DropdownContainer>
+                    
+                    <p style={{color : 'white', textAlign : 'center', marginBottom : '20px', fontSize : '17px'}}>Filter by Semester</p>
+                    <Dropdown options={semesters} value="All" onChange={e => setSemester(e.value)}/>;
+                
+                </DropdownContainer>
+            </DropdownSection>
+            
+                
+            {filteredData.map(addMeeting)}
+
+         
         </>
     )
 }

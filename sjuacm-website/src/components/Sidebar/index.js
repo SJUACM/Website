@@ -26,7 +26,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     </SidebarLink>
 
                     <SidebarLink>
-                        <Link to='/membership' style={{textDecoration: 'none', color: 'white'}}>Membership</Link>
+                        <Link to='/resources' style={{textDecoration: 'none', color: 'white'}}>Resources</Link>
                     </SidebarLink>
 
                 </SidebarMenu>

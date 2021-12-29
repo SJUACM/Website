@@ -4,10 +4,9 @@ import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, 
 import logo from '../../img/sjuacmlogo.png';
 import { NavLink } from "react-router-dom";
 import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
-import About from '../../pages/About';
 
 
-const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_border_bottom }) => {
+const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_border_bottom, resources_border_bottom }) => {
 
     return (
         <>
@@ -43,7 +42,9 @@ const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_bor
                         </NavItem>
 
                         <NavItem>
-                            <NavLinks to='membership'>Membership</NavLinks>
+                            <NavLinks style={{borderBottom : resources_border_bottom ? "2px solid red" : ''}}>
+                                <Link to='/resources' style={{textDecoration: 'none', color: 'white'}}>Resources</Link>
+                            </NavLinks>
                         </NavItem>
                     </NavMenu>
 

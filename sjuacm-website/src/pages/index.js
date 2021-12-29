@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <>
          <Sidebar isOpen={isOpen} toggle={toggle}/>
-         <Navbar toggle={toggle} about_border_bottom={false} meeting_border_bottom={false} eboard_border_bottom={false}/>
+         <Navbar toggle={toggle} about_border_bottom={false} meeting_border_bottom={false} eboard_border_bottom={false} resources_border_bottom={false}/>
          <HeroSection />
          <InfoSection {...homeObjOne}/>
          <InfoSection {...homeObjTwo}/>

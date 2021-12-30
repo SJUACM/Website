@@ -8,22 +8,29 @@ export const CardContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 1800px;
+    height: 3000px;
     position: relative;
     z-index: 1;
     margin-bottom: 100px;
     flexWrap: wrap;
-    margin-top: -180px;
+    margin-top: -950px;
+    //padding-top: -500px;
 
-    @media screen and (max-width: 1060px) {
-        height: 3000px;
-        margin-bottom: 350px;
+    @media screen and (max-width: 1080px) {
+        height: 6000px;
         padding-top: -250px;
-        margin-top: -250px;
+        margin-top: -2400px;
+    }
+
+    @media screen and (max-width: 770px) {
+        
+        padding-top: 3000px;
+       
     }
 
     @media screen and (max-width: 400px) {
-        margin-top: -300px;
+        margin-top: -2800px;
+        height: 6800px;
     }
 `;
 
@@ -65,7 +72,7 @@ export const CustomButton = styled(Button)`
 export const InfoWrapper = styled.div`
     // display: grid;
     // z-index: 1;
-    // height: 860px;
+    height: 860px;
     // width: 100%;
     max-width: 1000px;
     // margin-right: auto;
@@ -74,7 +81,8 @@ export const InfoWrapper = styled.div`
     // justify-content: center;
     // margin-top: -800px;
 
-    // @media screen and (max-width: 768px) {
-    //     margin-top: -750px;
-    // }
+    @media screen and (max-width: 768px) {
+        height: 4000px;
+        padding-bottom: -2000px;
+    }
 `;

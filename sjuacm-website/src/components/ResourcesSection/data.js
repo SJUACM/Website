@@ -3,6 +3,9 @@ import levels from '../../img/resourcesPics/levels.fyi.png'
 import datacamp from '../../img/resourcesPics/datacamp.jpg'
 import googleCerts from '../../img/resourcesPics/googleCareerCertificates.png'
 
+import fireship from '../../img/resourcesPics/fireship.png'
+import freecodecamp from '../../img/resourcesPics/freecodecamp.png'
+
 export const content = [
     {
         title: 'Free Virtual Work Experience Programs from Top Companies',
@@ -29,3 +32,18 @@ export const content = [
         img: levels,
     }
 ];
+
+export const youtubeChannels = [
+    {
+        title: 'Fireship',
+        text: 'Quick & digestible code tutorials to help you build & ship apps fast. Videos cover intermediate to advanced lessons about JavaScript, Flutter, Firebase, and modern app development.',
+        link: 'https://www.youtube.com/c/Fireship',
+        img: fireship,
+    },
+    {
+        title: 'FreeCodeCamp',
+        text: 'Hundreds of programming tutorials for beginners and experts. Learn full stack web development, app development, technical interview prep, data science and much more!',
+        link: 'https://www.youtube.com/c/Freecodecamp',
+        img: freecodecamp,
+    }
+]

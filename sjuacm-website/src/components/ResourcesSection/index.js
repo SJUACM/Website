@@ -4,6 +4,7 @@ import {CardContainer, CustomCard, CustomCardImg, CustomCardBody, CustomCardTitl
 import forage from '../../img/resourcesPics/forage.png'
 import {CardGroup} from 'react-bootstrap'
 import {content} from './data'
+import {youtubeChannels} from './data'
 
 function createCard({title, text, link, img, margin_top}) {
     
@@ -29,6 +30,12 @@ const ResourcesSection = () => {
                <InfoWrapper>
                <div style={{ display: "flex", flexWrap: "wrap" }}>
                     {content.map(createCard)}
+                </div>
+
+                    <h1 style={{textAlign : 'center', color: 'white', marginTop: '50px'}}>Best YouTube Channels to Watch</h1>
+
+                <div style={{ display: "flex", flexWrap: "wrap", paddingTop: '50px' }}>
+                    {youtubeChannels.map(createCard)}
                 </div>
                 </InfoWrapper>
             </CardContainer>

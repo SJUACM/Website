@@ -74,7 +74,7 @@ export const CustomCardTitle2 = styled.h2`
     font-size: 19px;
 
     @media screen and (max-width: 400px) {
-        font-size: 1.5em;
+        font-size: 18px;
     }
 `;
 
@@ -98,10 +98,8 @@ export const InfoWrapper = styled.div`
     }
 
     @media screen and (max-width: 860px) {
-        
         align-items: center;
         justify-content: center;
-        
     }
     
 `;

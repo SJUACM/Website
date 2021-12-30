@@ -61,11 +61,28 @@ export const CustomCardTitle = styled.h1`
     margin-top: 15px;
     line-height: 1.3;
     color: white;
+    cursor: pointer;
 
     @media screen and (max-width: 400px) {
         font-size: 1.5em;
     }
 `;
+
+
+export const PrevEboardTitle = styled.h1`
+    margin-top: 15px;
+    line-height: 1.3;
+    color: white;
+
+    @media screen and (max-width: 860px) {
+        padding-top: 200px;
+    }
+
+    @media screen and (max-width: 400px) {
+        font-size: 1.5em;
+    }
+`;
+
 
 export const CustomCardTitle2 = styled.h2`
     margin-top: 15px;
@@ -89,6 +106,29 @@ export const CustomButton = styled(Button)`
  
 `;
 
+export const IconContainer = styled.div`
+    
+    margin-top: 15px;
+    
+    @media screen and (max-width: 480px) {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+`;
+
+export const EmailText = styled.span`
+    
+    font-size: 13.5px;
+
+    @media screen and (max-width: 480px) {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 0px;
+    }
+`;
+
+
 export const InfoWrapper = styled.div`
 
     max-width: 800px;
@@ -101,5 +141,4 @@ export const InfoWrapper = styled.div`
         align-items: center;
         justify-content: center;
     }
-    
 `;

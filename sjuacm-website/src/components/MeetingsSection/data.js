@@ -12,6 +12,13 @@ import spring2021Kickoff from '../../img/meetingPics/spring2021Kickoff.jpg'
 import javaProjects from '../../img/meetingPics/javaProjects.jpg'
 import RAT_ from '../../img/meetingPics/RAT.jpg'
 import chatBot from '../../img/meetingPics/chatbot.jpg'
+import passwordCracking from '../../img/meetingPics/passwordCracking.jpg'
+import htmlCss from '../../img/meetingPics/htmlCss.jpg'
+import webscraping from '../../img/meetingPics/webscraping.jpg'
+import phishing from '../../img/meetingPics/phishing.jpg'
+import internshipAdvice from '../../img/meetingPics/internshipAdvice.jpg'
+import pygame from '../../img/meetingPics/pygame.jpg'
+import fall2020Kickoff from '../../img/meetingPics/fall2020Kickoff.jpg'
 
 
 export const meetings = [
@@ -153,6 +160,76 @@ export const meetings = [
         img : chatBot,
         semester : 'Fall 2020',
     },
+    {
+        date: '10/15/2020',
+        name : 'Password Cracking & Steganography', 
+        description : "This meeting provides a demonstration of a password cracking software called John the Ripper, along with bonus lab on how to hide information in images using various steganography techniques!",
+        slidesLink: '',
+        codeLink: '',
+        youtubeLink: 'https://www.youtube.com/watch?v=Us8T9r-rIFI',
+        img : passwordCracking,
+        semester : 'Fall 2020',
+    },
+    {
+        date: '10/1/2020',
+        name : 'Semester Project | Intro to HTML & CSS', 
+        description : "In this meeting, we go over the basics to HTML and CSS; starting with the fundamentals of structuring a web page and finishing with designing a navigation bar. Towards the end, a presentation on the importance of HTML in Cyber Security is given. ",
+        slidesLink: '',
+        codeLink: '',
+        youtubeLink: 'https://www.youtube.com/watch?v=c77nc8Iod4o',
+        img : htmlCss,
+        semester : 'Fall 2020',
+    },
+    {
+        date: '9/24/2020',
+        name : 'Webscraping in Python for Internship Listings', 
+        description : "In this meeting, we go over what webscraping is and how it can be used to automate boring and tedious tasks. Our VP Faizan shows us how to use python to scrape data from Indeed.com to automatically pull data from hundreds of internship job listings into an Excel file.",
+        slidesLink: '',
+        codeLink: '',
+        youtubeLink: 'https://www.youtube.com/watch?v=zz3YTqDcDO0',
+        img : webscraping,
+        semester : 'Fall 2020',
+    },
+    {
+        date: '9/17/2020',
+        name : 'Going Phishing | Phishing Attack Demo', 
+        description : "In this meeting, our Co-President Isaac leads a workshop in showing what a phishing attack is and how it is done. The demonstration was done using Facebook to highlight the danger of such an attack; the attack was shown from Linux and Windows operating systems, side by side.",
+        slidesLink: '',
+        codeLink: '',
+        youtubeLink: 'https://www.youtube.com/watch?v=8EBEDDgp2e8',
+        img : phishing,
+        semester : 'Fall 2020',
+    },
+    {
+        date: '9/10/2020',
+        name : 'How to Market Yourself | Internship Advice', 
+        description : "In this presentation, members from our board gave their advice and shared experiences on how to market yourself in the competitive tech landscape and tips for how to landing an internship in tech!",
+        slidesLink: '',
+        codeLink: '',
+        youtubeLink: 'https://www.youtube.com/watch?v=DWtHq1m-a1k',
+        img : internshipAdvice,
+        semester : 'Fall 2020',
+    },
+    {
+        date: '9/10/2020',
+        name : 'Introduction to Python & PyGame', 
+        description : "In this meeting, our Co-President Vince leads a workshop on a brief introduction to Python and how to use PyGame to create interactive, moving images.",
+        slidesLink: '',
+        codeLink: '',
+        youtubeLink: 'https://www.youtube.com/watch?v=BhQXfHv4nKw',
+        img : pygame,
+        semester : 'Fall 2020',
+    },
+    {
+        date: '9/3/2020',
+        name : 'Semester Kickoff | DNS Sinkhole', 
+        description : "In this meeting, our board members introduce themselves, go over plans for the semester, and host a special presentation on a DNS sinkhole!",
+        slidesLink: '',
+        codeLink: '',
+        youtubeLink: 'https://www.youtube.com/watch?v=8bECiNq460Y',
+        img : fall2020Kickoff,
+        semester : 'Fall 2020',
+    }
 
 ];
 

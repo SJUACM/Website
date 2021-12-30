@@ -2,13 +2,7 @@ import React, {useState} from 'react'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import MeetingsSection from '../components/MeetingsSection'
-
-import {SWEInterviewPrep, RevEng, DayInTheLife, WomenInTech, GameDev, DataAnalytics, Fall2021Kickoff,
-    CompVision, Metasploitable, Spring2021Kickoff, JavaProjects, RAT, ChatBot
-
-} from '../components/MeetingsSection/data'
-
-    import GoToTop from '../GoToTop';
+import GoToTop from '../GoToTop';
 
 const Meetings = () => {
 

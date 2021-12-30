@@ -1,10 +1,6 @@
 import React from 'react'
-import { Button } from '../ButtonElements'
 import { EboardContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Heading2, Subtitle, ImgWrap, Img, EmailText, IconContainer } from './EboardElements'
-import {
-    faLinkedin,
-    faEmail
-} from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 

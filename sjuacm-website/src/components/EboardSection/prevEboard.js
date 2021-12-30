@@ -1,19 +1,24 @@
 import React from 'react'
-import {CardContainer, CustomCard, CustomCardImg, CustomCardBody, CustomCardTitle, CustomCardTitle2, CustomCardText, CustomButton, InfoWrapper} from './PrevEboardElements'
+import {CardContainer, CustomCard, CustomCardImg, CustomCardBody, CustomCardTitle, PrevEboardTitle, CustomCardTitle2, IconContainer, InfoWrapper, EmailText} from './PrevEboardElements'
 import {prevEboardMembers} from './data'
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function addEboardMember({name, gradYear, major, img, margin_top}) {
+
+function addEboardMember({name, gradYear, major, img, linkedIn, email, margin_top}) {
     
     return (
         <CustomCard style={{marginTop : '0px', padding : '55px'}}>
             <CustomCardImg src={img}/>
             <CustomCardBody>
-                <CustomCardTitle>{name}</CustomCardTitle>
+                <CustomCardTitle onClick={() => window.location.href=linkedIn}>{name}</CustomCardTitle>
                 <CustomCardTitle2>{major}, {gradYear}</CustomCardTitle2>
-                {/* <CustomCardText>
-                    {text}
-                </CustomCardText>
-                <Button primary={true} dark={true} darkText={false} onClick={event =>  window.location.href=link} style={{maxWidth: '150px', maxHeight: '30px', marginTop: '25px'}}>Link</Button> */}
+                <div>
+                    <IconContainer>
+                        <FontAwesomeIcon icon={faLinkedin} cursor='pointer' onClick={() => window.location.href=linkedIn} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '1.2rem', marginTop : '0px'}} /> 
+                        <EmailText id="text" style={{color : 'white', marginLeft : '15px', letterSpacing : '1.1px'}}>{email}</EmailText>
+                    </IconContainer>
+                </div>
             </CustomCardBody>
         </CustomCard>
     )
@@ -25,7 +30,7 @@ const PrevEboardSection = () => {
         <>  
             <CardContainer>
                <InfoWrapper>
-                <CustomCardTitle style={{textAlign : 'center', marginTop: '-1650px', paddingBottom : '75px'}}>Previous E-Board Members</CustomCardTitle>
+                <PrevEboardTitle style={{textAlign : 'center', marginTop: '-1650px', paddingBottom : '75px'}}>Previous E-Board Members</PrevEboardTitle>
                 <div style={{ display: "flex", flexWrap: "wrap" }}>
                         {prevEboardMembers.map(addEboardMember)}
                     </div>

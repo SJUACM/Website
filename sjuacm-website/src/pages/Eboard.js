@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import EboardSection from '../components/EboardSection'
 import {Faizan, Tom, Raymond, Jade} from '../components/EboardSection/data'
 import GoToTop from '../GoToTop';
+import PrevEboardSection from '../components/EboardSection/prevEboard'
 
 const About = () => {
 
@@ -22,6 +23,7 @@ const About = () => {
             <EboardSection {...Raymond} />
             <EboardSection {...Jade} />
 
+            <PrevEboardSection />
 
             <GoToTop />
          

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
-import { EboardContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Heading2, Subtitle, BtnWrap, ImgWrap, Img, EmailText, IconContainer } from './EboardElements'
+import { EboardContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Heading2, Subtitle, ImgWrap, Img, EmailText, IconContainer } from './EboardElements'
 import {
     faLinkedin,
     faEmail
@@ -25,7 +25,7 @@ const EboardSection = ({name, position, major, gradYear, email, linkedIn, achiev
                                     return <Subtitle>- {a}</Subtitle>;
                                 })}
                                 
-                                <div style={{paddingBottom: '0px'}}>
+                                <div>
                                     <IconContainer>
                                         <FontAwesomeIcon icon={faLinkedin} cursor='pointer' onClick={() => window.location.href=linkedIn} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '1.2rem', marginTop : '0px'}} /> 
                                         <EmailText id="text" style={{color : 'white', marginLeft : '15px', letterSpacing : '1.1px'}}>{email}</EmailText>

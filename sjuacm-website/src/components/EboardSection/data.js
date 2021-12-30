@@ -3,6 +3,14 @@ import tomPic from '../../img/eboardPics/tom_eboardpic.png';
 import raymondPic from '../../img/eboardPics/raymond_eboardpic.png';
 import jadePic from '../../img/eboardPics/jade_eboardpic.png';
 
+import isaacPic from '../../img/eboardPics/isaac.jpg';
+import jillPic from '../../img/eboardPics/jill.jpg';
+import nicolePic from '../../img/eboardPics/nicole.jpg';
+import vincePic from '../../img/eboardPics/vince.jpg';
+import dejontePic from '../../img/eboardPics/dejonte.jpg';
+import roshniPic from '../../img/eboardPics/roshni.jpg';
+
+
 export const Faizan = {
     name: 'Faizan Ahmed',
     position: 'President',
@@ -50,3 +58,43 @@ export const Jade = {
     img: jadePic,
     margin_top: '-1200px',
 };
+
+export const prevEboardMembers = [
+    {
+        name: 'Roshni Shukla',
+        major: 'Cyber Security',
+        gradYear : 'Fall 2021',
+        img: roshniPic,
+    },
+    {
+        name: 'DeJonte July',
+        major: 'Computer Science',
+        gradYear : 'May 2023',
+        img : dejontePic,
+    },
+    {
+        name: 'Isaac Sierra',
+        major: 'Cyber Security',
+        gradYear : 'May 2021',
+        img : isaacPic,
+    },
+    {
+        name: 'Vincent Monteleone',
+        major: 'Computer Science',
+        gradYear : 'May 2021',
+        img : vincePic,
+    },
+    {
+        name: 'Nicole Roman',
+        major: 'Cyber Security',
+        gradYear : 'May 2021',
+        img : nicolePic,
+    },
+    {
+        name: 'Jillian Dorego',
+        major: 'Cyber Security',
+        gradYear : 'May 2021',
+        img : jillPic,
+    },
+
+];

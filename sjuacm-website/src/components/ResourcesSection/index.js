@@ -21,7 +21,7 @@ function createCard({title, text, link, img, margin_top}) {
     )
   }
 
-const ResourcesSection = ({title, text, link, img, margin_top}) => {
+const ResourcesSection = () => {
     
     return (
         <>  

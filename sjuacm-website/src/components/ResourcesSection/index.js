@@ -8,7 +8,7 @@ import {content} from './data'
 function createCard({title, text, link, img, margin_top}) {
     
     return (
-        <CustomCard style={{marginTop : '0px', padding : '50px'}}>
+        <CustomCard style={{marginTop : '0px', padding : '55px'}}>
             <CustomCardImg src={img}/>
             <CustomCardBody>
                 <CustomCardTitle>{title}</CustomCardTitle>
@@ -25,7 +25,7 @@ const ResourcesSection = ({title, text, link, img, margin_top}) => {
     
     return (
         <>  
-            <CardContainer style={{ marginTop : '-210px', flexWrap: "wrap" }}>
+            <CardContainer>
                <InfoWrapper>
                <div style={{ display: "flex", flexWrap: "wrap" }}>
                     {content.map(createCard)}

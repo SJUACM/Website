@@ -12,15 +12,24 @@ export const CardContainer = styled.div`
     position: relative;
     z-index: 1;
     margin-bottom: 100px;
+    flexWrap: wrap;
+    margin-top: -180px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1060px) {
+        height: 3000px;
         margin-bottom: 350px;
+        padding-top: -250px;
+        margin-top: -250px;
+    }
+
+    @media screen and (max-width: 400px) {
+        margin-top: -300px;
     }
 `;
 
 export const CustomCard = styled(Card)`
     z-index: 1;
-    max-width: 400px;
+    max-width: 500px;
     border: '1px solid black';
 `;
 
@@ -37,6 +46,10 @@ export const CustomCardTitle = styled.h1`
     margin-top: 15px;
     line-height: 1.3;
     color: white;
+
+    @media screen and (max-width: 400px) {
+        font-size: 1.5em;
+    }
 `;
 
 export const CustomCardText = styled.p`
@@ -54,7 +67,7 @@ export const InfoWrapper = styled.div`
     // z-index: 1;
     // height: 860px;
     // width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     // margin-right: auto;
     // margin-left: auto;
     // padding: 0 24px;

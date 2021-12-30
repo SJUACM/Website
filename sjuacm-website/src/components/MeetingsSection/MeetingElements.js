@@ -7,7 +7,6 @@ export const DropdownSection = styled.div`
     display: flex;
     justify-content : center
     
-
 `;
 
 export const DropdownContainer = styled.div`
@@ -16,9 +15,10 @@ export const DropdownContainer = styled.div`
     padding-bottom : 150px;
     padding-top: 150px;
 
-    @media screen and (max-width: 768px) {
-        padding-bottom : 150px;
+    @media (max-width: 768px) {
+        padding-bottom: 10px;
     }
+
 `;
 
 export const MeetingContainer = styled.div`
@@ -38,15 +38,15 @@ export const MeetingContainer = styled.div`
 
 
     @media screen and (max-width: 768px) {
-        height: 1200px;
+        height: 1000px;
         padding-top: 150px;
         
     }
 
     @media screen and (max-width: 400px) {
-        height: 900px;
-        margin-top : ${({ alt_margin }) => (alt_margin ? "250px" : "-450px")};
-        padding-top : ${({ alt_margin }) => (alt_margin ? "400px" : "-450px")};
+        height: 800px;
+        // margin-top : ${({ alt_margin }) => (alt_margin ? "250px" : "-450px")};
+        padding-top : ${({ alt_margin }) => (alt_margin ? "200px" : "-450px")};
     }
 `;
 

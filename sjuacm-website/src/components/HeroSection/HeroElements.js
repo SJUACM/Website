@@ -23,6 +23,11 @@ export const HeroContainer = styled.div`
         z-index: 2;
     }
 
+    @media screen and (max-width: 480px) {
+        padding-top: 600px;
+        height: 800px;
+    }
+
 `;
 
 export const CarouselContainer = styled.div`
@@ -31,6 +36,10 @@ export const CarouselContainer = styled.div`
     flex-direction: column;
     align-items: center;
     z-index: 3;
+
+    @media screen and (max-width: 480px) {
+        margin-top: -100px;
+    }
 `;
 
 export const HeroContent = styled.div`

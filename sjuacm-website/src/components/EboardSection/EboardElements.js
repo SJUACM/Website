@@ -6,7 +6,7 @@ export const EboardContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 1600px;
+    height: 1700px;
     position: relative;
     z-index: 1;
     margin-bottom: 100px;
@@ -14,12 +14,16 @@ export const EboardContainer = styled.div`
     @media screen and (max-width: 768px) {
         margin-bottom: 350px;
     }
+
+    @media screen and (max-width: 400px) {
+        height: 1600px;
+    }
 `;
 
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 860px;
+    height: 900px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -106,7 +110,7 @@ export const Heading2 = styled.h1`
     color: white;
 
     @media screen and (max-width: 480px) {
-        font-size: 32px;
+        font-size: 26px;
     }
 `;
 
@@ -118,6 +122,27 @@ export const Subtitle = styled.p`
     line-height: 24px;
     letter-spacing: 0.7px;
     color: white;
+
+    @media screen and (max-width: 480px) {
+        font-size: 17px;
+    }
+`;
+
+export const EmailText = styled.span`
+  
+    @media screen and (max-width: 480px) {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 0px;
+    }
+`;
+
+export const IconContainer = styled.div`
+  
+    @media screen and (max-width: 480px) {
+        font-size: 15px;
+        display: flex;
+    }
 `;
 
 export const BtnWrap = styled.div`

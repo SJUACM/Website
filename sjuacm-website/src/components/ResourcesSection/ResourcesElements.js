@@ -36,7 +36,7 @@ export const CardContainer = styled.div`
 
 export const CustomCard = styled(Card)`
     z-index: 1;
-    max-width: 500px;
+    max-width: 400px;
     border: '1px solid black';
 `;
 
@@ -53,6 +53,7 @@ export const CustomCardTitle = styled.h1`
     margin-top: 15px;
     line-height: 1.3;
     color: white;
+    font-size: 1.8em;
 
     @media screen and (max-width: 400px) {
         font-size: 1.5em;
@@ -74,7 +75,7 @@ export const InfoWrapper = styled.div`
     // z-index: 1;
     height: 860px;
     // width: 100%;
-    max-width: 1000px;
+    max-width: 800px;
     // margin-right: auto;
     // margin-left: auto;
     // padding: 0 24px;

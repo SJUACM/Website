@@ -78,10 +78,6 @@ const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_bor
                         </NavItem>
                     </NavMenu>
 
-                    {/* <NavBtn>
-                        <NavBtnLink to='/signin'>Register</NavBtnLink>
-                    </NavBtn>  */}                    
-
                 </NavbarContainer>
             </Nav>
         </>

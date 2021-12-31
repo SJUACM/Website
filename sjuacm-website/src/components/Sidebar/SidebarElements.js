@@ -2,6 +2,30 @@ import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
 import { Link as LinkR } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa';
+import Collapsible from 'react-collapsible';
+
+
+export const CustomCollapsible = styled(Collapsible)`
+
+    display: flex;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-bottom:50px;
+    
+`;
+
+export const CollapsibleText = styled.p`
+
+    display: flex;
+    
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+`;
+
+
 
 export const SidebarContainer = styled.aside`
     position: fixed;
@@ -66,6 +90,28 @@ export const SidebarLink = styled(LinkS)`
         transition: 0.2s ease-in-out;
     }   
 `;
+
+
+export const SidebarSubLink = styled.p`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+
+    &:hover {
+        color: red;
+        transition: 0.2s ease-in-out;
+    }   
+`;
+
+
 
 export const SideBtnWrap = styled.div`
     display: flex;

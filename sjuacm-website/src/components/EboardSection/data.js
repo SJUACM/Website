@@ -22,6 +22,7 @@ export const Faizan = {
     achievements: ['Global Data Analyst Intern at Bloomberg LP', 'Published in ACM Digital Library'],
     img: faizanPic,
     margin_top: '-40px',
+    alt_margin: true,
 };
 
 export const Tom = {
@@ -43,7 +44,7 @@ export const Teuta = {
     gradYear: 'May 2023',
     email: 'teuta.elezaj19@stjohns.edu',
     linkedIn : 'https://www.linkedin.com/in/teutaelezaj/',
-    achievements: ['Upcoming Software Engineering Internship', 'Founder & President of Women in STEM Club SJU'],
+    achievements: ['Upcoming Software Engineering Internship', 'Founder & President of Women in STEM SJU'],
     img: teutaPic,
     margin_top: '-1200px',
 };

@@ -7,7 +7,7 @@ import { useMemo, useState } from "react";
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';  
 
-const semesters = ["All", "Fall 2021", "Spring 2021", "Fall 2020"]
+const semesters = ['All', 'Fall 2021', 'Spring 2021', 'Fall 2020']
   
 
 function addMeeting({date, name, description, slidesLink, codeLink, youtubeLink, customMessage, customLink, img, margin_top, margin_left, alt_margin, alt_, start_sem}) { 
@@ -65,33 +65,17 @@ function addMeeting({date, name, description, slidesLink, codeLink, youtubeLink,
 
 
 
-const MeetingSection = () => {
+const MeetingSection = ({semester}) => {
     
-    const [semester, setSemester] = useState("");  
-    
-    // Memoized results. Will re-evaluate any time selected  
-    // category changes  
     const filteredData = useMemo(() => {  
         if (!semester || semester === "All") return meetings;  
     
         return meetings.filter(item => item.semester === semester);  
     }, [semester]);  
-
     
     return (
         <>  
-            <DropdownSection>
-                <DropdownContainer>
-                    
-                    <p style={{color : 'white', textAlign : 'center', marginBottom : '20px', fontSize : '17px'}}>Filter by Semester</p>
-                    <Dropdown options={semesters} value="All" onChange={e => setSemester(e.value)}/>;
-                
-                </DropdownContainer>
-            </DropdownSection>
-            
-                
             {filteredData.map(addMeeting)}
-
          
         </>
     )

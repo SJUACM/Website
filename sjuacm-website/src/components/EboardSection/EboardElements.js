@@ -16,7 +16,8 @@ export const EboardContainer = styled.div`
     }
 
     @media screen and (max-width: 400px) {
-        height: 1600px;
+        height: ${({ alt_margin }) => (alt_margin ? "1700px" : "1600px")};
+        padding-top: ${({ alt_margin }) => (alt_margin ? "0px" : "")};
     }
 `;
 

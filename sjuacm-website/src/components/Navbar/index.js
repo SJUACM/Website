@@ -1,12 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
 import logo from '../../img/sjuacmlogo.png';
 import { NavLink } from "react-router-dom";
 import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
-
+import Dropdown from '../DropdownComponent/Dropdown';
+import './Navbar.css';
 
 const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_border_bottom, resources_border_bottom }) => {
+
+    const [click, setClick] = useState(false);
+    const [dropdown, setDropdown] = useState(false);
+
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
+
+    const onMouseEnter = () => {
+        if (window.innerWidth < 960) {
+          setDropdown(false);
+        } else {
+          setDropdown(true);
+        }
+      };
+    
+      const onMouseLeave = () => {
+        if (window.innerWidth < 960) {
+          setDropdown(false);
+        } else {
+          setDropdown(false);
+        }
+      };
 
     return (
         <>
@@ -29,11 +52,18 @@ const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_bor
                             </NavLinks>
                         </NavItem>
 
-                        <NavItem>
-                        <NavLinks style={{borderBottom : meeting_border_bottom ? "2px solid red" : ''}}>
+                        {/* <NavItem>
+                            <NavLinks style={{borderBottom : meeting_border_bottom ? "2px solid red" : ''}}>
                                 <Link to='/meetings' style={{textDecoration: 'none', color: 'white'}}>Meetings</Link>
                             </NavLinks>
-                        </NavItem>
+                        </NavItem> */}
+                        
+                        <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                            <Link to='/meetings' className='nav-links' onClick={closeMobileMenu} style={{textDecoration: 'none', color: 'white'}}>
+                                Meetings <i className='fas fa-caret-down' />
+                            </Link>
+                            {dropdown && <Dropdown />}
+                        </li>
 
                         <NavItem>
                             <NavLinks style={{borderBottom : eboard_border_bottom ? "2px solid red" : ''}}>

@@ -15,6 +15,12 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/eboard" element={<Eboard/>} />
         <Route path="/meetings" element={<Meetings/>} />
+        
+        <Route path="/meetings/All" element={<Meetings semester='All' />} />
+        <Route path="/meetings/Fall2021" element={<Meetings semester='Fall 2021' />} />
+        <Route path="/meetings/Spring2021" element={<Meetings semester='Spring 2021'/>} />
+        <Route path="/meetings/Fall2020" element={<Meetings semester='Fall 2020'/>} />
+
         <Route path="/resources" element={<Resources/>} />
       </Routes>
     </Router>

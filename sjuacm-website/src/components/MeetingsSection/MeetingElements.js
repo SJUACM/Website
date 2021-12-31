@@ -29,24 +29,19 @@ export const MeetingContainer = styled.div`
     height: 900px;
     position: relative;
     z-index: 1;
+    margin-bottom: -300px;
 
-    padding-top : ${({ alt_ }) => (alt_ ? "50px" : "")};
-    padding-bottom : ${({ alt_ }) => (alt_ ? "100px" : "")};
-    padding-top : ${({ alt_margin }) => (alt_margin ? "-250px" : "")};
-    height : ${({ alt_margin }) => (alt_margin ? "700px" : "600px")};
-    height : ${({ alt_ }) => (alt_ ? "650px" : "")};
-
-
+   
     @media screen and (max-width: 768px) {
         height: 1000px;
-        padding-top: 150px;
+        padding-top: 850px;
+        padding-bottom: 350px;
         
     }
 
     @media screen and (max-width: 400px) {
-        height: 800px;
-        // margin-top : ${({ alt_margin }) => (alt_margin ? "250px" : "-450px")};
-        padding-top : ${({ alt_margin }) => (alt_margin ? "200px" : "-450px")};
+        padding-bottom: -360px;
+        margin-bottom: -360px;
     }
 `;
 
@@ -60,7 +55,7 @@ export const InfoWrapper = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
-    margin-top: -800px;
+    margin-top: 0px;
 
     @media screen and (max-width: 768px) {
         margin-top: -750px;

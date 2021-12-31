@@ -4,10 +4,10 @@ import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-const EboardSection = ({name, position, major, gradYear, email, linkedIn, achievements, img, margin_top}) => {
+const EboardSection = ({name, position, major, gradYear, email, linkedIn, achievements, img, margin_top, alt_margin}) => {
     return (
         <>
-            <EboardContainer style={{marginTop : margin_top }}>
+            <EboardContainer alt_margin={alt_margin} style={{marginTop : margin_top }}>
                 <InfoWrapper>
                     <InfoRow>
                         

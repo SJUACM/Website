@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import MeetingsSection from '../components/MeetingsSection'
 import GoToTop from '../GoToTop';
 
-const Meetings = () => {
+const Meetings = (semester) => {
 
     const [isOpen, setIsOpen] = useState(false)
 
@@ -17,7 +17,7 @@ const Meetings = () => {
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle} about_border_bottom={false} meeting_border_bottom={true} eboard_border_bottom={false} resources_border_bottom={false}/>
 
-            <MeetingsSection />
+            <MeetingsSection {...semester} />
             
             <GoToTop />
         </>

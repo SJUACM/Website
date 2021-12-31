@@ -32,7 +32,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 </SidebarMenu>
 
                 <SideBtnWrap>
-                    <SidebarRoute to="/signin">Join our Mailing List</SidebarRoute>
+                    <SidebarRoute to="/" onClick={() => window.location.href='https://forms.gle/CGcyq93XaLUfMAkz9'}>Join our Mailing List</SidebarRoute>
                 </SideBtnWrap>
 
             </SidebarWrapper>

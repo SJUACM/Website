@@ -6,7 +6,7 @@ import {Faizan, Tom, Raymond, Teuta, Jade} from '../components/EboardSection/dat
 import GoToTop from '../GoToTop';
 import PrevEboardSection from '../components/EboardSection/prevEboard'
 
-const About = () => {
+const Eboard = () => {
 
     const [isOpen, setIsOpen] = useState(false)
 
@@ -32,4 +32,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Eboard

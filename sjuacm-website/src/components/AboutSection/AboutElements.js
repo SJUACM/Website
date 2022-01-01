@@ -66,10 +66,6 @@ export const AboutPageText = styled.p`
     line-height: 28px;
 `;
 
-export const SocialMediaContainer = styled.div`
-    
-`;
-
 
 export const Column1 = styled.div`
     margin-bottom: 15px;

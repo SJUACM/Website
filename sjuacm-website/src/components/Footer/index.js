@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, SocialMediaLink } from './FooterElements'
-import SocialMedia from '../SocialMedia';
 import {
     faGithub,
     faInstagram,
@@ -10,18 +9,18 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Footer = (props) => {
+const Footer = ({margin_top, margin_bottom, padding_bottom, res_adjust}) => {
     
-    const iconType = props.type ? props.type : '';
+    // const iconType = props.type ? props.type : '';
     
     return (
-        <FooterContainer>
+        <FooterContainer res_adjust={res_adjust} style={{marginTop: margin_top,  marginBottom: margin_bottom, paddingBottom: padding_bottom}}>
             <FooterWrap>
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             
-                            <span className={'social-media-icon-container ' + iconType}>
+                            <span className={'social-media-icon-container'}>
                                 <a className="icon-link" href="https://www.instagram.com/sjuacm" target="_blank" rel="noreferrer noopener" aria-label="SJU ACM Instagram">
                                     <FontAwesomeIcon icon={faInstagram} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '2.0rem'}} />
                                 </a>

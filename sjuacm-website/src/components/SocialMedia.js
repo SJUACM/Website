@@ -6,13 +6,12 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { SocialMediaContainer } from './AboutSection/AboutElements';
 
 function SocialMedia(props){
     const iconType = props.type ? props.type : '';
 
 	return (
-        <SocialMediaContainer>
+        <div>
             <span className={'social-media-icon-container ' + iconType}>
                 <a className="icon-link" href="https://www.instagram.com/sjuacm" target="_blank" rel="noreferrer noopener" aria-label="SJU ACM Instagram">
                     <FontAwesomeIcon icon={faInstagram} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '2.0rem'}} />
@@ -27,7 +26,7 @@ function SocialMedia(props){
                     <FontAwesomeIcon icon={faGithub} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '2.0rem', marginLeft : '20px'}} />
                 </a>
             </span>
-        </SocialMediaContainer>
+        </div>
 	);
 }
 

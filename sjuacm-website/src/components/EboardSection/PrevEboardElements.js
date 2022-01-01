@@ -8,28 +8,35 @@ export const CardContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 1800px;
+    height: 1000px;
     position: relative;
     z-index: 1;
     margin-bottom: 100px;
     flexWrap: wrap;
     margin-top: -180px;
+    padding-top: 700px;
 
     @media screen and (max-width: 1060px) {
-        height: 3000px;
-        margin-bottom: 350px;
-        padding-top: 300px;
-        margin-top: -450px;
+        height: 1500px;
         text-align: center;
     }
 
-    // @media screen and (max-width: 768px) {
-    //     height: 3000px;
-    // }
+    @media screen and (max-width: 860px) {
+        padding-top: 1150px;
+        padding-bottom: 950px;
+        text-align: center;
+    }
 
-    // @media screen and (max-width: 400px) {
-    //     margin-top: -300px;
-    // }
+    @media screen and (max-width: 855px) {
+        padding-top: 1400px;
+        padding-bottom: 950px;
+    }
+
+    @media screen and (max-width: 770px) {
+        margin-top: -400px;
+        padding-top: 1600px;
+    }
+
 `;
 
 export const CustomCard = styled(Card)`
@@ -44,7 +51,6 @@ export const CardWrapper = styled.div`
     display: flex;
     flexWrap: wrap;
 `;
-
 
 
 export const CustomCardImg = styled.img`
@@ -102,9 +108,6 @@ export const CustomCardText = styled.p`
     letter-spacing: 0.8px;
 `;
 
-export const CustomButton = styled(Button)`
- 
-`;
 
 export const IconContainer = styled.div`
     

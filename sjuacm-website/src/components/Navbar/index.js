@@ -51,12 +51,6 @@ const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_bor
                                 <Link to='/about' style={{textDecoration: 'none', color: 'white'}}>About</Link>
                             </NavLinks>
                         </NavItem>
-
-                        {/* <NavItem>
-                            <NavLinks style={{borderBottom : meeting_border_bottom ? "2px solid red" : ''}}>
-                                <Link to='/meetings' style={{textDecoration: 'none', color: 'white'}}>Meetings</Link>
-                            </NavLinks>
-                        </NavItem> */}
                         
                         <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                             <Link to='/meetings' className='nav-links' onClick={closeMobileMenu} style={{textDecoration: 'none', color: 'white'}}>

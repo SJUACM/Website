@@ -89,7 +89,7 @@ export const meetings = [
     },
     {
         date: '9/23/2021',
-        name : 'Fall 2021 Kickoff | DNS Sinkhole',
+        name : 'Fall 2021 Kickoff | DoS Attack',
         description : "Learn about who we are as SJU ACM, what it means to be a member, get to know our e-board members, and get some general tips for moving forward! ",
         slidesLink: 'https://cdn.discordapp.com/attachments/692437513310175354/890716372252917830/SJU_ACM_Fall_2021_Kickoff.pdf',
         codeLink: '',

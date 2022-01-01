@@ -21,7 +21,7 @@ const Resources = () => {
          <ResourcesSection />
 
          <GoToTop />
-         <Footer />
+         <Footer margin_top={'-100px'} margin_bottom={'-200px'} />
         </>
     )
 }

@@ -3,8 +3,7 @@ import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
-import {homeObjOne} from '../components/InfoSection/data'
-import {homeObjTwo} from '../components/InfoSection/data'
+import {homeObjOne, homeObjTwo, homeObjThree} from '../components/InfoSection/data'
 import GoToTop from '../GoToTop';
 import Footer from '../components/Footer'
 
@@ -24,10 +23,11 @@ const Home = () => {
          <HeroSection />
          <InfoSection {...homeObjOne}/>
          <InfoSection {...homeObjTwo}/>
+         <InfoSection {...homeObjThree}/>
 
 
          <GoToTop />
-         <Footer />
+         <Footer margin_top={'0px'} margin_bottom={'-200px'} />
         </>
     )
 }

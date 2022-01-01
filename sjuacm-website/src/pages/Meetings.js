@@ -21,7 +21,7 @@ const Meetings = (semester) => {
             <MeetingsSection {...semester} />
             
             <GoToTop />
-            <Footer />
+            <Footer margin_top={'300px'} margin_bottom={'-200px'}/>
         </>
     )
 }

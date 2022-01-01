@@ -1,8 +1,6 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
 import {CardContainer, CustomCard, CustomCardImg, CustomCardBody, CustomCardTitle, CustomCardText, CustomButton, InfoWrapper} from './ResourcesElements'
-import forage from '../../img/resourcesPics/forage.png'
-import {CardGroup} from 'react-bootstrap'
 import {content} from './data'
 import {youtubeChannels} from './data'
 

@@ -7,8 +7,7 @@ export const FooterContainer = styled.footer`
     background-color: black;
     z-index: 1;
     height: 200px;
-    margin-top: 300px;
-    margin-bottom: -300px;
+    margin-bottom: 300px;
     padding-bottom: 30px;
 
     @media screen and (max-width: 400px) {
@@ -16,6 +15,12 @@ export const FooterContainer = styled.footer`
         padding-top: -50px;
         margin-bottom: -350px;
     }
+
+    @media screen and (max-width: 1060px) {
+        // margin-bottom: ${({ res_adjust }) => (res_adjust ? "0px" : "")};
+    }
+
+    
 `;
 
 export const FooterWrap = styled.div`

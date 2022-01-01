@@ -5,6 +5,8 @@ import googleCerts from '../../img/resourcesPics/googleCareerCertificates.png'
 
 import fireship from '../../img/resourcesPics/fireship.png'
 import freecodecamp from '../../img/resourcesPics/freecodecamp.png'
+import clement from '../../img/resourcesPics/clement.png'
+import bukola from '../../img/resourcesPics/bukola.png'
 
 export const content = [
     {
@@ -45,5 +47,17 @@ export const youtubeChannels = [
         text: 'Hundreds of programming tutorials for beginners and experts. Learn full stack web development, app development, technical interview prep, data science and much more!',
         link: 'https://www.youtube.com/c/Freecodecamp',
         img: freecodecamp,
+    },
+    {
+        title: 'Clément Mihailescu',
+        text: 'Clément was a software engineer at Google and Facebook, and makes videos on how to prep for technical interviews, tips for getting into tech, running a business, and more. ',
+        link: 'https://www.youtube.com/channel/UCaO6VoaYJv4kS-TQO_M-N_g/featured',
+        img: clement,
+    },
+    {
+        title: 'Bukola',
+        text: "Bukola is a software engineer living in NYC, and on her channel, she provides tips for people interested in entering tech. ",
+        link: 'https://www.youtube.com/c/Bukola1',
+        img: bukola,
     }
 ]

@@ -4,9 +4,10 @@ export const AboutPageContainer = styled.div`
     background: #0c0c0c;
     display: flex;
     padding: 0 30px;
-    height: 1600px;
+    height: 1300px;
     position: relative;
     z-index: 1;
+    margin-bottom: -300px;
 `;
 
 export const InfoRow = styled.div`

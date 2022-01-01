@@ -3,6 +3,7 @@ import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import MeetingsSection from '../components/MeetingsSection'
 import GoToTop from '../GoToTop';
+import Footer from '../components/Footer';
 
 const Meetings = (semester) => {
 
@@ -20,6 +21,7 @@ const Meetings = (semester) => {
             <MeetingsSection {...semester} />
             
             <GoToTop />
+            <Footer />
         </>
     )
 }

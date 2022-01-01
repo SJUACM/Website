@@ -3,6 +3,7 @@ import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import AboutPage from '../components/AboutSection'
 import GoToTop from '../GoToTop';
+import Footer from '../components/Footer'
 
 const About = () => {
 
@@ -20,7 +21,7 @@ const About = () => {
             
             
             <GoToTop />
-         
+            <Footer />
         </>
     )
 }

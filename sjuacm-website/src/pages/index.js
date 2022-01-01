@@ -6,6 +6,8 @@ import InfoSection from '../components/InfoSection'
 import {homeObjOne} from '../components/InfoSection/data'
 import {homeObjTwo} from '../components/InfoSection/data'
 import GoToTop from '../GoToTop';
+import Footer from '../components/Footer'
+
 
 const Home = () => {
 
@@ -25,6 +27,7 @@ const Home = () => {
 
 
          <GoToTop />
+         <Footer />
         </>
     )
 }

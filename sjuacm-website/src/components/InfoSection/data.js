@@ -32,5 +32,6 @@ export const homeObjTwo = {
     alt: 'E-Board',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    margin_top: '-200px',
 };

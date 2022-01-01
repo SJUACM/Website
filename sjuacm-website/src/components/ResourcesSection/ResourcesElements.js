@@ -64,6 +64,7 @@ export const CustomCardText = styled.p`
     margin-top: 15px;
     color: white;
     letter-spacing: 0.8px;
+    font-size: 15px;
 `;
 
 export const CustomButton = styled(Button)`
@@ -71,16 +72,9 @@ export const CustomButton = styled(Button)`
 `;
 
 export const InfoWrapper = styled.div`
-    // display: grid;
-    // z-index: 1;
+
     height: 860px;
-    // width: 100%;
     max-width: 800px;
-    // margin-right: auto;
-    // margin-left: auto;
-    // padding: 0 24px;
-    // justify-content: center;
-    // margin-top: -800px;
 
     @media screen and (max-width: 768px) {
         height: 4000px;

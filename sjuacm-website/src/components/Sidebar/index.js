@@ -1,13 +1,8 @@
-import React, { useState } from 'react';
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarSubLink, SidebarSubLinkContainer, SideBtnWrap, SidebarRoute } from './SidebarElements'
-import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
-import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
+import React from 'react';
+import { SidebarContainer, Icon, CloseIcon} from './SidebarElements'
 import { SidebarData } from './SidebarData';
 import SubMenu from './SubMenu';
-import { IconContext } from 'react-icons/lib';
 import styled from 'styled-components';
-
 
 
 const SidebarWrap = styled.div`

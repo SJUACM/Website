@@ -17,7 +17,7 @@ export const content = [
     },
     {
         title: 'Google Career Certificates',
-        text: 'Free & flexible online training designed to put you on the fast track to jobs in high-growth fields - with courses on Data Analytics, UX Design, Project Management, IT Support, and more!',
+        text: 'Flexible online training designed to put you on the fast track to jobs in high-growth fields - with courses on Data Analytics, UX Design, Project Management, IT Support, and more!',
         link: 'https://grow.google/certificates/#?modal_active=none',
         img: googleCerts,
     },

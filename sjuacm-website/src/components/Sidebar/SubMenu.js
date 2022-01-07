@@ -38,7 +38,7 @@ const DropdownLink = styled(Link)`
   }
 `;
 
-const SubMenu = ({ item, toggle }) => {
+const SubMenu = ({ item }) => {
   
   const [subnav, setSubnav] = useState(false);
   const showSubnav = () => setSubnav(!subnav);

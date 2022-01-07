@@ -4,11 +4,12 @@ import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 import * as RiIcons from 'react-icons/ri';
 
+
 export const SidebarData = [
   {
     title: 'About',
     path: '/about',
-    icon: <AiIcons.AiFillHome />,
+    icon: <AiIcons.AiFillQuestionCircle />,
   },
   {
     title: 'Meetings',
@@ -33,18 +34,19 @@ export const SidebarData = [
       {
         title: 'Fall 2020',
         path: '/meetings/Fall2020',
-        icon: <IoIcons.IoIosPaper />
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
       }
     ]
   },
   {
     title: 'E-Board',
     path: '/eboard',
-    icon: <AiIcons.AiFillHome />,
+    icon: <IoIcons.IoIosPeople />,
   },
   {
     title: 'Resources',
     path: '/resources',
-    icon: <AiIcons.AiFillHome />,
+    icon: <AiIcons.AiOutlineLink />,
   }
 ];

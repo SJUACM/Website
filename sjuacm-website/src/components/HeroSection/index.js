@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4'
-import { Button } from '../ButtonElements'
+import { AltButton } from '../ButtonElements'
 import { HeroContainer, HeroMain, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, CarouselContainer } from './HeroElements'
 import ImgCarousel from '../Carousel'
 //import { CarouselContainer } from '../Carousel/CarouselElements'
@@ -27,9 +27,9 @@ const HeroSection = () => {
                     SJU's Premier Organization for Computer Science and Cyber Security
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' onClick={() => window.location.href='https://forms.gle/CGcyq93XaLUfMAkz9'}>
+                    <AltButton to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' onClick={() => window.location.href='https://forms.gle/CGcyq93XaLUfMAkz9'}>
                         Join our Mailing List {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
+                    </AltButton>
                     
                 </HeroBtnWrapper>
             </HeroContent>

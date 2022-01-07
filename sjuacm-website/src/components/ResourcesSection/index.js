@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from '../ButtonElements'
+import { AltButton } from '../ButtonElements'
 import {CardContainer, CustomCard, CustomCardImg, CustomCardBody, CustomCardTitle, CustomCardText, CustomButton, InfoWrapper} from './ResourcesElements'
 import {content} from './data'
 import {youtubeChannels} from './data'
@@ -14,7 +14,7 @@ function createCard({title, text, link, img, margin_top}) {
                 <CustomCardText>
                     {text}
                 </CustomCardText>
-                <Button primary={true} dark={true} darkText={false} onClick={event =>  window.location.href=link} style={{maxWidth: '150px', maxHeight: '30px', marginTop: '25px'}}>Link</Button>
+                <AltButton primary={true} dark={true} darkText={false} onClick={event =>  window.location.href=link} style={{maxWidth: '150px', maxHeight: '30px', marginTop: '25px'}}>Link</AltButton>
             </CustomCardBody>
         </CustomCard>
     )

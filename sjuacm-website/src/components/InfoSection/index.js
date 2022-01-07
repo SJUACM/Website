@@ -25,7 +25,8 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                     primary={primary ? 1 : 0}
                                     dark = {dark ? 1 : 0}
                                     dark2 = {dark2 ? 1 : 0}
-                                    onClick={event =>  window.location.href=id}
+                                    //onClick={event =>  window.location.href=id}
+                                    to={id}
                                     >{buttonLabel}</Button>
                                 </BtnWrap>
                             </TextWrapper>

@@ -8,6 +8,7 @@ export const AboutPageContainer = styled.div`
     position: relative;
     z-index: 1;
     margin-bottom: -300px;
+    padding-top: 20px;
 `;
 
 export const InfoRow = styled.div`
@@ -83,6 +84,7 @@ export const Column2 = styled.div`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+
 `; 
 
 
@@ -92,4 +94,11 @@ export const AboutPageImg = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
     margin-top: -275px;
+
+    @media screen and (max-width: 768px) {
+        padding-top: 100px;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+    }
 `;

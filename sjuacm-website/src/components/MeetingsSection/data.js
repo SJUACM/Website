@@ -20,13 +20,18 @@ import internshipAdvice from '../../img/meetingPics/internshipAdvice.jpg'
 import pygame from '../../img/meetingPics/pygame.jpg'
 import fall2020Kickoff from '../../img/meetingPics/fall2020Kickoff.jpg'
 
+import SWEInterviewPrep from './MeetingFiles/SJU_ACM_Software_Engineering_Interview_Prep.pdf'
+import RevEng from './MeetingFiles/SJU_ACM_Reverse_Engineering_Lab.pdf'
+import Women_and_NB from './MeetingFiles/SJU_ACM_Women_&_Non-Binary_in_Tech.pdf'
+import Fall2021KickoffSlides from './MeetingFiles/SJU_ACM_Fall_2021_Kickoff.pdf'
 
 export const meetings = [
     {
         date: '11/18/2021',
         name : 'Software Engineering Interview Prep',
         description : 'Learn about the software engineering interview process for big tech companies like Google & Microsoft and how to best prepare for them. We go over how to approach common interview problems and the best resources to prepare for them.',
-        slidesLink: 'https://cdn.discordapp.com/attachments/692437513310175354/911304695430131792/SJU_ACM_Software_Engineering_Interview_Prep.pdf',
+        slidesLink: SWEInterviewPrep,
+        slidesName: 'SJU_ACM_Software_Engineering_Interview_Prep.pdf',
         codeLink: 'https://colab.research.google.com/github/SJUACM/Technical-Interview-Prep/blob/main/SJU_ACM_Software_Engineering_Interview_Prep_.ipynb',
         youtubeLink: '',
         img : sweInterviewPrep,
@@ -38,7 +43,8 @@ export const meetings = [
         date: '11/4/2021',
         name : 'Intro to Reverse Engineering',
         description : 'Dive into computer memory to uncover the password needed to access a file, taking a look at registers, working with Ghidra, and doing buffer overflows!',
-        slidesLink: 'https://cdn.discordapp.com/attachments/804563685095374909/924876463642128454/SJUACM_RevEng_Intro_11.4.pdf',
+        slidesLink: RevEng,
+        slidesName: 'SJU_ACM_Reverse_Engineering_Lab.pdf',
         codeLink: '',
         youtubeLink: '',
         img : revEng,
@@ -59,7 +65,8 @@ export const meetings = [
         date: '10/18/2021',
         name : 'Women & Non-Binary in Tech',
         description : "It's no secret that the tech industry isn't the most gender-inclusive, so we'd like to do do our part to help build a community for our underrepresented students on campus. Meet fellow women & non-binary students in tech and get some insight into organizations & resources to look into!",
-        slidesLink: 'https://cdn.discordapp.com/attachments/692438904699224106/899803570206040074/W__NB_Event.pdf',
+        slidesLink: Women_and_NB,
+        slidesName: 'SJU_ACM_Women_&_Non-Binary_in_Tech.pdf',
         codeLink: '',
         youtubeLink: '',
         img : womenInTech,
@@ -91,7 +98,8 @@ export const meetings = [
         date: '9/23/2021',
         name : 'Fall 2021 Kickoff | DoS Attack',
         description : "Learn about who we are as SJU ACM, what it means to be a member, get to know our e-board members, and get some general tips for moving forward! ",
-        slidesLink: 'https://cdn.discordapp.com/attachments/692437513310175354/890716372252917830/SJU_ACM_Fall_2021_Kickoff.pdf',
+        slidesLink: Fall2021KickoffSlides,
+        slidesName: 'SJU_ACM_Fall_2021_Kickoff.pdf',
         codeLink: '',
         youtubeLink: '',
         img : kickoff,

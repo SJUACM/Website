@@ -10,7 +10,7 @@ import 'react-dropdown/style.css';
 const semesters = ['All', 'Fall 2021', 'Spring 2021', 'Fall 2020']
   
 
-function addMeeting({date, name, description, slidesLink, codeLink, youtubeLink, customMessage, customLink, img, margin_top, margin_left, alt_margin, alt_, start_sem}) { 
+function addMeeting({date, name, description, slidesLink, codeLink, slidesName, youtubeLink, customMessage, customLink, img, margin_top, margin_left, alt_margin, alt_, start_sem}) { 
     
     return (
         <MeetingContainer start_sem={start_sem} alt_={alt_} alt_margin={alt_margin} style={{marginTop : '0px'}}>
@@ -26,11 +26,11 @@ function addMeeting({date, name, description, slidesLink, codeLink, youtubeLink,
                             
                             <LinkWrapper>
                                 {(slidesLink != '' && codeLink != '') && 
-                                    <><a href={slidesLink} download style={{ color: 'white' }}>Download Slides</a><a href={codeLink} style={{ color: 'white', marginLeft: '40px' }}>Run the Source Code</a></>  
+                                    <><a href={slidesLink} download={slidesName} style={{ color: 'white' }}>Download Slides</a><a href={codeLink} style={{ color: 'white', marginLeft: '40px' }}>Run the Source Code</a></>  
                                 }
 
                                 {(slidesLink != '' && codeLink == '') && 
-                                    <><a href={slidesLink} download style={{ color: 'white' }}>Download Slides</a></>  
+                                    <><a href={slidesLink} download={slidesName} style={{ color: 'white' }}>Download Slides</a></>  
                                 }
                                 
                                 {(slidesLink == '' && codeLink != '') && 

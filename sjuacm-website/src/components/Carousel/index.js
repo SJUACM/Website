@@ -22,10 +22,10 @@ const ImgCarousel = () => {
             <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true}>
 
                 <CarouselImg src={ labPic1 } />  
-                <CarouselImg src={ labPic2 } />
                 <CarouselImg src={ labPic3 } />
                 <CarouselImg src={ labPic4 } />
                 <CarouselImg src={ labPic5 } />
+                <CarouselImg src={ labPic2 } />
                 <CarouselImg src={ labPic6 } />
                 <CarouselImg src={ labPic7 } />
                 

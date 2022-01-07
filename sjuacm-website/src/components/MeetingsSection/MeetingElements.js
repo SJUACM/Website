@@ -39,6 +39,10 @@ export const MeetingContainer = styled.div`
         
     }
 
+    @media screen and (max-width: 500px) and (min-width: 470px) {
+        padding-top: 900px;
+    }
+
     @media screen and (max-width: 400px) {
         padding-bottom: -360px;
         margin-bottom: -360px;
@@ -110,6 +114,10 @@ export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
+
+    @media screen and (max-width: 500px) and (min-width: 470px) {
+        padding-bottom: 70px;
+    }
 `;
 
 export const LinkWrapper = styled.div`

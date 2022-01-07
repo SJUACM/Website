@@ -29,6 +29,7 @@ const ImgCarousel = () => {
                 <CarouselImg src={ labPic6 } />
                 <CarouselImg src={ labPic7 } />
                 
+                
             </Carousel>
         </CarouselContainer>
     );

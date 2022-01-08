@@ -36,6 +36,8 @@ export const NavLogo = styled.img`
     cursor: pointer;
     display: flex;
     align-items: center;
+    width: 105px;
+    height: 80px;
   
     @media screen and (max-width: 450px) {
         width: 100px;

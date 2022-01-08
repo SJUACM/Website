@@ -6,6 +6,7 @@ import labPic4 from '../../img/lab_pic4.jpg'
 import labPic5 from '../../img/lab_pic5.jpg'
 import labPic6 from '../../img/lab_pic6.jpg'
 import labPic7 from '../../img/lab_pic7.jpg'
+import labPic8 from '../../img/lab_pic8.jpg'
 
 
 import { CarouselContainer, CarouselImg } from './CarouselElements.js';
@@ -28,6 +29,7 @@ const ImgCarousel = () => {
                 <CarouselImg src={ labPic2 } />
                 <CarouselImg src={ labPic6 } />
                 <CarouselImg src={ labPic7 } />
+                <CarouselImg src={ labPic8 } />
                 
                 
             </Carousel>

@@ -18,7 +18,7 @@ const HeroSection = () => {
         <HeroContainer>
             
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                <VideoBg autoPlay loop muted playsinline src={Video} type='video/mp4' />
             </HeroBg>
 
             <HeroContent>
@@ -27,7 +27,7 @@ const HeroSection = () => {
                     SJU's Premier Organization for Computer Science and Cyber Security
                 </HeroP>
                 <HeroBtnWrapper>
-                    <AltButton to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' onClick={() => window.location.href='https://forms.gle/CGcyq93XaLUfMAkz9'}>
+                    <AltButton onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' onClick={() => window.location.href='https://forms.gle/CGcyq93XaLUfMAkz9'}>
                         Join our Mailing List {hover ? <ArrowForward /> : <ArrowRight />}
                     </AltButton>
                     

@@ -27,7 +27,7 @@ const HeroSection = () => {
                     SJU's Premier Organization for Computer Science and Cyber Security
                 </HeroP>
                 <HeroBtnWrapper>
-                    <AltButton onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' onClick={() => window.location.href='https://forms.gle/CGcyq93XaLUfMAkz9'}>
+                    <AltButton onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' onClick={() => window.open('https://forms.gle/CGcyq93XaLUfMAkz9', '_blank', 'noopener,noreferrer') }>
                         Join our Mailing List {hover ? <ArrowForward /> : <ArrowRight />}
                     </AltButton>
                     

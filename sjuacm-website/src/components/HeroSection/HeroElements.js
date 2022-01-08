@@ -46,13 +46,18 @@ export const HeroContent = styled.div`
     margin-top: -800px;
     z-index: 3;
     max-width: 1200px;
+    min-width: 360px;
     position: absolute;
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    @media (pointer:none), (pointer:coarse) {
+    // @media (pointer:none), (pointer:coarse) {
+    //     margin-top: -400px;
+    // }
+
+    @media not all and (min-resolution:.001dpcm) {
         margin-top: -400px;
     }
 `;

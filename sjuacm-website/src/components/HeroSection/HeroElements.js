@@ -51,6 +51,10 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media (pointer:none), (pointer:coarse) {
+        margin-top: 0px;
+    }
 `;
 
 export const HeroBg = styled.div`

@@ -53,7 +53,7 @@ export const HeroContent = styled.div`
     align-items: center;
 
     @media (pointer:none), (pointer:coarse) {
-        margin-top: 0px;
+        margin-top: -700px;
     }
 `;
 

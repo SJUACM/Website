@@ -13,7 +13,7 @@ export const SidebarData = [
   },
   {
     title: 'Meetings',
-    path: '/meetings',
+    path: '',
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,

@@ -137,7 +137,7 @@ export const Subtitle = styled.p`
     line-height: 24px;
     letter-spacing: 0.7px;
     color: white;
-    font-size: ${({ altFontSize }) => (altFontSize ? "17px" : "")};
+    font-size: ${({ altFontSize }) => (altFontSize ? "17px" : "17.5px")};
 
     @media screen and (max-width: 480px) {
         font-size: 17px;

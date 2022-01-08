@@ -4,21 +4,21 @@ import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-const EboardSection = ({name, position, major, gradYear, email, linkedIn, achievements, img, margin_top, alt_margin}) => {
+const EboardSection = ({name, position, major, gradYear, email, linkedIn, achievements, img, margin_top, alt_margin, altFontSize, altPadding}) => {
     return (
         <>
             <EboardContainer alt_margin={alt_margin} style={{marginTop : margin_top }}>
                 <InfoWrapper>
                     <InfoRow>
                         
-                        <Column1>
+                        <Column1 altPadding={altPadding}>
                             <TextWrapper>
-                                <TopLine>{position}</TopLine>
+                                <TopLine altFontSize={altFontSize}>{position}</TopLine>
                                 <Heading onClick={() => window.location.href=linkedIn}>{name}</Heading>
                                 <Heading2>{major}, {gradYear}</Heading2>
                                 
                                 {achievements.map(function(a){
-                                    return <Subtitle>- {a}</Subtitle>;
+                                    return <Subtitle altFontSize={altFontSize}>- {a}</Subtitle>;
                                 })}
                                 
                                 <div>

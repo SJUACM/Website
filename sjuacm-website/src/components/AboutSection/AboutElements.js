@@ -54,6 +54,10 @@ export const AboutPageHeader = styled.p`
     @media screen and (max-width: 768px) {
         margin-top: 150px;
     }
+
+    @media screen and (max-width: 400px) {
+        font-size: 1.0rem;
+    }
 `;
     
 export const AboutPageText = styled.p`
@@ -65,6 +69,10 @@ export const AboutPageText = styled.p`
     line-height: 24px;
     letter-spacing: 0.9px;
     line-height: 28px;
+
+    @media screen and (max-width: 400px) {
+        font-size: 1.0rem;
+    }
 `;
 
 
@@ -78,6 +86,7 @@ export const Column2 = styled.div`
     margin-top: 200px;
     padding: 0 15px;
     grid-area: col2;
+
 `;
 
 
@@ -97,6 +106,13 @@ export const AboutPageImg = styled.img`
 
     @media screen and (max-width: 768px) {
         padding-top: 100px;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 400px) {
+        padding-right: 50px;
         align-self: center;
         display: flex;
         justify-content: center;

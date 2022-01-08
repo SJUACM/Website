@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa'
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks} from './NavbarElements'
 import logo from '../../img/sjuacmlogo.png';
-import { NavLink } from "react-router-dom";
 import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
 import Dropdown from '../DropdownComponent/Dropdown';
 import './Navbar.css';
@@ -36,9 +35,7 @@ const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_bor
             <Nav>
                 <NavbarContainer>
                     
-                    <NavLogo src={logo} alt="SJU ACM Logo" onClick={event =>  window.location.href='/'}>
-                        
-                    </NavLogo>
+                    <NavLogo src={logo} alt="SJU ACM Logo" onClick={event =>  window.location.href='/'} />
 
                     
                     <MobileIcon onClick={toggle}>

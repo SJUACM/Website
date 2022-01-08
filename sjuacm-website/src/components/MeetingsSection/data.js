@@ -29,7 +29,7 @@ export const meetings = [
     {
         date: '11/18/2021',
         name : 'Software Engineering Interview Prep',
-        description : 'Learn about the software engineering interview process for big tech companies like Google & Microsoft and how to best prepare for them. We go over how to approach common interview problems and the best resources to prepare for them.',
+        description : 'Learn about the software engineering interview process for big tech companies like Google & Microsoft and how to best prepare for them! We go over how to approach common interview problems and the fundamental topics that will be covered in the interview.',
         slidesLink: SWEInterviewPrep,
         slidesName: 'SJU_ACM_Software_Engineering_Interview_Prep.pdf',
         codeLink: 'https://colab.research.google.com/github/SJUACM/Technical-Interview-Prep/blob/main/SJU_ACM_Software_Engineering_Interview_Prep_.ipynb',

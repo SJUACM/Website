@@ -49,9 +49,15 @@ export const Column1 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
+    max-width: 425px;
 
     @media screen and (max-width: 768px) {
         margin-top: 125px;
+        margin-bottom: ${({ altPadding }) => (altPadding ? "125px" : "")};
+    }
+
+    @media screen and (max-width: 400px) {
+        margin-bottom: ${({ altPadding }) => (altPadding ? "50px" : "")};
     }
 `;
 
@@ -70,6 +76,7 @@ export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
+
 `;
 
 export const TopLine = styled.p`
@@ -84,6 +91,10 @@ export const TopLine = styled.p`
     @media screen and (max-width: 850px) {
         line-spacing: 2.4px;
         line-height: 28px;
+    }
+
+    @media screen and (max-width: 400px) {
+        font-size: ${({ altFontSize }) => (altFontSize ? "22px" : "")};
     }
 `;
 
@@ -113,19 +124,27 @@ export const Heading2 = styled.h1`
     @media screen and (max-width: 480px) {
         font-size: 26px;
     }
+
+    @media screen and (max-width: 400px) {
+        font-size: 18px;
+    }
 `;
 
 export const Subtitle = styled.p`
     margin-top: -20px;
     max-width: 440px;
     margin-bottom: 35px;
-    font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.7px;
     color: white;
+    font-size: ${({ altFontSize }) => (altFontSize ? "17px" : "")};
 
     @media screen and (max-width: 480px) {
         font-size: 17px;
+    }
+
+    @media screen and (max-width: 400px) {
+        font-size: ${({ altFontSize }) => (altFontSize ? "15px" : "")};
     }
 `;
 

@@ -32,8 +32,10 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled.img`
-
+    justify-self: flex-start;
     cursor: pointer;
+    display: flex;
+    align-items: center;
  
 `;
 

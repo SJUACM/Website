@@ -2,12 +2,13 @@ import faizanPic from '../../img/eboardPics/faizan_eboardpic.jpg';
 import tomPic from '../../img/eboardPics/tom_eboardpic.png'; 
 import teutaPic from '../../img/eboardPics/teuta_eboardpic.JPG'; 
 import raymondPic from '../../img/eboardPics/raymond_eboardpic.png';
+import jakePic from '../../img/eboardPics/jake_eboardpic.JPG';
 import jadePic from '../../img/eboardPics/jade_eboardpic.png';
 
 import isaacPic from '../../img/eboardPics/isaac.jpg';
 import jillPic from '../../img/eboardPics/jill.jpg';
 import nicolePic from '../../img/eboardPics/nicole.jpg';
-import vincePic from '../../img/eboardPics/vince.jpg';
+import vincePic from '../../img/eboardPics/vince.PNG';
 import dejontePic from '../../img/eboardPics/dejonte.jpg';
 import roshniPic from '../../img/eboardPics/roshni.jpg';
 
@@ -47,6 +48,22 @@ export const Teuta = {
     achievements: ['Upcoming Software Engineering Internship', 'Founder & President of Women in STEM SJU'],
     img: teutaPic,
     margin_top: '-1200px',
+    altFontSize: true
+};
+
+
+export const Jake = {
+    name: 'Jake Enea',
+    position: 'Events Coordinator',
+    major: 'Cyber Security',
+    gradYear: 'May 2024',
+    email: 'jake.enea20@stjohns.edu',
+    linkedIn : 'https://www.linkedin.com/in/jakeenea/',
+    achievements: ['Passionate programmer with a keen interest in Data Analysis', 'Favorite hobbies include watching baseball and playing drums!'],
+    img: jakePic,
+    margin_top: '-1200px',
+    altFontSize: true,
+    altPadding: true,
 };
 
 

@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import EboardSection from '../components/EboardSection'
-import {Faizan, Tom, Raymond, Teuta, Jade} from '../components/EboardSection/data'
+import {Faizan, Tom, Raymond, Teuta, Jade, Jake} from '../components/EboardSection/data'
 import GoToTop from '../GoToTop';
 import PrevEboardSection from '../components/EboardSection/prevEboard'
 import Footer from '../components/Footer'
@@ -23,6 +23,7 @@ const Eboard = () => {
             <EboardSection {...Tom} />
             <EboardSection {...Teuta} />
             <EboardSection {...Raymond} />
+            <EboardSection {...Jake} />
             <EboardSection {...Jade} />
 
             <PrevEboardSection />

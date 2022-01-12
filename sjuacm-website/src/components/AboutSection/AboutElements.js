@@ -9,6 +9,7 @@ export const AboutPageContainer = styled.div`
     z-index: 1;
     margin-bottom: -300px;
     padding-top: 20px;
+    width: 100%;
 `;
 
 export const InfoRow = styled.div`

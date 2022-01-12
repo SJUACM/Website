@@ -15,7 +15,9 @@ function addEboardMember({name, gradYear, major, img, linkedIn, email, margin_to
                 <CustomCardTitle2>{major}, {gradYear}</CustomCardTitle2>
                 <div>
                     <IconContainer>
-                        <FontAwesomeIcon icon={faLinkedin} cursor='pointer' onClick={() => window.location.href=linkedIn} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '1.2rem', marginTop : '0px'}} /> 
+                        <a className="icon-link">
+                            <FontAwesomeIcon icon={faLinkedin} cursor='pointer' onClick={() => window.location.href=linkedIn} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '1.2rem', marginTop : '0px'}} /> 
+                        </a>
                         <EmailText id="text" style={{color : 'white', marginLeft : '15px', letterSpacing : '1.1px'}}>{email}</EmailText>
                     </IconContainer>
                 </div>

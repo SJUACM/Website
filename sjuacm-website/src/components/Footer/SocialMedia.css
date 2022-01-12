@@ -1,0 +1,7 @@
+a.icon-link {
+    color: white;
+}
+
+a.icon-link :hover  {
+    color: red !important;
+}

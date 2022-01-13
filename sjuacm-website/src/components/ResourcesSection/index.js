@@ -30,7 +30,7 @@ const ResourcesSection = () => {
                     {content.map(createCard)}
                 </div>
 
-                    <h1 style={{textAlign : 'center', color: 'white', marginTop: '50px'}}>YouTube Channels to Watch</h1>
+                <h1 style={{textAlign : 'center', color: 'white', marginTop: '50px'}}>YouTube Channels to Watch</h1>
 
                 <div style={{ display: "flex", flexWrap: "wrap", paddingTop: '50px' }}>
                     {youtubeChannels.map(createCard)}

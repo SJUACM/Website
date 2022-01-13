@@ -10,7 +10,8 @@ export const EboardContainer = styled.div`
     position: relative;
     z-index: 1;
     margin-bottom: 100px;
-    overflow: hidden;
+    overflow-x: hidden !important;
+    width: 100%;
 
     @media screen and (max-width: 768px) {
         margin-bottom: 350px;
@@ -33,8 +34,7 @@ export const InfoWrapper = styled.div`
     padding: 0 24px;
     justify-content: center;
     margin-top: -800px;
-    overflow: hidden;
-
+    overflow-x: hidden;
 `;
 
 export const InfoRow = styled.div`

@@ -8,8 +8,32 @@ export const AboutPageContainer = styled.div`
     position: relative;
     z-index: 1;
     margin-bottom: -300px;
+    padding-top: 40px;
+    width: 100%;
+
+    @media screen and (max-width: 450px) {
+        height: 1450px;
+    }
+`;
+
+
+export const AboutPageContainer2 = styled.div`
+    background: #0c0c0c;
+    display: flex;
+    padding: 0 30px;
+    height: 1100px;
+    position: relative;
+    z-index: 1;
+    margin-top: -600px;
+    margin-bottom: -300px;
     padding-top: 20px;
     width: 100%;
+
+    
+    @media screen and (max-width: 768px) {
+        height: 1400px;
+    }
+
 `;
 
 export const InfoRow = styled.div`
@@ -27,6 +51,21 @@ export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
+
+    @media screen and (max-width: 440px) {
+        padding-bottom: 100px;
+    }
+`;
+
+export const TextWrapper2 = styled.div`
+    
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+
+    @media screen and (max-width: 768px) {
+        margin-top: -250px;
+    }
 `;
 
 
@@ -96,6 +135,13 @@ export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
 
+`;
+
+export const ImgWrap2 = styled.div`
+    margin-top: 400px;
+    max-width: 375px;
+    height: 100%;
+
 `; 
 
 
@@ -107,14 +153,35 @@ export const AboutPageImg = styled.img`
     margin-top: -275px;
 
     @media screen and (max-width: 768px) {
-        padding-top: 100px;
+        display: none;
+    }
+
+`;
+
+
+export const AboutPageImg2 = styled.img`
+    width: 100%;
+    transform: scale(1.2);
+    margin: 0 0 10px 0;
+    padding-right: 0;
+    margin-top: -275px;
+
+    @media screen and (max-width: 950px) {
+        padding: 1.5rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 0;
+        margin-top: -300px;
+        padding-top: -100px;
         align-self: center;
         display: flex;
         justify-content: center;
     }
 
-    @media screen and (max-width: 400px) {
-        padding-right: 50px;
+    @media screen and (max-width: 450px) {
+        margin-top: -325px;
+        padding-top: -200px;
         align-self: center;
         display: flex;
         justify-content: center;

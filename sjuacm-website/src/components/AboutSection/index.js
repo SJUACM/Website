@@ -1,10 +1,8 @@
-import React, {useState} from 'react'
-import ReactDOM from 'react-dom';
-import {AboutPageContainer, AboutPageContent, AboutPageHeader, AboutPageText, AboutPageImg, TextWrapper, ImgWrap, Column1, Column2, InfoRow} from './AboutElements';
-import Sidebar from '../../components/Sidebar'
-import Navbar from '../../components/Navbar'
+import React from 'react'
+import {AboutPageContainer, AboutPageContainer2, AboutPageContent, AboutPageHeader, AboutPageText, AboutPageImg, AboutPageImg2, TextWrapper, TextWrapper2, ImgWrap, ImgWrap2, Column1, Column2, InfoRow} from './AboutElements';
 import SocialMedia from '../SocialMedia';
 import AboutPagePic from '../../img/aboutpage_pic.png';
+import AboutPagePic2 from '../../img/lab_pic8.jpg';
 
 const AboutPage = () => {
     
@@ -27,6 +25,7 @@ const AboutPage = () => {
                       <AboutPageText>Check out our social medias:</AboutPageText>
                       <SocialMedia />
                     </TextWrapper>
+
                   </Column1>
 
                   <Column2>
@@ -38,9 +37,41 @@ const AboutPage = () => {
                 </InfoRow>
 
             </AboutPageContent>
-
-              
+      
           </AboutPageContainer>
+
+          <AboutPageContainer2>
+            <AboutPageContent>
+                <InfoRow>
+                  
+                  <Column1>
+                    <ImgWrap2>
+                      <AboutPageImg2 src={AboutPagePic2}/>
+                    </ImgWrap2>
+                  </Column1>
+
+                  <Column2>
+                    <TextWrapper2>
+                      <AboutPageHeader>
+                          Operating under the Collins College of Professional Studies, SJU ACM is moderated by Dr. Joan DeBello and is supported by Professors across the Computer Science & Cyber Security departments. 
+                      </AboutPageHeader>
+
+                      <AboutPageText>
+                        Our meetings are held on Thursdays during Common Hour (2:00 - 3:00 PM) in the Cyber Security Lab (Room 2-140A in the 2nd Floor of St. Augustine)
+                      </AboutPageText> 
+                      
+                      <AboutPageText>
+                        Our meetings are open to everyone, regardless of major or experience. We welcome everyone to join our community and share our love for technology!
+                      </AboutPageText> 
+
+                    </TextWrapper2>
+                  </Column2>
+
+                </InfoRow>
+
+            </AboutPageContent>
+      
+          </AboutPageContainer2>
         </>
     );
 }

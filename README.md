@@ -1,5 +1,11 @@
-# SJU ACM Website
+# SJU ACM Website | [![Netlify Status](https://api.netlify.com/api/v1/badges/67b9adb1-6a09-4b4d-87c8-d448b3c70ee1/deploy-status)](https://app.netlify.com/sites/sjuacm/deploys)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/67b9adb1-6a09-4b4d-87c8-d448b3c70ee1/deploy-status)](https://app.netlify.com/sites/sjuacm/deploys)
 
-### Learn more about our organization and e-board members, view all the slides and code from our meetings, and access our curated list of resources!
+![mockup](https://user-images.githubusercontent.com/43652410/149607159-86459e51-f7e7-48a8-a55c-b668abc60d12.jpg)
+
+
+# Pages
+  - **About:** Learn more about us as an organization 
+  - **Meetings:** View the Slides, Source Code, and/or Recordings of our past meetings
+  - **E-Board:** Learn about our E-board and connect with them on LinkedIn / send them an email
+  - **Resources:** View our curated list of resources to help you become a more well rounded tech professional!

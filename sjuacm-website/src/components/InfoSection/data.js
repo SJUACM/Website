@@ -26,7 +26,7 @@ export const homeObjTwo = {
     lightTextDesc: true,
     topLine: 'Leadership',
     headline: 'Meet our E-Board',
-    description: 'Our Executive Board consists of students with exceptional technical talent. From machine learning to network security, our e-board is skilled in numerous areas across Computer Science and Cyber Security',
+    description: 'Our Executive Board consists of students who are passionate and experienced in numerous areas across Computer Science & Cyber Security. We yearn to inspire and uplift our members in order to secure a successful career in tech!',
     buttonLabel: 'View our E-Board Members',
     imgStart: true,
     img: eboardSection,

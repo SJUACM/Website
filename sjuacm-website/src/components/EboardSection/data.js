@@ -3,6 +3,7 @@ import tomPic from '../../img/eboardPics/tom_eboardpic.png';
 import teutaPic from '../../img/eboardPics/teuta_eboardpic.JPG'; 
 import raymondPic from '../../img/eboardPics/raymond_eboardpic.png';
 import jakePic from '../../img/eboardPics/jake_eboardpic.JPG';
+import avaPic from '../../img/eboardPics/ava_eboardpic.JPG';
 import jadePic from '../../img/eboardPics/jade_eboardpic.png';
 
 import isaacPic from '../../img/eboardPics/isaac.jpg';
@@ -79,6 +80,20 @@ export const Raymond = {
     margin_top: '-1200px',
 };
 
+
+export const Ava = {
+    name: 'Ava McNevin',
+    position: 'Committee Chair',
+    major: 'Cyber Security',
+    gradYear: 'May 2022',
+    email: 'ava.mcnevin20@stjohns.edu',
+    linkedIn : 'https://www.linkedin.com/in/ava-mcnevin-1553b2220',
+    achievements: ['Cyber Security Intern at Vistrada LLC', 'Previous Intern at the New Jersey Judiciary'],
+    img: avaPic,
+    margin_top: '-1200px',
+};
+
+
 export const Jade = {
     name: 'Jade Deo',
     position: 'Social Media Coordinator',
@@ -90,6 +105,8 @@ export const Jade = {
     img: jadePic,
     margin_top: '-1200px',
 };
+
+
 
 export const prevEboardMembers = [
     {

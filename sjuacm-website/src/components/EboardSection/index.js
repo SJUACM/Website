@@ -24,7 +24,7 @@ const EboardSection = ({name, position, major, gradYear, email, linkedIn, achiev
                                 <div>
                                     <IconContainer>
                                         <a className="icon-link">
-                                            <FontAwesomeIcon icon={faLinkedin} cursor='pointer' onClick={() => window.location.href=linkedIn} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '1.2rem', marginTop : '0px'}} /> 
+                                            <FontAwesomeIcon icon={faLinkedin} cursor='pointer' onClick={() => window.open(linkedIn, '_blank', 'noopener,noreferrer')} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '1.2rem', marginTop : '0px'}} /> 
                                         </a>
                                         <EmailText id="text" style={{color : 'white', marginLeft : '15px', letterSpacing : '1.1px'}}>{email}</EmailText>
                                     </IconContainer>

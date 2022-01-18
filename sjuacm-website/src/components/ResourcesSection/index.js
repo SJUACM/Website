@@ -14,7 +14,7 @@ function createCard({title, text, link, img, margin_top}) {
                 <CustomCardText>
                     {text}
                 </CustomCardText>
-                <AltButton primary={true} dark={true} darkText={false} onClick={event =>  window.location.href=link} style={{maxWidth: '150px', maxHeight: '30px', marginTop: '25px'}}>Link</AltButton>
+                <AltButton primary={true} dark={true} darkText={false} onClick={event =>  window.open(link, '_blank', 'noopener,noreferrer')} style={{maxWidth: '150px', maxHeight: '30px', marginTop: '25px'}}>Link</AltButton>
             </CustomCardBody>
         </CustomCard>
     )

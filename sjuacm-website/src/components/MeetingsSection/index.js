@@ -7,7 +7,7 @@ import { useMemo, useState } from "react";
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';  
 
-const semesters = ['All', 'Fall 2021', 'Spring 2021', 'Fall 2020']
+const semesters = ['All', 'Spring 2022', 'Fall 2021', 'Spring 2021', 'Fall 2020']
   
 
 function addMeeting({date, name, description, slidesLink, codeLink, slidesName, youtubeLink, customMessage, customLink, img, margin_top, margin_left, alt_margin, alt_, start_sem}) { 

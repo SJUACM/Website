@@ -1,4 +1,5 @@
 
+import activitesFair from  '../../img/meetingPics/activitiesFair.jpg'
 import sweInterviewPrep from '../../img/meetingPics/sweInterviewPrep.jpg'
 import revEng from '../../img/meetingPics/revEng.jpg'
 import dayInTheLife from '../../img/meetingPics/dayInTheLife.jpg'
@@ -25,7 +26,21 @@ import RevEng from './MeetingFiles/SJU_ACM_Reverse_Engineering_Lab.pdf'
 import Women_and_NB from './MeetingFiles/SJU_ACM_Women_&_Non-Binary_in_Tech.pdf'
 import Fall2021KickoffSlides from './MeetingFiles/SJU_ACM_Fall_2021_Kickoff.pdf'
 
+
+
 export const meetings = [
+    {
+        date: '1/27/2022',
+        name : 'Virtual Activities Fair | Spring 2022',
+        description : "Learn about us as an organization, get an overview of our upcoming meetings, and learn about some projects we've been working on!",
+        slidesLink: '',
+        codeLink: '',
+        youtubeLink: 'https://www.youtube.com/watch?v=O_TXkPImQxg',
+        img : activitesFair,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Spring 2022',
+    },
     {
         date: '11/18/2021',
         name : 'Software Engineering Interview Prep',

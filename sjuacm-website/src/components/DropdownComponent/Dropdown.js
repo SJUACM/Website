@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const MenuItems = [
     {
-        title: 'All',
-        path: '/meetings/All',
+        title: 'Spring 2022',
+        path: '/meetings/Spring2022',
         cName: 'dropdown-link'
     },
     {

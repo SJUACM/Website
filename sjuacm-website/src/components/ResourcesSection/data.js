@@ -2,6 +2,8 @@ import forage from '../../img/resourcesPics/forage.png'
 import levels from '../../img/resourcesPics/levels.fyi.png'
 import datacamp from '../../img/resourcesPics/datacamp.jpg'
 import googleCerts from '../../img/resourcesPics/googleCareerCertificates.png'
+import ciscoAcad from '../../img/resourcesPics/ciscoAcad.png'
+import profMesser from '../../img/resourcesPics/profMesser.png'
 
 import fireship from '../../img/resourcesPics/fireship.png'
 import freecodecamp from '../../img/resourcesPics/freecodecamp.png'
@@ -32,6 +34,18 @@ export const content = [
         text: 'Search through compensation data for full-time positions & internships for top tech companies and filter by location and job title!',
         link: 'https://www.levels.fyi/',
         img: levels,
+    },
+    {
+        title: 'PCAP: Programming Essentials in Python',
+        text: 'Free, Self-Paced Course for Python; Completion of the course allows you To receive vouchers for the Certified Entry-Level Python Programmer Certification (PCEP) and Certified Associate in Python Programming Certification (PCAP)',
+        link: 'https://www.netacad.com/courses/programming/pcap-programming-essentials-python',
+        img: ciscoAcad,
+    },
+    {
+        title: 'SY0-601 CompTIA Security+ Course',
+        text: 'Prepare for your Security+ exam with over 177 free training videos from Professor Messer! ',
+        link: 'https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/sy0-601-comptia-security-plus-course/',
+        img: profMesser,
     }
 ];
 

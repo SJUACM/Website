@@ -8,35 +8,36 @@ export const CardContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 3600px;
+    height: 100%;
     position: relative;
     z-index: 1;
     margin-bottom: 100px;
     flexWrap: wrap;
-    margin-top: -1225px;
-    //padding-top: -500px;
+    margin-top: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 
     @media screen and (max-width: 1080px) {
-        height: 6000px;
-        padding-top: -250px;
-        margin-top: -2400px;
+        // height: 6000px;
+        // padding-top: -250px;
+        // margin-top: -2400px;
     }
 
     @media screen and (max-width: 860px) {
         
-        margin-top: -3150px;
-        padding-top: 200px;
-        padding-bottom: 300px;
-        height: 7500px;
+        // margin-top: -3150px;
+        // padding-top: 200px;
+        // padding-bottom: 300px;
+        // height: 7500px;
        
     }
 
     @media screen and (max-width: 770px) {
-        padding-top: 3350px;
+        // padding-top: 3350px;
     }
 
     @media screen and (max-width: 450px) {
-        padding-bottom: 400px;
+        // padding-bottom: 400px;
         
     }
 `;
@@ -77,11 +78,11 @@ export const CustomCardText = styled.p`
 
 export const InfoWrapper = styled.div`
 
-    height: 860px;
+    height: 100%;
     max-width: 800px;
 
     @media screen and (max-width: 768px) {
-        height: 4000px;
-        padding-bottom: -2000px;
+        // height: 4000px;
+        // padding-bottom: -2000px;
     }
 `;

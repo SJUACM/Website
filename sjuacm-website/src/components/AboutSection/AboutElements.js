@@ -29,11 +29,9 @@ export const AboutPageContainer2 = styled.div`
     padding-top: 20px;
     width: 100%;
 
-    
     @media screen and (max-width: 768px) {
-        height: 1400px;
+        height: 1550px;
     }
-
 `;
 
 export const InfoRow = styled.div`
@@ -110,6 +108,33 @@ export const AboutPageText = styled.p`
     letter-spacing: 0.9px;
     line-height: 28px;
 
+    @media screen and (max-width: 400px) {
+        font-size: 1.0rem;
+    }
+`;
+
+
+export const AboutPageText2 = styled.p`
+    color: white;
+    margin-top: 70px;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-align: center;
+
+    @media screen and (max-width: 400px) {
+        font-size: 1.0rem;
+    }
+`;
+
+
+export const AboutPageText3 = styled.p`
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-align: center;
+
+    
     @media screen and (max-width: 400px) {
         font-size: 1.0rem;
     }

@@ -1,5 +1,5 @@
 import React from 'react'
-import {AboutPageContainer, AboutPageContainer2, AboutPageContent, AboutPageHeader, AboutPageText, AboutPageImg, AboutPageImg2, TextWrapper, TextWrapper2, ImgWrap, ImgWrap2, Column1, Column2, InfoRow} from './AboutElements';
+import {AboutPageContainer, AboutPageContainer2, AboutPageContent, AboutPageHeader, AboutPageText, AboutPageText2, AboutPageText3, AboutPageImg, AboutPageImg2, TextWrapper, TextWrapper2, ImgWrap, ImgWrap2, Column1, Column2, InfoRow} from './AboutElements';
 import SocialMedia from '../SocialMedia';
 import AboutPagePic from '../../img/aboutpage_pic.png';
 import AboutPagePic2 from '../../img/lab_pic8.jpg';
@@ -66,8 +66,16 @@ const AboutPage = () => {
 
                     </TextWrapper2>
                   </Column2>
-
+                  
                 </InfoRow>
+
+                <AboutPageText2>
+                    Our website is also completely open source!
+                </AboutPageText2> 
+
+                <AboutPageText3>
+                    Check out the source code for this website on our GitHub <a href="https://github.com/SJUACM/Website" style={{'color' : 'white'}}>here</a>
+                </AboutPageText3>
 
             </AboutPageContent>
       

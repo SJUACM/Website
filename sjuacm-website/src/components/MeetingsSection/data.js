@@ -1,4 +1,5 @@
 
+import dosLab from  '../../img/meetingPics/dos_lab.jpg'
 import activitesFair from  '../../img/meetingPics/activitiesFair.jpg'
 import sweInterviewPrep from '../../img/meetingPics/sweInterviewPrep.jpg'
 import revEng from '../../img/meetingPics/revEng.jpg'
@@ -29,6 +30,18 @@ import Fall2021KickoffSlides from './MeetingFiles/SJU_ACM_Fall_2021_Kickoff.pdf'
 
 
 export const meetings = [
+    {
+        date: '2/3/2022',
+        name : 'Denial of Service Lab w/ Kali Linux',
+        description : "Get familiar with an offensive environment using Kali Linux on a Virtual Machine and take down a virtual switch from start to finish by deploying a DoS attack!",
+        slidesLink: '',
+        codeLink: '',
+        youtubeLink: '',
+        img : dosLab,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Spring 2022',
+    },
     {
         date: '1/27/2022',
         name : 'Virtual Activities Fair | Spring 2022',

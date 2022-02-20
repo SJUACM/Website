@@ -15,7 +15,7 @@ const AboutPage = () => {
                   <Column1>
                     <TextWrapper>
                       <AboutPageHeader>
-                          As an official Student Chapter of the <a href="https://www.acm.org/" style={{'color' : 'white'}}>Associaton for Computing Machinery (ACM)</a>, we are St. John's University's largest student organization for Computer Science & Cyber Security. 
+                          As an official Student Chapter of the <a href="https://www.acm.org/" style={{'color' : 'white'}}>Association for Computing Machinery (ACM)</a>, we are St. John's University's largest student organization for Computer Science & Cyber Security. 
                       </AboutPageHeader>
 
                       <AboutPageText>

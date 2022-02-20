@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, CopyRightText } from './FooterElements'
 import { faGithub, faInstagram, faDiscord, faYoutube} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -33,7 +32,6 @@ const Footer = ({margin_top, margin_bottom, padding_bottom, res_adjust}) => {
                                 <a className="icon-link" href="https://www.github.com/sjuacm" target="_blank" rel="noreferrer noopener" aria-label="SJU ACM GitHub">
                                     <FontAwesomeIcon icon={faGithub} fixedWidth aria-hidden={true} style={{fontSize : '2.0rem', marginLeft : '20px'}} />
                                 </a> 
-
                                 
                                 <CopyRightText>© St. John's University ACM Student Chapter 2022.</CopyRightText>
                                

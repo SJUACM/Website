@@ -13,7 +13,7 @@ const semesters = ['All', 'Spring 2022', 'Fall 2021', 'Spring 2021', 'Fall 2020'
 function addMeeting({date, name, description, slidesLink, codeLink, slidesName, youtubeLink, customMessage, customLink, img, margin_top, margin_left, alt_margin, alt_, start_sem}) { 
     
     return (
-        <MeetingContainer start_sem={start_sem} alt_={alt_} alt_margin={alt_margin} style={{marginTop : '0px'}}>
+        <MeetingContainer start_sem={start_sem} alt_={alt_} alt_margin={alt_margin} marginTop={margin_top}>
             
             <InfoWrapper>
                 <InfoRow>

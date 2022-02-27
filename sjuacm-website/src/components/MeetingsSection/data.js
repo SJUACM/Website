@@ -1,4 +1,5 @@
 
+import aiML from  '../../img/meetingPics/aiML.jpg'
 import dosLab from  '../../img/meetingPics/dos_lab.jpg'
 import activitesFair from  '../../img/meetingPics/activitiesFair.jpg'
 import sweInterviewPrep from '../../img/meetingPics/sweInterviewPrep.jpg'
@@ -22,6 +23,7 @@ import internshipAdvice from '../../img/meetingPics/internshipAdvice.jpg'
 import pygame from '../../img/meetingPics/pygame.jpg'
 import fall2020Kickoff from '../../img/meetingPics/fall2020Kickoff.jpg'
 
+import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
 import SWEInterviewPrep from './MeetingFiles/SJU_ACM_Software_Engineering_Interview_Prep.pdf'
 import RevEng from './MeetingFiles/SJU_ACM_Reverse_Engineering_Lab.pdf'
 import Women_and_NB from './MeetingFiles/SJU_ACM_Women_&_Non-Binary_in_Tech.pdf'
@@ -30,6 +32,19 @@ import Fall2021KickoffSlides from './MeetingFiles/SJU_ACM_Fall_2021_Kickoff.pdf'
 
 
 export const meetings = [
+    {
+        date: '2/24/2022',
+        name : 'Intro to AI & Machine Learning',
+        description : "Learn how apps like Instagram and TikTok use ML to keep you hooked to their platforms! We also go over how ML is revolutionizing the medical industry, as well as guide you step by step in a lab where we build an ML model in Python capable of detecting breast cancer with 97% accuracy!",
+        slidesLink: aiMLSlides,
+        slidesName: 'SJU_ACM_Intro_to_AI_&_ML.pdf',
+        codeLink: 'https://colab.research.google.com/github/SJUACM/Machine-Learning-Applications/blob/main/Breast%20Cancer%20Detection/SJU_ACM_Intro_to_ML_Lab_C.ipynb',
+        youtubeLink: '',
+        img : aiML,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Spring 2022',
+    },
     {
         date: '2/3/2022',
         name : 'Denial of Service Lab w/ Kali Linux',

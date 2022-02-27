@@ -84,7 +84,6 @@ export const Column1 = styled.div`
     margin-left : ${({ margin_left }) => (margin_left ? "-100px" : "0px")};
     margin-top: 50px;
 
-
     @media screen and (max-width: 768px) {
         margin-top: 125px;
     }

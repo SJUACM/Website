@@ -1,4 +1,5 @@
 
+import alumniPanel from  '../../img/meetingPics/alumniPanel.jpg'
 import aiML from  '../../img/meetingPics/aiML.jpg'
 import dosLab from  '../../img/meetingPics/dos_lab.jpg'
 import activitesFair from  '../../img/meetingPics/activitiesFair.jpg'
@@ -32,6 +33,20 @@ import Fall2021KickoffSlides from './MeetingFiles/SJU_ACM_Fall_2021_Kickoff.pdf'
 
 
 export const meetings = [
+    {
+        date: '3/17/2022',
+        name : 'SJU Alumni In Tech Panel',
+        description : "Get to hear from Samantha Vega - Data Scientist at Verizon, Kwesi Yankson - Software Engineer at Twitter, and Emily Lackraj - Solutions Advisor at Cybersafe Solutions on how they landed their jobs, what their day-to-day looks like, and advice they have for us students!",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: '',
+        youtubeLink: 'https://youtu.be/gab8pu4Maw4',
+        img : alumniPanel,
+        margin_top : '0px',
+        margin_left : true,
+        alt_margin : true,
+        semester : 'Spring 2022',
+    },
     {
         date: '2/24/2022',
         name : 'Intro to AI & Machine Learning',

@@ -17,7 +17,7 @@ function addMeeting({date, name, description, slidesLink, codeLink, slidesName, 
             
             <InfoWrapper>
                 <InfoRow>
-                    <Column1>
+                    <Column1 margin_left={margin_left}>
                         <TextWrapper>
             
                             <TopLine>{date}</TopLine>

@@ -161,7 +161,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: '',
         img : kickoff,
-        margin_left: '-100px',
+        margin_left: '',
         semester : 'Fall 2021',
     },
     {

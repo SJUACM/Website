@@ -1,4 +1,5 @@
 
+import nfts from  '../../img/meetingPics/NFTs.jpg'
 import alumniPanel from  '../../img/meetingPics/alumniPanel.jpg'
 import aiML from  '../../img/meetingPics/aiML.jpg'
 import dosLab from  '../../img/meetingPics/dos_lab.jpg'
@@ -24,6 +25,7 @@ import internshipAdvice from '../../img/meetingPics/internshipAdvice.jpg'
 import pygame from '../../img/meetingPics/pygame.jpg'
 import fall2020Kickoff from '../../img/meetingPics/fall2020Kickoff.jpg'
 
+import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
 import SWEInterviewPrep from './MeetingFiles/SJU_ACM_Software_Engineering_Interview_Prep.pdf'
 import RevEng from './MeetingFiles/SJU_ACM_Reverse_Engineering_Lab.pdf'
@@ -33,6 +35,19 @@ import Fall2021KickoffSlides from './MeetingFiles/SJU_ACM_Fall_2021_Kickoff.pdf'
 
 
 export const meetings = [
+    {
+        date: '3/31/2022',
+        name : 'NFTs, Blockchains, & the Art World',
+        description : "NFTs have been a buzzword in both the Tech and Art spaces for while now...but why? In this meeting, we went over what exactly NFTs are, how they are secured through the Ethereum blockchain, why people are buying them, and how they are affecting the Art industry in general! We also went over how NFTs affect the environment and what utility they can provide.",
+        slidesLink: nftSlides,
+        slidesName: 'SJU_ACM_x_SJU_Muse_NFTs.pdf',
+        codeLink: '',
+        youtubeLink: '',
+        img : nfts,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Spring 2022',
+    },
     {
         date: '3/17/2022',
         name : 'SJU Alumni In Tech Panel',

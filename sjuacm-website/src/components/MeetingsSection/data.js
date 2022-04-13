@@ -1,4 +1,5 @@
 
+import RatLab from  '../../img/meetingPics/RATLab.jpg'
 import nfts from  '../../img/meetingPics/NFTs.jpg'
 import alumniPanel from  '../../img/meetingPics/alumniPanel.jpg'
 import aiML from  '../../img/meetingPics/aiML.jpg'
@@ -35,6 +36,19 @@ import Fall2021KickoffSlides from './MeetingFiles/SJU_ACM_Fall_2021_Kickoff.pdf'
 
 
 export const meetings = [
+    {
+        date: '4/7/2022',
+        name : 'Remote Access Trojans (RAT) Lab',
+        description : "In this meeting, we went over the step by step process a hacker would take to gain control of another person's device. We used two virtual machines to gain total control over another system, where we were able to view its screen, control its mouse and keyboard, create and manipulate files, and more!",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: '',
+        youtubeLink: '',
+        img : RatLab,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Spring 2022',
+    },
     {
         date: '3/31/2022',
         name : 'NFTs, Blockchains, & the Art World',

@@ -7,6 +7,7 @@ import Eboard from './pages/Eboard'
 import Meetings from './pages/Meetings'
 import Resources from './pages/Resources';
 import Blog from './pages/Blog';
+import FaizanJourneytoBTBlog from './components/BlogSection/Blogs/FaizanJourneytoBT';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
 
         <Route path="/resources" element={<Resources/>} />
         <Route path="/blog" element={<Blog/>} />
+        <Route path="/blog/FaizansJourneytoBigTech" element={<FaizanJourneytoBTBlog/>} />
       </Routes>
     </Router>
   );

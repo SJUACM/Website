@@ -7,7 +7,7 @@ export const content = [
         title: 'My Journey to Big Tech',
         text: 'A summary of my experiences at SJU and how I landed my internships solely through cold applications!',
         author: 'Faizan Ahmed',
-        link: 'https://www.theforage.com/',
+        link: '/blog/FaizansJourneytoBigTech',
         img: bbg,
     },
     {

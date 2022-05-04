@@ -12,9 +12,9 @@ export const content = [
     },
     {
         title: 'My Pre-Med Pivot to Computer Science',
-        text: 'How the pandemic helped me find my true passion and led me to my first internship!',
+        text: 'How I found my passion for Computer Science despite my life-long drive to pursue medicine!',
         author: 'Teuta Elezaj',
-        link: 'https://grow.google/certificates/#?modal_active=none',
+        link: '/blog/TeutasPivotToComputerScience',
         img: premedCS,
     },
 ];

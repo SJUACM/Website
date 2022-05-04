@@ -51,7 +51,7 @@ export const BlogContainer2 = styled.div`
     position: relative;
     z-index: 1;
     height: 100%;
-    margin-top: -200px;
+    margin-top: -210px;
     padding-bottom: 275px;
 
     @media screen and (max-width: 450px) {
@@ -115,10 +115,11 @@ export const BlogAuthor = styled.p`
 
 export const BlogText = styled.p`
     color: white;
-    margin-top: 0px;
-    font-size: 20px;
+    margin-top: -20px;
+    font-size: 19.2px;
     letter-spacing: 0.9px;
     text-align: center;
+    line-height: 35px;
 
 
     // @media screen and (max-width: 400px) {
@@ -131,7 +132,7 @@ export const BlogText = styled.p`
 export const BlogText2 = styled.p`
     color: white;
     margin-top: 55px;
-    font-size: 20px;
+    font-size: 19.2px;
     letter-spacing: 0.9px;
     text-align: center;
     line-height: 35px;
@@ -175,6 +176,9 @@ export const Column2 = styled.div`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
 `;
 
@@ -189,14 +193,10 @@ export const ImgWrap2 = styled.div`
 export const BlogImg = styled.img`
     width: 100%;
     transform: scale(1.2);
-    margin: 0 0 10px 0;
-    padding-right: 0;
+    
     margin-top: -275px;
-
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
-
+    text-align: center;
+    
 `;
 
 

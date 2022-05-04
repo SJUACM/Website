@@ -1,4 +1,6 @@
 
+import research from  '../../img/meetingPics/research.jpg'
+import ctf from  '../../img/meetingPics/ctf.jpg'
 import RatLab from  '../../img/meetingPics/RATLab.jpg'
 import nfts from  '../../img/meetingPics/NFTs.jpg'
 import alumniPanel from  '../../img/meetingPics/alumniPanel.jpg'
@@ -36,6 +38,33 @@ import Fall2021KickoffSlides from './MeetingFiles/SJU_ACM_Fall_2021_Kickoff.pdf'
 
 
 export const meetings = [
+    {
+        date: '5/2/2022',
+        name : 'Tech Research & Internships',
+        description : "In this meeting, Professors in the Computer Science department discussed summer research opportunities involving AI, NLP, Neuroscience, and Healthcare Informatics. We also got to hear from Career Services representatives on advice for landing internships and how to stand out in a competitive job market!",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: '',
+        youtubeLink: '',
+        img : research,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Spring 2022',
+    },
+    {
+        date: '4/28/2022',
+        name : 'Capture the Flag (CTF)',
+        description : "As part of our annual CTF competition, students competed against each other to solve various Computer Science and Cyber Security puzzles. After solving each puzzle, students were awarded points based on the puzzle's difficulty. The students with the top 3 scores at the end were awarded prizes!",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: '',
+        youtubeLink: '',
+        img : ctf,
+        margin_top : '0px',
+        margin_left : true,
+        alt_margin : true,
+        semester : 'Spring 2022',
+    },
     {
         date: '4/7/2022',
         name : 'Remote Access Trojans (RAT) Lab',

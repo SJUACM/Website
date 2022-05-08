@@ -14,9 +14,9 @@ export const CardContainer = styled.div`
     z-index: 1;
     margin-bottom: 100px;
     flexWrap: wrap;
-    margin-top: 80px;
-    padding-top: 75px;
-    padding-bottom: 200px;
+    margin-top: 20px;
+    padding-top: 100px;
+    padding-bottom: 75px;
 
 `;
 

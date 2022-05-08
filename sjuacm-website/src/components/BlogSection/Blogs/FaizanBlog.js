@@ -31,6 +31,10 @@ const FaizanJourneytoBTBlog = () => {
             <BlogTextContainer>
                 
                 <BlogText>
+                    Coming Soon!
+                </BlogText>
+                
+                {/* <BlogText>
                     As a current senior at SJU and just a month away from graduation, I wanted to take time to reflect on these past four years. College has been an incredibly challenging yet rewarding journey that I am truly grateful for. Although I am excited to finally start my career, I’ll definitely look back at this time of my life and miss the freedom I had. If you are a current student reading this, cherish your time in college but also make the most of it! 
                 </BlogText>
                 
@@ -40,7 +44,7 @@ const FaizanJourneytoBTBlog = () => {
                 
                 <BlogText2>
                     In order to tell my story of how I landed my internships, I need to start from the very beginning - Freshman year (2018). I believe my experiences starting from freshman year have been monumental in every subsequent step of my journey. Like a domino effect, one thing led to another - if one thing did not happen, it would prevent other things from happening. This is why I think its important for me to start from the beginning. 
-                </BlogText2>
+                </BlogText2> */}
             
             </BlogTextContainer>
         </BlogContainer2>            

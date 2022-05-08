@@ -39,10 +39,7 @@ export const BlogContainer = styled.div`
     width: 100%;
     height: 100%;
     padding-bottom: 275px;
-
-    @media screen and (max-width: 450px) {
-        height: 1450px;
-    }
+    
 `;
 
 export const BlogContainer2 = styled.div`
@@ -54,14 +51,21 @@ export const BlogContainer2 = styled.div`
     margin-top: -210px;
     padding-bottom: 275px;
 
-    @media screen and (max-width: 450px) {
-        height: 1450px;
-    }
 `;
 
 export const BlogTextContainer = styled.div`
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 27%;
+    margin-right: 27%;
+
+    @media screen and (max-width: 1200px) {
+        margin-left: 19%;
+        margin-right: 19%;
+    }
+
+    @media screen and (max-width: 420px) {
+        margin-left: 16%;
+        margin-right: 16%;
+    }
 `;
 
 export const BlogContent = styled.div`
@@ -75,6 +79,10 @@ export const BlogContent = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+
+    @media screen and (max-width: 450px) {
+        margin-top: 350px;
+    }
 `;
 
 
@@ -82,19 +90,22 @@ export const BlogContent = styled.div`
 export const BlogTitle = styled.p`
     margin-top: 75px;
     color: white;
-   
     font-size: 38px;
-    line-height: 24px;
     letter-spacing: 1.2px;
     line-height: 28px;
     text-align: center;
 
-    @media screen and (max-width: 768px) {
-        margin-top: 150px;
+    @media screen and (max-width: 805px) {
+        line-height: 40px;
+        font-size: 35px;
+    }
+
+    @media screen and (max-width: 420px) {
+        font-size: 30px;
     }
 
     @media screen and (max-width: 400px) {
-        font-size: 1.0rem;
+        font-size: 27px;
     }
 `;
     
@@ -108,8 +119,12 @@ export const BlogAuthor = styled.p`
     letter-spacing: 0.9px;
     line-height: 28px;
 
+    @media screen and (max-width: 420px) {
+        font-size: 24px;   
+    }
+
     @media screen and (max-width: 400px) {
-        font-size: 1.0rem;
+        font-size: 24px;
     }
 `;
 
@@ -122,11 +137,12 @@ export const BlogText = styled.p`
     line-height: 35px;
 
 
-    // @media screen and (max-width: 400px) {
-    //     font-size: 1.0rem;
-    // }
-`;
+    @media screen and (max-width: 420px) {
+        font-size: 16px;
+        line-height: 30px;
 
+    }
+`;
 
 
 export const BlogText2 = styled.p`
@@ -137,10 +153,10 @@ export const BlogText2 = styled.p`
     text-align: center;
     line-height: 35px;
 
-
-    // @media screen and (max-width: 400px) {
-    //     font-size: 1.0rem;
-    // }
+    @media screen and (max-width: 420px) {
+        font-size: 16px;
+        line-height: 30px;
+    }
 `;
 
 
@@ -196,6 +212,7 @@ export const BlogImg = styled.img`
     
     margin-top: -275px;
     text-align: center;
+
     
 `;
 

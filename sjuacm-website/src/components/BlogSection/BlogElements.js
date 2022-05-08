@@ -15,7 +15,7 @@ export const CardContainer = styled.div`
     margin-bottom: 100px;
     flexWrap: wrap;
     margin-top: 20px;
-    padding-top: 100px;
+    padding-top: 130px;
     padding-bottom: 75px;
 
 `;
@@ -25,7 +25,34 @@ export const CustomCardText2 = styled.p`
     color: white;
     letter-spacing: 0.8px;
     font-size: 19px;
+
+    
+    @media screen and (max-width: 420px) {
+        font-size: 18.5px;
+    }
 `;
+
+
+export const CustomCardTitle = styled.h1`
+    margin-top: 15px;
+    line-height: 1.3;
+    color: white;
+    font-size: 1.8em;
+
+    @media screen and (max-width: 420px) {
+        font-size: 25px;
+    }
+`;
+
+export const CustomCardText = styled.p`
+    margin-top: 15px;
+    color: white;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+`;
+
+
+
 
 // ----------------------------------------------------------
 

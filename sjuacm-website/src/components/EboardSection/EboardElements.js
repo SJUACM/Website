@@ -10,8 +10,8 @@ export const EboardContainer = styled.div`
     position: relative;
     z-index: 1;
     margin-bottom: 100px;
-    overflow-x: hidden !important;
-    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 
     @media screen and (max-width: 768px) {
         margin-bottom: 350px;

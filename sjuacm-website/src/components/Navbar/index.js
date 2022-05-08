@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
 import Dropdown from '../DropdownComponent/Dropdown';
 import './Navbar.css';
 
-const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_border_bottom, resources_border_bottom }) => {
+const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_border_bottom, resources_border_bottom, blog_border_bottom }) => {
 
     const [click, setClick] = useState(false);
     const [dropdown, setDropdown] = useState(false);
@@ -50,7 +50,7 @@ const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_bor
                         </NavItem>
                         
                         <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                            <Link to='/meetings' className='nav-links' onClick={closeMobileMenu} style={{textDecoration: 'none', color: 'white'}}>
+                            <Link to='/meetings' className='nav-links' onClick={closeMobileMenu} style={{textDecoration: 'none', color: 'white', borderBottom : meeting_border_bottom ? "2px solid red" : ''}}>
                                 Meetings <i className='fas fa-caret-down' />
                             </Link>
                             {dropdown && <Dropdown />}
@@ -65,6 +65,12 @@ const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_bor
                         <NavItem>
                             <NavLinks style={{borderBottom : resources_border_bottom ? "2px solid red" : ''}}>
                                 <Link to='/resources' style={{textDecoration: 'none', color: 'white'}}>Resources</Link>
+                            </NavLinks>
+                        </NavItem>
+
+                        <NavItem>
+                            <NavLinks style={{borderBottom : blog_border_bottom ? "2px solid red" : ''}}>
+                                <Link to='/blog' style={{textDecoration: 'none', color: 'white'}}>Blog</Link>
                             </NavLinks>
                         </NavItem>
                     </NavMenu>

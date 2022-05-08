@@ -18,6 +18,11 @@ export const CardContainer = styled.div`
     padding-top: 130px;
     padding-bottom: 75px;
 
+    @media screen and (max-width: 420px) {
+        margin-top: -20px;
+        padding-top: 140px;
+    }
+
 `;
 
 export const CustomCardText2 = styled.p`

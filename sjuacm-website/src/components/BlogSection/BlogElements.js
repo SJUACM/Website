@@ -95,8 +95,8 @@ export const BlogTextContainer = styled.div`
     }
 
     @media screen and (max-width: 420px) {
-        margin-left: 16%;
-        margin-right: 16%;
+        margin-left: 12%;
+        margin-right: 12%;
     }
 `;
 

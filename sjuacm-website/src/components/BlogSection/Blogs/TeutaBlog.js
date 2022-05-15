@@ -1,5 +1,5 @@
 import React from 'react'
-import {BlogContainer, BlogContainer2, BlogContent, BlogTitle, BlogAuthor, BlogText, BlogText2, BlogTextContainer, BlogImg, BlogImg2, TextWrapper, TextWrapper2, ImgWrap, ImgWrap2, Column1, Column2, InfoRow} from '../BlogElements';
+import {BlogContainer, BlogContainer2, BlogContent, BlogDate, BlogTitle, BlogAuthor, BlogText, BlogText2, BlogTextContainer, BlogImg, BlogImg2, TextWrapper, TextWrapper2, ImgWrap, ImgWrap2, Column1, Column2, InfoRow} from '../BlogElements';
 import premed_cs from '../../../img/blogPics/premed_cs.jpeg'
 
 
@@ -21,6 +21,10 @@ const TeutaBlog = () => {
                         <BlogAuthor>
                             By: <a href="https://www.linkedin.com/in/teutaelezaj/" style={{'color' : 'white'}}>Teuta Elezaj</a>
                         </BlogAuthor> 
+
+                        <BlogDate>
+                            Published: 5/8/2022
+                        </BlogDate>
 
 
                 </BlogContent>

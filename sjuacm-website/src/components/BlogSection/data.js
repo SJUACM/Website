@@ -1,11 +1,11 @@
-import bbg from '../../img/blogPics/bbg.jpg'
+import bbg from '../../img/blogPics/FaizanBlog/bbg.jpg'
 import premedCS from '../../img/blogPics/premed_cs.jpeg'
 
 
 export const content = [
     {
         title: 'My Journey to Big Tech',
-        text: 'A summary of my experiences at SJU and how I landed my internships solely through cold applications!',
+        text: 'A summary of my experiences at SJU and how I landed my internships at Bloomberg and Amazon solely through cold applications!',
         author: 'Faizan Ahmed',
         link: '/blog/FaizansJourneytoBigTech',
         img: bbg,

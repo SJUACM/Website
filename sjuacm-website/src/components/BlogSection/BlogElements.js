@@ -146,7 +146,7 @@ export const BlogAuthor = styled.p`
     color: white;
     text-align: center;
     margin-bottom: 35px;
-    font-size: 23px;
+    font-size: 23.5px;
     line-height: 24px;
     letter-spacing: 0.9px;
     line-height: 28px;
@@ -159,6 +159,27 @@ export const BlogAuthor = styled.p`
         font-size: 24px;
     }
 `;
+
+export const BlogDate = styled.p`
+    margin-top: -10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 19px;
+    letter-spacing: 0.9px;
+    line-height: 28px;
+
+    @media screen and (max-width: 420px) {
+        font-size: 24px;   
+    }
+
+    @media screen and (max-width: 400px) {
+        font-size: 24px;
+    }
+`;
+
+
+
 
 export const BlogText = styled.p`
     color: white;
@@ -251,29 +272,12 @@ export const BlogImg = styled.img`
 
 export const BlogImg2 = styled.img`
     width: 100%;
-    transform: scale(1.2);
-    margin: 0 0 10px 0;
-    padding-right: 0;
-    margin-top: -275px;
+    transform: scale(0.8);
+    margin-bottom: -30px;
 
-    @media screen and (max-width: 950px) {
-        padding: 1.5rem;
+    @media screen and (max-width: 500px) {
+        margin-top: 30px;
+        transform: scale(0.9);
     }
 
-    @media screen and (max-width: 768px) {
-        padding: 0;
-        margin-top: -300px;
-        padding-top: -100px;
-        align-self: center;
-        display: flex;
-        justify-content: center;
-    }
-
-    @media screen and (max-width: 450px) {
-        margin-top: -325px;
-        padding-top: -200px;
-        align-self: center;
-        display: flex;
-        justify-content: center;
-    }
 `;

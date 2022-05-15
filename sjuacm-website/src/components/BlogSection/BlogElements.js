@@ -95,8 +95,8 @@ export const BlogTextContainer = styled.div`
     }
 
     @media screen and (max-width: 420px) {
-        margin-left: 12%;
-        margin-right: 12%;
+        margin-left: 11%;
+        margin-right: 11%;
     }
 `;
 
@@ -133,7 +133,7 @@ export const BlogTitle = styled.p`
     }
 
     @media screen and (max-width: 420px) {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     @media screen and (max-width: 400px) {
@@ -152,7 +152,8 @@ export const BlogAuthor = styled.p`
     line-height: 28px;
 
     @media screen and (max-width: 420px) {
-        font-size: 24px;   
+        font-size: 24px; 
+        margin-top: 20px;  
     }
 
     @media screen and (max-width: 400px) {
@@ -170,11 +171,7 @@ export const BlogDate = styled.p`
     line-height: 28px;
 
     @media screen and (max-width: 420px) {
-        font-size: 24px;   
-    }
-
-    @media screen and (max-width: 400px) {
-        font-size: 24px;
+        font-size: 20px;   
     }
 `;
 
@@ -193,6 +190,7 @@ export const BlogText = styled.p`
     @media screen and (max-width: 420px) {
         font-size: 16px;
         line-height: 30px;
+        margin-top: -50px;
 
     }
 `;

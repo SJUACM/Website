@@ -95,8 +95,8 @@ export const BlogTextContainer = styled.div`
     }
 
     @media screen and (max-width: 420px) {
-        margin-left: 11%;
-        margin-right: 11%;
+        margin-left: 12%;
+        margin-right: 12%;
     }
 `;
 
@@ -188,10 +188,10 @@ export const BlogText = styled.p`
 
 
     @media screen and (max-width: 420px) {
-        font-size: 16px;
+        font-size: 15.8px;
         line-height: 30px;
         margin-top: -50px;
-
+        text-align: left;
     }
 `;
 
@@ -205,8 +205,10 @@ export const BlogText2 = styled.p`
     line-height: 35px;
 
     @media screen and (max-width: 420px) {
-        font-size: 16px;
+        font-size: 15.8px;
         line-height: 30px;
+        text-align: left;
+
     }
 `;
 

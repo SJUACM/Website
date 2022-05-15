@@ -188,7 +188,7 @@ export const BlogText = styled.p`
 
 
     @media screen and (max-width: 420px) {
-        font-size: 15.8px;
+        font-size: 15px;
         line-height: 30px;
         margin-top: -50px;
         text-align: left;
@@ -205,7 +205,7 @@ export const BlogText2 = styled.p`
     line-height: 35px;
 
     @media screen and (max-width: 420px) {
-        font-size: 15.8px;
+        font-size: 15px;
         line-height: 30px;
         text-align: left;
 

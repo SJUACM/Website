@@ -39,7 +39,7 @@ const FaizanJourneytoBTBlog = () => {
             <BlogTextContainer>
                 
                 <BlogText>
-                    As a current senior at SJU and just a week away from graduation, I wanted to take time to reflect on these past four years. College has been an incredibly challenging yet rewarding journey that I am truly grateful for. Although I am excited to finally start my career, I’ll definitely look back at this time in my life and miss the freedom and experiences I had. If you are a current student reading this, cherish your time in college but also make the most of it! 
+                    As a current senior at SJU and just a week away from graduation, I wanted to take some time to reflect on these past four years. College has been an incredibly challenging yet rewarding journey that I am truly grateful for. Although I am excited to finally start my career, I’ll definitely look back at this time in my life and miss the freedom and experiences I had. If you are a current student reading this, cherish your time in college but also make the most of it! 
                 </BlogText>
 
                 <BlogText2>

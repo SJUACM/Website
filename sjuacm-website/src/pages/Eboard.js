@@ -19,13 +19,13 @@ const Eboard = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle} about_border_bottom={false} meeting_border_bottom={false} eboard_border_bottom={true} resources_border_bottom={false}/>
-            <EboardSection />
-            {/* <EboardSection {...Tom} />
+            <EboardSection {...Faizan} />
+            <EboardSection {...Tom} />
             <EboardSection {...Teuta} />
             <EboardSection {...Raymond} />
             <EboardSection {...Jake} />
             <EboardSection {...Ava} />
-            <EboardSection {...Jade} /> */}
+            <EboardSection {...Jade} />
 
             <PrevEboardSection />
 

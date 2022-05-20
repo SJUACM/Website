@@ -5,7 +5,7 @@ import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-function addEboardMember({name, gradYear, major, img, linkedIn, email, margin_top}) {
+function addPastEboardMember({name, gradYear, major, img, linkedIn, email, margin_top}) {
     
     return (
         <CustomCard style={{marginTop : '0px', padding : '55px'}}>
@@ -34,7 +34,7 @@ const PrevEboardSection = () => {
                <InfoWrapper>
                 <PrevEboardTitle style={{textAlign : 'center', marginTop: '-1650px', paddingBottom : '75px'}}>Past E-Board Members</PrevEboardTitle>
                 <div style={{ display: "flex", flexWrap: "wrap" }}>
-                        {prevEboardMembers.map(addEboardMember)}
+                        {prevEboardMembers.map(addPastEboardMember)}
                     </div>
                 </InfoWrapper>
             </CardContainer>

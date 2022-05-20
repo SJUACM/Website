@@ -14,27 +14,34 @@ export const CardContainer = styled.div`
     margin-bottom: 100px;
     flexWrap: wrap;
     margin-top: -180px;
-    padding-top: 700px;
+    padding-top: 1900px;
+    padding-bottom: 150px;
 
     @media screen and (max-width: 1060px) {
         height: 1500px;
         text-align: center;
     }
 
-    @media screen and (max-width: 860px) {
-        padding-top: 1150px;
+    @media screen and (max-width: 865px) {
+        height: 2000px;
+        padding-top: 1950px;
         padding-bottom: 950px;
         text-align: center;
     }
 
-    @media screen and (max-width: 855px) {
-        padding-top: 1400px;
+    @media screen and (max-width: 859px) {
+        padding-top: 2500px;
         padding-bottom: 950px;
     }
 
     @media screen and (max-width: 770px) {
         margin-top: -400px;
-        padding-top: 1600px;
+        padding-top: 2600px;
+    }
+
+    @media screen and (max-width: 410px) {
+        padding-top: 2500px;
+
     }
 
 `;

@@ -6,35 +6,44 @@ export const EboardContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 1700px;
+    // height: 4500px;
     position: relative;
     z-index: 1;
     margin-bottom: 100px;
     max-width: 100%;
-    overflow-x: hidden;
+    padding-top: 40px;
+    // overflow-x: hidden;
 
     @media screen and (max-width: 768px) {
         margin-bottom: 350px;
+        margin-top: -80px;
     }
 
-    @media screen and (max-width: 400px) {
-        height: ${({ alt_margin }) => (alt_margin ? "1700px" : "1600px")};
-        padding-top: ${({ alt_margin }) => (alt_margin ? "0px" : "")};
+    @media screen and (max-width: 450px) {
+        // height: ${({ alt_margin }) => (alt_margin ? "1700px" : "1600px")};
+        // padding-top: ${({ alt_margin }) => (alt_margin ? "0px" : "")};
+        margin-top: -100px;
+
+    }
+
+    @media screen and (max-width: 420px) {
+        margin-top: -50px;
+
     }
 `;
 
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 900px;
+    // height: 900px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
-    margin-top: -800px;
-    overflow-x: hidden;
+    // margin-top: -800px;
+    // overflow-x: hidden;
 `;
 
 export const InfoRow = styled.div`
@@ -42,9 +51,19 @@ export const InfoRow = styled.div`
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
     grid-template-areas: 'col1 col2';
+    padding-top: 210px;
 
     @media screen and (max-width: 768px) {
         grid-template-areas: 'col1 col1' 'col2 col2';
+        padding-top: 90px;
+    }
+    
+    @media screen and (max-width: 460px) {
+        padding-top: 100px;
+    }
+
+    @media screen and (max-width: 420px) {
+        padding-top: 50px;
     }
 `;
 
@@ -70,7 +89,20 @@ export const Column2 = styled.div`
     grid-area: col2;
 
     @media screen and (max-width: 768px) {
-        margin-top: -150px;
+        padding-top: 30px;
+         margin-top: ${({ imgPadding }) => (imgPadding ? "-40px" : "")};
+         margin-top: ${({ imgPadding2 }) => (imgPadding2 ? "-120px" : "")};
+    }
+
+    @media screen and (max-width: 490px) {
+        margin-top: ${({ imgPadding }) => (imgPadding ? "-55px" : "")};
+        margin-top: ${({ imgPadding2 }) => (imgPadding2 ? "-120px" : "")};
+
+    }
+
+    @media screen and (max-width: 400px) {
+        margin-top: ${({ imgPadding2 }) => (imgPadding2 ? "-90px" : "")};
+
     }
 `;
 

@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import EboardSection from '../components/EboardSection'
-import {Faizan, Tom, Raymond, Teuta, Ava, Jade, Jake} from '../components/EboardSection/data'
+import {Raymond, Teuta, Jake} from '../components/EboardSection/data'
 import GoToTop from '../GoToTop';
 import PrevEboardSection from '../components/EboardSection/prevEboard'
 import Footer from '../components/Footer'
@@ -19,13 +19,9 @@ const Eboard = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle} about_border_bottom={false} meeting_border_bottom={false} eboard_border_bottom={true} resources_border_bottom={false}/>
-            <EboardSection {...Faizan} />
-            <EboardSection {...Tom} />
-            <EboardSection {...Teuta} />
             <EboardSection {...Raymond} />
+            <EboardSection {...Teuta} />
             <EboardSection {...Jake} />
-            <EboardSection {...Ava} />
-            <EboardSection {...Jade} />
 
             <PrevEboardSection />
 

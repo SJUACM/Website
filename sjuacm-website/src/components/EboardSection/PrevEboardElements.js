@@ -8,7 +8,7 @@ export const CardContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 2100px;
+    height: 1950px;
     position: relative;
     z-index: 1;
     margin-bottom: 100px;
@@ -17,7 +17,7 @@ export const CardContainer = styled.div`
     padding-top: 700px;
 
     @media screen and (max-width: 1060px) {
-        height: 1500px;
+        height: 1750px;
         text-align: center;
     }
 

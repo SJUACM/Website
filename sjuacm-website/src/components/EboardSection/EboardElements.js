@@ -5,8 +5,8 @@ export const EboardContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 10px;
-    height: 2200px;
+    padding: 0 30px;
+    height: 1700px;
     position: relative;
     z-index: 1;
     margin-bottom: 100px;

@@ -2,13 +2,17 @@ import styled from "styled-components";
 
 import {Card, Button} from 'react-bootstrap'
 
+import styled from "styled-components";
+
+import {Card, Button} from 'react-bootstrap'
+
 export const CardContainer = styled.div`
     background: #0c0c0c;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 1950px;
+    height: 1000px;
     position: relative;
     z-index: 1;
     margin-bottom: 100px;
@@ -17,7 +21,7 @@ export const CardContainer = styled.div`
     padding-top: 700px;
 
     @media screen and (max-width: 1060px) {
-        height: 1750px;
+        height: 1500px;
         text-align: center;
     }
 

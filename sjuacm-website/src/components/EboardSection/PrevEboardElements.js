@@ -38,7 +38,8 @@ export const CardContainer = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        margin-top: -800px;
+        height: 3000
+        margin-top: 0px;
         margin-bottom: 500px
     }
 

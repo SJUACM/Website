@@ -45,9 +45,12 @@ export const CardContainer = styled.div`
 
 export const CustomCard = styled(Card)`
     z-index: 1;
-    max-width: 350px;
+    max-width: 400px;
     border: '1px solid black';
 
+    @media screen and (max-width: 1060px) {
+        max-width: 350px;
+    }
 
 `;
 
@@ -127,6 +130,10 @@ export const IconContainer = styled.div`
 export const EmailText = styled.span`
     
     font-size: 13.5px;
+
+    @media screen and (max-width: 1060px) {
+        font-size: 12px;
+    }
 
     @media screen and (max-width: 480px) {
         font-size: 14px;

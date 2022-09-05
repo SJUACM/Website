@@ -38,7 +38,7 @@ export const CardContainer = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        padding-top: 1000px;
+        margin-top: -400px;
     }
 
 `;

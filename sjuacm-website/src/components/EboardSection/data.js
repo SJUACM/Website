@@ -69,6 +69,7 @@ export const David = {
     linkedIn : 'https://www.linkedin.com/in/david-rosoff-86687b221/',
     achievements: ['Currently pursuing his OSCP certification', 'Enjoys developing malware in his free time'],
     img: davidPic,
+    altFontSize: true,
     margin_top: '-1200px',
 };
 
@@ -82,6 +83,7 @@ export const Ignacio = {
     linkedIn : 'https://www.linkedin.com/in/ignacio-antequera/',
     achievements: ["Student-Athlete on the men's soccer team", 'Passionate about combining sports and education, leading to his memberships with both the soccer team and ACM'],
     img: ignacioPic,
+    altFontSize: true,
     margin_top: '-1200px',
 };
 
@@ -95,6 +97,7 @@ export const Katarina = {
     linkedIn : 'https://www.linkedin.com/in/katarina-kobetitsch/',
     achievements: ['Currently interning at the New Jersey Courts with the information security team', 'Taking part in the B.S. Cyber Security Systems/M.S. Cyber & Information Security Fast Track program'],
     img: katarinaPic,
+    altFontSize: true,
     margin_top: '-1200px',
 };
 

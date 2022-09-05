@@ -38,8 +38,8 @@ export const CardContainer = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        margin-top: -400px;
-        margin-bottom: -400px
+        margin-top: -800px;
+        margin-bottom: 500px
     }
 
 `;

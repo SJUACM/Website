@@ -45,7 +45,7 @@ export const CardContainer = styled.div`
 
 export const CustomCard = styled(Card)`
     z-index: 1;
-    max-width: 300px;
+    max-width: 350px;
     border: '1px solid black';
 
 

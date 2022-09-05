@@ -32,7 +32,7 @@ const PrevEboardSection = () => {
         <>  
             <CardContainer>
                <InfoWrapper>
-                <PrevEboardTitle style={{textAlign : 'center', marginTop: '-2200px', paddingBottom : '150px'}}>Past E-Board Members</PrevEboardTitle>
+                <PrevEboardTitle style={{textAlign : 'center', marginTop: '-1000px', paddingBottom : '200px'}}>Past E-Board Members</PrevEboardTitle>
                 <div style={{ display: "flex", flexWrap: "wrap" }}>
                         {prevEboardMembers.map(addEboardMember)}
                     </div>

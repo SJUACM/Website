@@ -91,7 +91,7 @@ export const Ignacio = {
 export const Katarina = {
     name: 'Katarina Kobetitsch',
     position: 'Social Media Coordinator',
-    major: 'Computer Science',
+    major: 'Cyber Security',
     gradYear: 'May 2023',
     email: 'katarina.kobetitsch20@stjohns.edu',
     linkedIn : 'https://www.linkedin.com/in/katarina-kobetitsch/',

@@ -17,7 +17,7 @@ export const CardContainer = styled.div`
     padding-top: 500px;
 
     @media screen and (max-width: 1060px) {
-        height: 1500px;
+        height: 500px;
         text-align: center;
     }
 

@@ -49,7 +49,7 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     padding: 0 15px;
     grid-area: col1;
     max-width: 425px;

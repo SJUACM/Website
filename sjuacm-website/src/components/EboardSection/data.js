@@ -95,6 +95,7 @@ export const Katarina = {
     linkedIn : 'https://www.linkedin.com/in/katarina-kobetitsch/',
     achievements: ['Currently interning at the New Jersey Courts with the information security team', 'Taking part in the B.S. Cyber Security Systems/M.S. Cyber & Information Security Fast Track program'],
     img: katarinaPic,
+    altFontSize: true,
     margin_top: '-1200px',
 };
 

@@ -37,6 +37,10 @@ export const CardContainer = styled.div`
         padding-top: 1600px;
     }
 
+    @media screen and (max-width: 480px) {
+        padding-top: 1000px;
+    }
+
 `;
 
 export const CustomCard = styled(Card)`

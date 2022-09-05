@@ -95,7 +95,7 @@ export const Katarina = {
     gradYear: 'May 2023',
     email: 'katarina.kobetitsch20@stjohns.edu',
     linkedIn : 'https://www.linkedin.com/in/katarina-kobetitsch/',
-    achievements: ['Currently interning at the New Jersey Courts with the information security team', 'Taking part in the B.S./M.S. Cyber & Information Security Fast Track program'],
+    achievements: ['Currently interning at NJ Courts with the information security team', 'Part of the B.S./M.S. Cyber & Information Security Fast Track program'],
     img: katarinaPic,
     altFontSize: true,
     margin_top: '-1200px',

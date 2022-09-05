@@ -11,7 +11,7 @@ export const CardContainer = styled.div`
     height: 2200px;
     position: relative;
     z-index: 1;
-    margin-bottom: -400px;
+    margin-bottom: 100px;
     flexWrap: wrap;
     margin-top: -180px;
     padding-top: 400px;

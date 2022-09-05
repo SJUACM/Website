@@ -142,6 +142,10 @@ export const Subtitle = styled.p`
     color: white;
     font-size: ${({ altFontSize }) => (altFontSize ? "17px" : "17.5px")};
 
+    @media screen and (max-width: 1060px) {
+        font-size: 15px;
+    }
+
     @media screen and (max-width: 480px) {
         font-size: 17px;
     }
@@ -153,6 +157,10 @@ export const Subtitle = styled.p`
 
 export const EmailText = styled.span`
   
+    @media screen and (max-width: 1060px) {
+        font-size: 12px;
+    }
+
     @media screen and (max-width: 480px) {
         font-size: 14px;
         text-align: center;

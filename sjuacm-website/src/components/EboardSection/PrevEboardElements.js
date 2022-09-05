@@ -17,9 +17,8 @@ export const CardContainer = styled.div`
     padding-top: 500px;
 
     @media screen and (max-width: 1060px) {
-        height: 5000px;
+        height: 4000px;
         text-align: center;
-        margin-right: 100px;
     }
 
     @media screen and (max-width: 860px) {
@@ -46,7 +45,7 @@ export const CardContainer = styled.div`
 
 export const CustomCard = styled(Card)`
     z-index: 1;
-    max-width: 400px;
+    max-width: 390px;
     border: '1px solid black';
 
 

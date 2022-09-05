@@ -1,11 +1,14 @@
+import teutaPic from '../../img/eboardPics/teuta_eboardpic.JPG'; 
+import raymondPic from '../../img/eboardPics/raymond_eboardpic.JPG';
+import jakePic from '../../img/eboardPics/jake_eboardpic.JPG';
+import davidPic from '../../img/eboardPics/david_eboardpic.JPG';
+import ignacioPic from '../../img/eboardPics/ignacio_eboardpic.JPG';
+import katarinaPic from '../../img/eboardPics/katarina_eboardpic.JPG';
+
 import faizanPic from '../../img/eboardPics/faizan_eboardpic.jpg';
 import tomPic from '../../img/eboardPics/tom_eboardpic.png'; 
-import teutaPic from '../../img/eboardPics/teuta_eboardpic.JPG'; 
-import raymondPic from '../../img/eboardPics/raymond_eboardpic.png';
-import jakePic from '../../img/eboardPics/jake_eboardpic.JPG';
 import avaPic from '../../img/eboardPics/ava_eboardpic.JPG';
 import jadePic from '../../img/eboardPics/jade_eboardpic.png';
-
 import isaacPic from '../../img/eboardPics/isaac.jpg';
 import jillPic from '../../img/eboardPics/jill.jpg';
 import nicolePic from '../../img/eboardPics/nicole.jpg';
@@ -14,39 +17,28 @@ import dejontePic from '../../img/eboardPics/dejonte.jpg';
 import roshniPic from '../../img/eboardPics/roshni.jpg';
 
 
-export const Faizan = {
-    name: 'Faizan Ahmed',
+export const Raymond = {
+    name: 'Raymond Ramdat',
     position: 'President',
-    major: 'Computer Science',
-    gradYear: 'May 2022',
-    email: 'faizan.ahmed18@stjohns.edu',
-    linkedIn : 'https://www.linkedin.com/in/faizan-ahmed-7ab0',
-    achievements: ['Global Data Analyst Intern at Bloomberg LP', 'Published in ACM Digital Library'],
-    img: faizanPic,
+    major: 'Cyber Security',
+    gradYear: 'May 2024',
+    email: 'raymond.ramdat20@stjohns.edu',
+    linkedIn : 'https://www.linkedin.com/in/raymondramdat',
+    achievements: ['Currently interning at MLB in their Technology Services department', 'Participated in cyber and networking competitions since sophomore year of high school'],
+    img: raymondPic,
     margin_top: '-40px',
     alt_margin: true,
 };
 
-export const Tom = {
-    name: 'Thomas Latona',
-    position: 'Vice President',
-    major: 'Computer Science',
-    gradYear: 'Fall 2022',
-    email: 'thomas.latona18@stjohns.edu',
-    linkedIn : 'https://www.linkedin.com/in/thomaslatona/',
-    achievements: ['Founder of Tektonik Software', 'Published Game Developer'],
-    img: tomPic,
-    margin_top: '-1200px',
-};
 
 export const Teuta = {
     name: 'Teuta Elezaj',
-    position: 'Information Officer',
+    position: 'Vice President',
     major: 'Computer Science',
     gradYear: 'May 2023',
     email: 'teuta.elezaj19@stjohns.edu',
     linkedIn : 'https://www.linkedin.com/in/teutaelezaj/',
-    achievements: ['Upcoming Software Engineering Internship', 'Founder & President of Women in STEM SJU'],
+    achievements: ['Currently interning at SAP as a Technical Project Manager', 'Founder of Women in STEM SJU'],
     img: teutaPic,
     margin_top: '-1200px',
     altFontSize: true
@@ -55,12 +47,12 @@ export const Teuta = {
 
 export const Jake = {
     name: 'Jake Enea',
-    position: 'Events Coordinator',
+    position: 'Treasurer',
     major: 'Cyber Security',
     gradYear: 'May 2024',
     email: 'jake.enea20@stjohns.edu',
     linkedIn : 'https://www.linkedin.com/in/jakeenea/',
-    achievements: ['Passionate programmer with a keen interest in Data Analysis', 'Favorite hobbies include watching baseball and playing drums!'],
+    achievements: ['Previously interned at Con Edison Clean Energy Businesses in their Information Technology department', 'Passionate programmer with a desire to incorporate coding into a cyber security career'],
     img: jakePic,
     margin_top: '-1200px',
     altFontSize: true,
@@ -68,47 +60,79 @@ export const Jake = {
 };
 
 
-export const Raymond = {
-    name: 'Raymond Ramdat',
-    position: 'Treasurer',
+export const David = {
+    name: 'David Rosoff',
+    position: 'Information Officer',
     major: 'Cyber Security',
-    gradYear: 'May 2024',
-    email: 'raymond.ramdat20@stjohns.edu',
-    linkedIn : 'https://www.linkedin.com/in/raymondramdat',
-    achievements: ['Cisco High Intern', 'CCNET, MTA Networking Fundamentals'],
-    img: raymondPic,
+    gradYear: 'May 2025',
+    email: 'david.rosoff21@stjohns.edu',
+    linkedIn : 'https://www.linkedin.com/in/david-rosoff-86687b221/',
+    achievements: ['Currently pursuing his OSCP certification', 'Enjoys developing malware in his free time'],
+    img: davidPic,
     margin_top: '-1200px',
 };
 
 
-export const Ava = {
-    name: 'Ava McNevin',
+export const Ignacio = {
+    name: 'Ignacio Antequera',
     position: 'Committee Chair',
-    major: 'Cyber Security',
-    gradYear: 'May 2022',
-    email: 'ava.mcnevin20@stjohns.edu',
-    linkedIn : 'https://www.linkedin.com/in/ava-mcnevin-1553b2220',
-    achievements: ['Cyber Security Intern at Vistrada LLC', 'Previous Intern at the New Jersey Judiciary'],
-    img: avaPic,
+    major: 'Computer Science',
+    gradYear: 'December 2023',
+    email: 'ignacio.antequera21@stjohns.edu',
+    linkedIn : 'https://www.linkedin.com/in/ignacio-antequera/',
+    achievements: ['Student-Athlete on the men's soccer team', 'Passionate about combining sports and education, leading to his memberships with both the soccer team and ACM'],
+    img: ignacioPic,
     margin_top: '-1200px',
 };
 
 
-export const Jade = {
-    name: 'Jade Deo',
+export const Katarina = {
+    name: 'Katarina Kobetitsch',
     position: 'Social Media Coordinator',
     major: 'Computer Science',
-    gradYear: 'May 2022',
-    email: 'jade.deo18@stjohns.edu',
-    linkedIn : 'https://www.linkedin.com/in/jadedeo/',
-    achievements: ['Teaching Experience with Girls who Code', 'Published Artist & Illustrator'],
-    img: jadePic,
+    gradYear: 'May 2023',
+    email: 'katarina.kobetitsch20@stjohns.edu',
+    linkedIn : 'https://www.linkedin.com/in/katarina-kobetitsch/',
+    achievements: ['Currently interning at the New Jersey Courts with the information security team', 'Taking part in the B.S. Cyber Security Systems/M.S. Cyber & Information Security Fast Track program'],
+    img: katarinaPic,
     margin_top: '-1200px',
 };
 
 
 
 export const prevEboardMembers = [
+    {
+        name: 'Faizan Ahmed',
+        major: 'President',
+        gradYear : '2021-2022',
+        email: 'faizan.ahmed18@stjohns.edu',
+        linkedIn: 'https://www.linkedin.com/in/faizan-ahmed-7ab0',
+        img : faizanPic,
+    },
+    {
+        name: 'Thomas Latona',
+        major: 'Vice President',
+        gradYear : '2021-2022',
+        email: 'thomas.latona18@stjohns.edu',
+        linkedIn: 'https://www.linkedin.com/in/thomaslatona/',
+        img : tomPic,
+    },
+    {
+        name: 'Ava McNevin',
+        major: 'Committee Chair',
+        gradYear : '2021-2022',
+        email: 'ava.mcnevin20@stjohns.edu',
+        linkedIn: 'https://www.linkedin.com/in/ava-mcnevin-1553b2220',
+        img : avaPic,
+    },
+    {
+        name: 'Jade Deo',
+        major: 'Social Media Coordinator',
+        gradYear : '2021-2022',
+        email: 'jade.deo18@stjohns.edu',
+        linkedIn: 'https://www.linkedin.com/in/jadedeo/',
+        img : jadePic,
+    },
     {
         name: 'Isaac Sierra',
         major: 'Co-President',

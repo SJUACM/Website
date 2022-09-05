@@ -11,11 +11,10 @@ export const CardContainer = styled.div`
     height: 1000px;
     position: relative;
     z-index: 1;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
     flexWrap: wrap;
     margin-top: -180px;
     padding-top: 1200px;
-    padding-bottom: 300px;
 
     @media screen and (max-width: 1060px) {
         height: 1500px;

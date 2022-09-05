@@ -14,7 +14,8 @@ export const CardContainer = styled.div`
     margin-bottom: 100px;
     flexWrap: wrap;
     margin-top: -180px;
-    padding-top: 1000px;
+    padding-top: 1200px;
+    padding-bottom: 300px;
 
     @media screen and (max-width: 1060px) {
         height: 1500px;

@@ -29,7 +29,7 @@ const Eboard = () => {
             <PrevEboardSection />
 
             <GoToTop />
-            <Footer margin_top={'-100px'} margin_bottom={'-400px'} res_adjust={true}/>
+            <Footer margin_top={'-100px'} margin_bottom={'-200px'} res_adjust={true}/>
         </>
     )
 }

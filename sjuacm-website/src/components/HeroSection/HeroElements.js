@@ -24,7 +24,7 @@ export const HeroContainer = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        padding-top: 600px;
+        padding-top: 300px;
         height: 800px;
     }
 

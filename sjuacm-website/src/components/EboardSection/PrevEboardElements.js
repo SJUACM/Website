@@ -28,7 +28,7 @@ export const CardContainer = styled.div`
     }
 
     @media screen and (max-width: 855px) {
-        padding-top: 1400px;
+        padding-top: 2000px;
         padding-bottom: 950px;
     }
 

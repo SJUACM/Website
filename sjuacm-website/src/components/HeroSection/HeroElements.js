@@ -24,7 +24,7 @@ export const HeroContainer = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        padding-top: 300px;
+        padding-top: 200px;
         height: 800px;
     }
 
@@ -38,7 +38,7 @@ export const CarouselContainer = styled.div`
     z-index: 3;
 
     @media screen and (max-width: 480px) {
-        margin-top: -100px;
+        margin-top: -150px;
     }
 `;
 

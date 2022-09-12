@@ -43,6 +43,7 @@ export const CarouselContainer = styled.div`
 
     @media screen and (max-width: 480px) {
         margin-top: 25px;
+        padding-top: 200px;
     }
 `;
 

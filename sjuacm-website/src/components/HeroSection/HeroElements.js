@@ -27,7 +27,7 @@ export const HeroContainer = styled.div`
         height: 1300px;
     }
 
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1059px) {
         height: 1600px;
     }
 
@@ -35,6 +35,11 @@ export const HeroContainer = styled.div`
     @media screen and (max-width: 480px) {
         padding-top: 200px;
         height: 1300px;
+    }
+
+    @media screen and (max-width: 430px) {
+        margin-top: 80px;
+        height: 1100px;
     }
 
 `;

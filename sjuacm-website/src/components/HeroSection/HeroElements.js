@@ -33,8 +33,9 @@ export const CarouselContainer = styled.div`
     flex-direction: column;
     align-items: center;
     z-index: 3;
+
     @media screen and (max-width: 480px) {
-        margin-top: -100px;
+        padding-top: 400px;
     }
 `;
 

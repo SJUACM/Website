@@ -27,9 +27,14 @@ export const HeroContainer = styled.div`
         height: 1300px;
     }
 
+    @media screen and (max-width: 1050px) {
+        height: 1600px;
+    }
+
+
     @media screen and (max-width: 480px) {
         padding-top: 200px;
-        height: 800px;
+        height: 1300px;
     }
 
 `;

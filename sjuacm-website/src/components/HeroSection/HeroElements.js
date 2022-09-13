@@ -35,7 +35,7 @@ export const CarouselContainer = styled.div`
     z-index: 3;
 
     @media screen and (max-width: 480px) {
-        padding-top: 400px;
+        padding-top: 100px;
     }
 `;
 
@@ -49,9 +49,11 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
     // @media (pointer:none), (pointer:coarse) {
     //     margin-top: -400px;
     // }
+    
     @media not all and (min-resolution:.001dpcm) {
         margin-top: -400px;
     }

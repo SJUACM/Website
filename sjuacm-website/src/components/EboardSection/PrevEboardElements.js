@@ -17,7 +17,7 @@ export const CardContainer = styled.div`
     padding-top: 500px;
 
     @media screen and (max-width: 1060px) {
-        height: 500px;
+        height: 2000px;
         text-align: center;
     }
 
@@ -27,14 +27,15 @@ export const CardContainer = styled.div`
         text-align: center;
     }
 
-    @media screen and (max-width: 855px) {
-        padding-top: 2000px;
-        padding-bottom: 950px;
-    }
+    // @media screen and (max-width: 855px) {
+    //     padding-top: 2000px;
+    //     padding-bottom: 950px;
+    // }
 
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 760px) {
+        height: 4600px;
         margin-top: -400px;
-        padding-top: 1600px;
+        padding-top: 1200px;
     }
 
     @media screen and (max-width: 480px) {

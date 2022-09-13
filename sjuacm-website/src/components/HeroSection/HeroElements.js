@@ -22,7 +22,7 @@ export const HeroContainer = styled.div`
         z-index: 2;
     }
     @media screen and (max-width: 480px) {
-        padding-top: 600px;
+        padding-top: 200px;
         height: 800px;
     }
 `;

@@ -128,6 +128,8 @@ export const HeroP = styled.p`
 
 export const HeroBtnWrapper = styled.div`
     margin-top: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;

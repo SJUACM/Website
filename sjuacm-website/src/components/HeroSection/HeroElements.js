@@ -11,7 +11,6 @@ export const HeroContainer = styled.div`
     height: 1600px;
     position: relative;
     z-index: 1;
-
     :before {
         content: '';
         position: absolute;
@@ -22,21 +21,10 @@ export const HeroContainer = styled.div`
         background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 100%), linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
         z-index: 2;
     }
-
-    @media screen and (max-width: 1060px) {
-        height: 1300px;
-    }
-
-    @media screen and (max-width: 1059px) {
-        height: 1600px;
-    }
-
-
     @media screen and (max-width: 480px) {
-        padding-top: 200px;
+        padding-top: 600px;
         height: 800px;
     }
-
 `;
 
 export const CarouselContainer = styled.div`
@@ -45,10 +33,8 @@ export const CarouselContainer = styled.div`
     flex-direction: column;
     align-items: center;
     z-index: 3;
-
     @media screen and (max-width: 480px) {
-        margin-top: 25px;
-        padding-top: 200px;
+        margin-top: -100px;
     }
 `;
 
@@ -62,11 +48,9 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-
     // @media (pointer:none), (pointer:coarse) {
     //     margin-top: -400px;
     // }
-
     @media not all and (min-resolution:.001dpcm) {
         margin-top: -400px;
     }
@@ -81,7 +65,6 @@ export const HeroBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
-
 `;
 
 export const VideoBg = styled.video`
@@ -102,11 +85,9 @@ export const HeroH1 = styled.h1`
     @media screen and (max-width: 768px) {
         font-size: 40px;
     }
-
     @media screen and (max-width: 480px) {
         font-size: 32px;
     }
-
 `;
 
 export const HeroP = styled.p`
@@ -116,11 +97,9 @@ export const HeroP = styled.p`
     text-align: center;
     max-width: 600px;
     letter-spacing: 1px;
-
     @media screen and (max-width: 768px) {
         font-size: 24px;
     }
-
     @media screen and (max-width: 480px) {
         font-size: 18px;
     }
@@ -128,13 +107,10 @@ export const HeroP = styled.p`
 
 export const HeroBtnWrapper = styled.div`
     margin-top: 32px;
-    padding-top: 30px;
-    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     letter-spacing: 0.7px;
-    z-index: 3;
 `;
 
 
@@ -147,4 +123,3 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
 `;
-

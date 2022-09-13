@@ -35,7 +35,7 @@ export const CarouselContainer = styled.div`
     z-index: 3;
 
     @media screen and (max-width: 480px) {
-        margin-top: 175px;
+        margin-top: 225px;
     }
 `;
 

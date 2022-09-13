@@ -38,7 +38,7 @@ export const HeroContainer = styled.div`
     }
 
     @media screen and (max-width: 430px) {
-        margin-top: 80px;
+        padding-top: 200px;
         height: 650px;
     }
 
@@ -138,7 +138,6 @@ export const HeroBtnWrapper = styled.div`
     align-items: center;
     letter-spacing: 0.7px;
     z-index: 3;
-    padding: 0.2rem;
 `;
 
 

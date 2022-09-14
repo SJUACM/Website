@@ -22,7 +22,7 @@ export const HeroContainer = styled.div`
         z-index: 2;
     }
     @media screen and (max-width: 480px) {
-        padding-top: 200px;
+        padding-top: 600px;
         height: 800px;
     }
 `;
@@ -35,7 +35,8 @@ export const CarouselContainer = styled.div`
     z-index: 3;
 
     @media screen and (max-width: 480px) {
-        margin-top: 225px;
+        margin-top: 20px;
+        padding-bottom: 100px;
     }
 `;
 

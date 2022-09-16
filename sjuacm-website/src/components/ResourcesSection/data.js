@@ -9,6 +9,7 @@ import fireship from '../../img/resourcesPics/fireship.png'
 import freecodecamp from '../../img/resourcesPics/freecodecamp.png'
 import clement from '../../img/resourcesPics/clement.png'
 import bukola from '../../img/resourcesPics/bukola.png'
+import chuck from '../../img/resourcesPics/chuck.png'
 
 export const content = [
     {
@@ -73,5 +74,11 @@ export const youtubeChannels = [
         text: "Bukola is a software engineer living in NYC, and on her channel, she provides tips for people interested in entering tech. ",
         link: 'https://www.youtube.com/c/Bukola1',
         img: bukola,
+    },
+    {
+        title: 'NetworkChuck',
+        text: 'A fun and beginner friendly channel that includes tutorials on networking, hacking, and programming. A great place to start for anyone trying to learn more about anything tech-related!',
+        link: 'https://www.youtube.com/c/NetworkChuck',
+        img: chuck,
     }
 ]

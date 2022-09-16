@@ -38,6 +38,7 @@ export const Teuta = {
     gradYear: 'May 2023',
     email: 'teuta.elezaj19@stjohns.edu',
     linkedIn : 'https://www.linkedin.com/in/teutaelezaj/',
+    github: 'https://github.com/teutaelezaj',
     achievements: ['Currently interning at SAP as a Technical Project Manager', 'Founder of Women in STEM SJU'],
     img: teutaPic,
     margin_top: '-1200px',
@@ -52,6 +53,7 @@ export const Jake = {
     gradYear: 'May 2024',
     email: 'jake.enea20@stjohns.edu',
     linkedIn : 'https://www.linkedin.com/in/jakeenea/',
+    github : 'https://github.com/jakeenea51',
     achievements: ['Previously interned at Con Edison Clean Energy Businesses in their Information Technology department', 'Passionate programmer with a desire to incorporate coding into a cyber security career'],
     img: jakePic,
     margin_top: '-1200px',
@@ -110,6 +112,7 @@ export const prevEboardMembers = [
         gradYear : '2021-2022',
         email: 'faizan.ahmed18@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/faizan-ahmed-7ab0',
+        github: 'https://github.com/faizancodes',
         img : faizanPic,
     },
     {

@@ -1,12 +1,14 @@
 import React from 'react'
 import {CardContainer, CustomCard, CustomCardImg, CustomCardBody, CustomCardTitle, PrevEboardTitle, CustomCardTitle2, IconContainer, InfoWrapper, EmailText} from './PrevEboardElements'
 import {prevEboardMembers} from './data'
-import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-function addEboardMember({name, gradYear, major, img, linkedIn, email, margin_top}) {
-    
+function addEboardMember({name, gradYear, major, img, linkedIn, github, email, margin_top}) {
+    if (github == null) {
+        const isGithub = false;
+    }
     return (
         <CustomCard style={{marginTop : '0px', padding : '55px'}}>
             <CustomCardImg src={img}/>
@@ -17,6 +19,11 @@ function addEboardMember({name, gradYear, major, img, linkedIn, email, margin_to
                     <IconContainer>
                         <a className="icon-link">
                             <FontAwesomeIcon icon={faLinkedin} cursor='pointer' onClick={() => window.open(linkedIn, '_blank', 'noopener,noreferrer')} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '1.2rem', marginTop : '0px'}} /> 
+                            {github ? (
+                            <FontAwesomeIcon icon={faGithub} cursor='pointer' onClick={() => window.open(github, '_blank', 'noopener,noreferrer')} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '1.2rem', marginTop : '0px'}} />
+                            ):(
+                            <FontAwesomeIcon/>
+                            )}
                         </a>
                         <EmailText id="text" style={{color : 'white', marginLeft : '15px', letterSpacing : '1.1px'}}>{email}</EmailText>
                     </IconContainer>

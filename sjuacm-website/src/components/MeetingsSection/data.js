@@ -41,7 +41,7 @@ import Fall2022KickoffSlides from './MeetingFiles/Fall_2022_Kickoff.pdf'
 
 export const meetings = [
     {
-        date: '10/15/2022',
+        date: '9/15/2022',
         name : 'Fall 2022 Kickoff | Metasploit Demo',
         description : "Our kickoff meeting for the 2022-2023 school year included an introduction of our new e-board, a look into what is planned for the fall semester, and a mini Metasploit demo involving an FTP vulnerability exploit!",
         slidesLink: Fall2022KickoffSlides,

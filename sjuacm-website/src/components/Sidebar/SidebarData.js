@@ -19,6 +19,12 @@ export const SidebarData = [
 
     subNav: [
       {
+        title: 'Fall 2022',
+        path: '/meetings/Fall2022',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+      {
         title: 'Spring 2022',
         path: '/meetings/Spring2022',
         icon: <IoIcons.IoIosPaper />,

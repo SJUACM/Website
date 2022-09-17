@@ -27,6 +27,7 @@ import phishing from '../../img/meetingPics/phishing.jpg'
 import internshipAdvice from '../../img/meetingPics/internshipAdvice.jpg'
 import pygame from '../../img/meetingPics/pygame.jpg'
 import fall2020Kickoff from '../../img/meetingPics/fall2020Kickoff.jpg'
+import kickoff22 from '../../img/meetingPics/kickoff22.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -34,10 +35,24 @@ import SWEInterviewPrep from './MeetingFiles/SJU_ACM_Software_Engineering_Interv
 import RevEng from './MeetingFiles/SJU_ACM_Reverse_Engineering_Lab.pdf'
 import Women_and_NB from './MeetingFiles/SJU_ACM_Women_&_Non-Binary_in_Tech.pdf'
 import Fall2021KickoffSlides from './MeetingFiles/SJU_ACM_Fall_2021_Kickoff.pdf'
+import Fall2022KickoffSlides from './MeetingFiles/Fall_2022_Kickoff.pdf'
 
 
 
 export const meetings = [
+    {
+        date: '10/15/2022',
+        name : 'Fall 2022 Kickoff | Metasploit Demo',
+        description : "Our kickoff meeting for the 2022-2023 school year included an introduction of our new e-board, a look into what is planned for the fall semester, and a mini Metasploit demo involving an FTP vulnerability exploit!",
+        slidesLink: Fall2022KickoffSlides,
+        slidesName: 'Fall_2022_Kickoff.pdf',
+        codeLink: '',
+        youtubeLink: '',
+        img : kickoff22,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Fall 2022',
+    },
     {
         date: '5/2/2022',
         name : 'Tech Research & Internships',

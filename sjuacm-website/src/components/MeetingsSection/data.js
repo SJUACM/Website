@@ -45,7 +45,7 @@ export const meetings = [
     {
         date: '10/3/2022',
         name : 'SJU ACM x SJU GET Club: Video Game Development Introduction',
-        description : "Learn how video games are conceptualized and created, including how Computer Science and Cyber Security play a vital role in the development process and the long-term success of the game. Also get the chance to see (and play!) some of SJU GET Club's awesome creations!",
+        description : "Learn how video games are conceptualized and created, including how Computer Science and Cyber Security play a vital role in the development process and the long-term success of video games. Also get the chance to see (and play) some of SJU GET Club's awesome creations!",
         slidesLink: VideoGameDevIntro,
         slidesName: 'SJU_ACM_Video_Game_Development_Introduction.pdf',
         codeLink: '',
@@ -110,7 +110,7 @@ export const meetings = [
     },
     {
         date: '3/31/2022',
-        name : 'SJU ACM x SJU Muse: NFTs, Blockchains, & the Art World',
+        name : 'NFTs, Blockchains, & the Art World',
         description : "NFTs have been a buzzword in both the Tech and Art spaces for while now...but why? In this meeting, we went over what exactly NFTs are, how they are secured through the Ethereum blockchain, why people are buying them, and how they are affecting the Art industry in general! We also went over how NFTs affect the environment and what utility they can provide.",
         slidesLink: nftSlides,
         slidesName: 'SJU_ACM_x_SJU_Muse_NFTs.pdf',
@@ -137,7 +137,7 @@ export const meetings = [
     },
     {
         date: '2/24/2022',
-        name : 'SJU ACM x Women in STEM SJU: Intro to AI & Machine Learning',
+        name : 'Intro to AI & Machine Learning',
         description : "Learn how apps like Instagram and TikTok use ML to keep you hooked to their platforms! We also go over how ML is revolutionizing the medical industry, as well as guide you step by step in a lab where we build an ML model in Python capable of detecting breast cancer with 97% accuracy!",
         slidesLink: aiMLSlides,
         slidesName: 'SJU_ACM_Intro_to_AI_&_ML.pdf',

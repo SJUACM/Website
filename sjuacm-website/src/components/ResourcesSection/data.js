@@ -10,6 +10,7 @@ import freecodecamp from '../../img/resourcesPics/freecodecamp.png'
 import clement from '../../img/resourcesPics/clement.png'
 import bukola from '../../img/resourcesPics/bukola.png'
 import chuck from '../../img/resourcesPics/chuck.png'
+import johnHammond from '../../img/resourcesPics/johnHammond.png'
 
 export const content = [
     {
@@ -80,5 +81,11 @@ export const youtubeChannels = [
         text: 'A fun and beginner friendly channel that includes tutorials on networking, hacking, and programming. A great place to start for anyone trying to learn more about anything tech-related!',
         link: 'https://www.youtube.com/c/NetworkChuck',
         img: chuck,
+    },
+    {
+        title: 'John Hammond',
+        text: 'John Hammond is a highly respected cyber security researcher who creates content related to malware analysis, penetration testing, and CTFs. Catered towards a more advanced audience.',
+        link: 'https://www.youtube.com/c/JohnHammond010',
+        img: johnHammond,
     }
 ]

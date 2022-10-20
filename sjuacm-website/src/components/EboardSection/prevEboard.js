@@ -21,10 +21,12 @@ function addEboardMember({name, gradYear, major, img, linkedIn, github, email, m
                             <FontAwesomeIcon icon={faLinkedin} cursor='pointer' onClick={() => window.open(linkedIn, '_blank', 'noopener,noreferrer')} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '1.2rem', marginTop : '0px'}} /> 
                             </a>
                             {github ? (
+                        <a className="icon-link">     
                             <FontAwesomeIcon icon={faGithub} cursor='pointer' onClick={() => window.open(github, '_blank', 'noopener,noreferrer')} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '1.2rem', marginTop : '0px'}} />
+                            </a> 
                             ):(
                             <FontAwesomeIcon/>
-                            )}
+                            )} 
                         <EmailText id="text" style={{color : 'white', marginLeft : '15px', letterSpacing : '1.1px'}}>{email}</EmailText>
                     </IconContainer>
                 </div>

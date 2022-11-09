@@ -9,6 +9,12 @@ import labPic7 from '../../img/lab_pic7.jpg'
 import labPic8 from '../../img/lab_pic8.jpg'
 import labPic9 from '../../img/lab_pic9.jpg'
 import labPic10 from '../../img/lab_pic10.jpg'
+import sapPic1 from '../../img/meetingPics/sapCarousel/sapPic1.jpg'
+import sapPic2 from '../../img/meetingPics/sapCarousel/sapPic2.jpg'
+import sapPic3 from '../../img/meetingPics/sapCarousel/sapPic3.jpg'
+import sapPic4 from '../../img/meetingPics/sapCarousel/sapPic4.jpg'
+import sapPic5 from '../../img/meetingPics/sapCarousel/sapPic5.jpg'
+import sapPic6 from '../../img/meetingPics/sapCarousel/sapPic6.jpg'
 
 
 import { CarouselContainer, CarouselImg } from './CarouselElements.js';
@@ -18,7 +24,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 
 
-const ImgCarousel = () => {
+export const ImgCarousel = () => {
         
     return (
         <CarouselContainer>
@@ -33,8 +39,25 @@ const ImgCarousel = () => {
                 <CarouselImg src={ labPic9 } />
                 <CarouselImg src={ labPic10 } />
                 <CarouselImg src={ labPic8 } />
-                <CarouselImg src={ labPic7 } />
+                <CarouselImg src={ labPic7 } />          
                 
+            </Carousel>
+        </CarouselContainer>
+    );
+}
+
+export const SAPCarousel = () => {
+        
+    return (
+        <CarouselContainer>
+            <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true}>
+
+                <CarouselImg src={ sapPic1 } />  
+                <CarouselImg src={ sapPic2 } />
+                <CarouselImg src={ sapPic3 } />
+                <CarouselImg src={ sapPic4 } />
+                <CarouselImg src={ sapPic5 } />
+                <CarouselImg src={ sapPic6 } />
                 
             </Carousel>
         </CarouselContainer>
@@ -42,4 +65,4 @@ const ImgCarousel = () => {
 }
 
 
-export default ImgCarousel;
+//export default ImgCarousel;

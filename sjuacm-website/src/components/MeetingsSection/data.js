@@ -43,6 +43,20 @@ import VideoGameDevIntro from './MeetingFiles/SJU_ACM_Video_Game_Development_Int
 
 export const meetings = [
     {
+        date: '10/28/2022',
+        name : 'SAP Office Visit',
+        description : "Organized and lead by e-board member Teuta, SJU ACM members got the chance to visit the SAP office in Manhattan. On the visit, we toured the office and met with SAP employees to learn about SAP and what it's like working there.",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: '',
+        youtubeLink: '',
+        img : '',
+        carousel: 'sap',
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Fall 2022',
+    },
+    {
         date: '10/3/2022',
         name : 'SJU ACM x SJU GET Club: Video Game Development Introduction',
         description : "Learn how video games are conceptualized and created, including how Computer Science and Cyber Security play a vital role in the development process and the long-term success of video games. Also get the chance to see (and play) some of SJU GET Club's awesome creations!",
@@ -58,7 +72,7 @@ export const meetings = [
     {
         date: '9/15/2022',
         name : 'Fall 2022 Kickoff | Metasploit Demo',
-        description : "Our kickoff meeting for the 2022-2023 school year included an introduction of our new e-board, a look into what is planned for the fall semester, and a mini Metasploit demo involving an FTP vulnerability exploit!",
+        description : "Our kickoff meeting for the 2022-2023 school year included an introduction to our new e-board, a look into what is planned for the fall semester, and a mini Metasploit demo involving an FTP vulnerability exploit!",
         slidesLink: Fall2022KickoffSlides,
         slidesName: 'Fall_2022_Kickoff.pdf',
         codeLink: '',

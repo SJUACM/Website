@@ -206,3 +206,25 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
 `;
+
+export const CarouselContainer = styled.div`
+
+    height: 100%;
+    width: 81%;
+    margin: 0 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    @media screen and (max-width: 400px) {
+        width: 100%;
+        margin-top: 40px;
+    }
+    }
+`;

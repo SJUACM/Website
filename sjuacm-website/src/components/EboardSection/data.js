@@ -83,6 +83,7 @@ export const Ignacio = {
     gradYear: 'December 2023',
     email: 'ignacio.antequera21@stjohns.edu',
     linkedIn : 'https://www.linkedin.com/in/ignacio-antequera/',
+    github : 'https://github.com/nachoantequera2001',
     achievements: ["Student-Athlete on the men's soccer team", 'Passionate about combining sports and education, leading to his memberships with both the soccer team and ACM'],
     img: ignacioPic,
     altFontSize: true,

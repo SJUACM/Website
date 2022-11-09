@@ -1,16 +1,17 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
 import { DropdownSection, DropdownContainer, MeetingContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, LinkWrapper,  TopLine, Heading, Subtitle, ImgWrap, Img } from './MeetingElements'
+import { CarouselContainer } from './MeetingElements.js'
 import {meetings} from './data'
 
 import { useMemo, useState } from "react";  
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';  
+import { SAPCarousel } from '../Carousel'
 
 const semesters = ['All', 'Fall 2022', 'Spring 2022', 'Fall 2021', 'Spring 2021', 'Fall 2020']
-  
 
-function addMeeting({date, name, description, slidesLink, codeLink, slidesName, youtubeLink, customMessage, customLink, img, margin_top, margin_left, alt_margin, alt_, start_sem}) { 
+function addMeeting({date, name, description, slidesLink, codeLink, slidesName, youtubeLink, customMessage, customLink, img, carousel, margin_top, margin_left, alt_margin, alt_, start_sem}) { 
     
     return (
         <MeetingContainer start_sem={start_sem} alt_={alt_} alt_margin={alt_margin} marginTop={margin_top}>
@@ -49,11 +50,19 @@ function addMeeting({date, name, description, slidesLink, codeLink, slidesName, 
                         </TextWrapper>
 
                     </Column1>
-                    
+
                     <Column2>
+                        {carousel ? (
+                        <CarouselContainer>
+                            {(carousel == 'sap') &&
+                                <SAPCarousel/>
+                            }
+                        </CarouselContainer>
+                        ):(
                         <ImgWrap>
                             <Img src={img}/>
                         </ImgWrap>
+                        )}
                     </Column2>
                 
                 </InfoRow>

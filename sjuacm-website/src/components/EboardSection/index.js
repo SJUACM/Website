@@ -37,7 +37,6 @@ const EboardSection = ({name, position, major, gradYear, email, linkedIn, github
                                         <EmailText id="text" style={{color : 'white', marginLeft : '15px', letterSpacing : '1.1px'}}>{email}</EmailText>
                                     </IconContainer>
                                 </div>
-
                             </TextWrapper>
                         </Column1>
                         

@@ -29,6 +29,12 @@ import pygame from '../../img/meetingPics/pygame.jpg'
 import fall2020Kickoff from '../../img/meetingPics/fall2020Kickoff.jpg'
 import kickoff22 from '../../img/meetingPics/kickoff22.jpg'
 import videoGameDevIntroPic from '../../img/meetingPics/videoGameDevIntro.jpg'
+import sapPic1 from '../../img/meetingPics/sapCarousel/sapPic1.jpg'
+import sapPic2 from '../../img/meetingPics/sapCarousel/sapPic2.jpg'
+import sapPic3 from '../../img/meetingPics/sapCarousel/sapPic3.jpg'
+import sapPic4 from '../../img/meetingPics/sapCarousel/sapPic4.jpg'
+import sapPic5 from '../../img/meetingPics/sapCarousel/sapPic5.jpg'
+import sapPic6 from '../../img/meetingPics/sapCarousel/sapPic6.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -51,7 +57,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: '',
         img : '',
-        carousel: 'sap',
+        carousel: [sapPic1, sapPic2, sapPic3, sapPic4, sapPic5, sapPic6],
         margin_top : '0px',
         alt_margin : true,
         semester : 'Fall 2022',

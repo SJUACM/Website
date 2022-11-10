@@ -7,7 +7,7 @@ import {meetings} from './data'
 import { useMemo, useState } from "react";  
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';  
-import { SAPCarousel } from '../Carousel'
+import { MeetingCarousel } from '../Carousel'
 
 const semesters = ['All', 'Fall 2022', 'Spring 2022', 'Fall 2021', 'Spring 2021', 'Fall 2020']
 
@@ -54,9 +54,7 @@ function addMeeting({date, name, description, slidesLink, codeLink, slidesName, 
                     <Column2>
                         {carousel ? (
                         <CarouselContainer>
-                            {(carousel == 'sap') &&
-                                <SAPCarousel/>
-                            }
+                                <MeetingCarousel carousel={carousel}/>
                         </CarouselContainer>
                         ):(
                         <ImgWrap>

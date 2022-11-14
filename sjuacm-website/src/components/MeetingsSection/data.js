@@ -35,6 +35,11 @@ import sapPic3 from '../../img/meetingPics/sapCarousel/sapPic3.jpg'
 import sapPic4 from '../../img/meetingPics/sapCarousel/sapPic4.jpg'
 import sapPic5 from '../../img/meetingPics/sapCarousel/sapPic5.jpg'
 import sapPic6 from '../../img/meetingPics/sapCarousel/sapPic6.jpg'
+import hackathonPic1 from '../../img/meetingPics/hackathonCarousel/hackathonPic1.jpg'
+import hackathonPic2 from '../../img/meetingPics/hackathonCarousel/hackathonPic2.jpg'
+import hackathonPic3 from '../../img/meetingPics/hackathonCarousel/hackathonPic3.jpg'
+import hackathonPic4 from '../../img/meetingPics/hackathonCarousel/hackathonPic4.jpg'
+import hackathonPic5 from '../../img/meetingPics/hackathonCarousel/hackathonPic5.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -48,6 +53,22 @@ import VideoGameDevIntro from './MeetingFiles/SJU_ACM_Video_Game_Development_Int
 
 
 export const meetings = [
+    {
+        date: '11/5/2022',
+        name : 'SJU ACM x Headstarter Hackathon',
+        description : "SJU ACM members competed in a hackathon hosted by Headstarter in their office in Long Island City! After meeting the CEO and co-founders of Headstarter, students worked in teams to develop an interactive dashboard that could be used to make real marketing decisions.",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: '',
+        youtubeLink: '',
+        img : '',
+        carousel: [hackathonPic1, hackathonPic2, hackathonPic3, hackathonPic4, hackathonPic5],
+        customMessage : "View the Projects we Created",
+        customLink : "https://github.com/SJUACM/Headstarter-Hackathon",
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Fall 2022',
+    },
     {
         date: '10/28/2022',
         name : 'SAP Office Visit',

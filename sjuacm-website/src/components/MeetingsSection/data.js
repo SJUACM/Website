@@ -56,7 +56,7 @@ export const meetings = [
     {
         date: '11/5/2022',
         name : 'SJU ACM x Headstarter Hackathon',
-        description : "SJU ACM members competed in a hackathon hosted by Headstarter in their office in Long Island City! After meeting the CEO and co-founders of Headstarter, students worked in teams to develop an interactive dashboard that could be used to make real marketing decisions.",
+        description : "SJU ACM members competed in a hackathon hosted by Headstarter in their office in Long Island City! After meeting the CEO and co-founders of Headstarter, students worked in teams to develop an interactive dashboard that can be used to make real-world marketing decisions.",
         slidesLink: '',
         slidesName: '',
         codeLink: '',

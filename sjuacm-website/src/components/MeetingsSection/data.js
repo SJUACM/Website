@@ -40,6 +40,7 @@ import hackathonPic2 from '../../img/meetingPics/hackathonCarousel/hackathonPic2
 import hackathonPic3 from '../../img/meetingPics/hackathonCarousel/hackathonPic3.jpg'
 import hackathonPic4 from '../../img/meetingPics/hackathonCarousel/hackathonPic4.jpg'
 import hackathonPic5 from '../../img/meetingPics/hackathonCarousel/hackathonPic5.jpg'
+import hackingWithMetasploit from '../../img/meetingPics/hackingWithMetasploit.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -53,6 +54,20 @@ import VideoGameDevIntro from './MeetingFiles/SJU_ACM_Video_Game_Development_Int
 
 
 export const meetings = [
+    {
+        date: '11/17/2022',
+        name : 'Hacking with Metasploit',
+        description : "In this Cyber Security workshop, we demonstrated the hacking capabilities of the Metasploit framework by attacking a Metasploitable virtual machine using Kali Linux. We learned how to use this tool to find vulnerabilities in the target machine and eventually exploit these vulnerabilities to gain remote terminal access.",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: '',
+        youtubeLink: '',
+        img : hackingWithMetasploit,
+        margin_top : '0px',
+        margin_left : true,
+        alt_margin : true,
+        semester : 'Fall 2022',
+    },
     {
         date: '11/5/2022',
         name : 'SJU ACM x Headstarter Hackathon',
@@ -80,6 +95,7 @@ export const meetings = [
         img : '',
         carousel: [sapPic1, sapPic2, sapPic3, sapPic4, sapPic5, sapPic6],
         margin_top : '0px',
+        margin_left : true,
         alt_margin : true,
         semester : 'Fall 2022',
     },

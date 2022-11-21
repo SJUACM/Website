@@ -81,7 +81,7 @@ export const Column1 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
-    margin-left : ${({ margin_left }) => (margin_left ? "-100px" : "0px")};
+    margin-left : ${({ margin_left }) => (margin_left ? "-100px" : "-2.5px")};
     margin-top: 50px;
 
     @media screen and (max-width: 1095px) {
@@ -208,9 +208,9 @@ export const Img = styled.img`
 `;
 
 export const CarouselContainer = styled.div`
-
+    max-width: 400px;
     height: 100%;
-    width: 81%;
+    width: 100%;
     margin: 0 0 10px 0;
     display: flex;
     flex-direction: column;

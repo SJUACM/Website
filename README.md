@@ -6,7 +6,8 @@ www.sjuacm.com
 
 
 # Pages
-  - **About:** Learn more about us as an organization 
-  - **Meetings:** View the Slides, Source Code, and/or Recordings of our past meetings
-  - **E-Board:** Learn about our E-board and connect with them on LinkedIn / send them an email
+  - **About:** Learn more about us as an organization.
+  - **Meetings:** View the Slides, Source Code, and/or Recordings of our past meetings.
+  - **E-Board:** Learn about our E-board and connect with them on LinkedIn / send them an email.
   - **Resources:** View our curated list of resources to help you become a more well rounded tech professional!
+  - **Blog:** Read stories from some of our current and former E-board members about their journeys to pursuing careers in tech.

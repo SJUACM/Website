@@ -228,3 +228,28 @@ export const CarouselContainer = styled.div`
     }
     }
 `;
+
+export const PastMeetingsTitle = styled.p`
+    color: #fff;
+    padding-top: 100px;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    letter-spacing: 1px;
+
+    @media screen and (max-width: 480px) {
+        font-size: 45px;
+    }
+`;
+
+export const TitleContainer = styled.div`
+    background: #0c0c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    flexWrap: wrap;
+`;

@@ -4,12 +4,12 @@ import { faGithub, faInstagram, faDiscord, faYoutube} from '@fortawesome/free-br
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './SocialMedia.css'
 
-const Footer = ({margin_top, margin_bottom, padding_bottom, res_adjust}) => {
+const Footer = ({margin_top, margin_bottom, padding_bottom, padding_top, res_adjust}) => {
     
     // const iconType = props.type ? props.type : '';
     
     return (
-        <FooterContainer res_adjust={res_adjust} style={{marginTop: margin_top,  marginBottom: margin_bottom, paddingBottom: padding_bottom}}>
+        <FooterContainer res_adjust={res_adjust} style={{marginTop: margin_top,  marginBottom: margin_bottom, paddingBottom: padding_bottom, paddingTop: padding_top}}>
             <FooterWrap>
                 <FooterLinksContainer>
                     <FooterLinksWrapper>

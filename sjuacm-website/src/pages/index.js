@@ -6,6 +6,7 @@ import InfoSection from '../components/InfoSection'
 import {homeObjOne, homeObjTwo, homeObjThree} from '../components/InfoSection/data'
 import GoToTop from '../GoToTop';
 import Footer from '../components/Footer'
+import UpcomingMeetingsSection from '../components/UpcomingMeetings'
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
          <Sidebar isOpen={isOpen} toggle={toggle}/>
          <Navbar toggle={toggle} about_border_bottom={false} meeting_border_bottom={false} eboard_border_bottom={false} resources_border_bottom={false}/>
          <HeroSection />
+         <UpcomingMeetingsSection />
          <InfoSection {...homeObjOne}/>
          <InfoSection {...homeObjTwo}/>
          <InfoSection {...homeObjThree}/>

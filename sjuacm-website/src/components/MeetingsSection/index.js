@@ -1,15 +1,22 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
-import { DropdownSection, DropdownContainer, MeetingContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, LinkWrapper,  TopLine, Heading, Subtitle, ImgWrap, Img } from './MeetingElements'
+import { DropdownSection, DropdownContainer, MeetingContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, LinkWrapper,  TopLine, Heading, Subtitle, ImgWrap, Img, TitleContainer, PastMeetingsTitle } from './MeetingElements'
 import { CarouselContainer } from './MeetingElements.js'
 import {meetings} from './data'
+import {upcomingMeetings} from '../UpcomingMeetings/data'
 
 import { useMemo, useState } from "react";  
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';  
 import { MeetingCarousel } from '../Carousel'
+import UpcomingMeetingsSection from '../UpcomingMeetings'
 
-const semesters = ['All', 'Fall 2022', 'Spring 2022', 'Fall 2021', 'Spring 2021', 'Fall 2020']
+if (upcomingMeetings.length == 0){
+    const semesters = ['All', 'Fall 2022', 'Spring 2022', 'Fall 2021', 'Spring 2021', 'Fall 2020']
+}
+else{
+    const semesters = ['All', 'Upcoming', 'Fall 2022', 'Spring 2022', 'Fall 2021', 'Spring 2021', 'Fall 2020']
+}
 
 function addMeeting({date, name, description, slidesLink, codeLink, slidesName, youtubeLink, customMessage, customLink, img, carousel, margin_top, margin_left, alt_margin, alt_, start_sem}) { 
     
@@ -77,13 +84,28 @@ const MeetingSection = ({semester}) => {
     const filteredData = useMemo(() => {  
         if (!semester || semester === "All") return meetings;  
     
-        return meetings.filter(item => item.semester === semester);  
+        if (semester != "Upcoming") return meetings.filter(item => item.semester === semester);  
     }, [semester]);  
     
     return (
-        <>  
-            {filteredData.map(addMeeting)}
-         
+        <>
+            {(!semester || semester === "All" || semester === "Upcoming") && 
+                <> 
+                    <UpcomingMeetingsSection />
+                    <>
+                        {(semester != "Upcoming" && upcomingMeetings.length != 0) &&
+                            <TitleContainer>
+                                <PastMeetingsTitle>Past Meetings</PastMeetingsTitle>
+                            </TitleContainer>
+                        }
+                    </>
+                </>
+            }
+            {(semester != "Upcoming") &&
+                <>
+                    {filteredData.map(addMeeting)}
+                </>
+            }
         </>
     )
 }

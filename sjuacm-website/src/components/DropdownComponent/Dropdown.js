@@ -1,34 +1,73 @@
 import React, { useState } from 'react';
 import './Dropdown.css';
 import { Link } from 'react-router-dom';
+import {upcomingMeetings} from '../UpcomingMeetings/data'
 
-const MenuItems = [
-    {
-      title: 'Fall 2022',
-      path: '/meetings/Fall2022',
-      cName: 'dropdown-link'
-    },
-    {
-      title: 'Spring 2022',
-      path: '/meetings/Spring2022',
-      cName: 'dropdown-link'
-    },
-    {
-      title: 'Fall 2021',
-      path: '/meetings/Fall2021',
-      cName: 'dropdown-link'
-    },
-    {
-      title: 'Spring 2021',
-      path: '/meetings/Spring2021',
-      cName: 'dropdown-link'
-    },
-    {
-      title: 'Fall 2020',
-      path: '/meetings/Fall2020',
-      cName: 'dropdown-link'
-    },
-  ];
+var MenuItems = [];
+
+if (upcomingMeetings.length == 0){
+  MenuItems = [
+      {
+        title: 'Fall 2022',
+        path: '/meetings/Fall2022',
+        cName: 'dropdown-link'
+      },
+      {
+        title: 'Spring 2022',
+        path: '/meetings/Spring2022',
+        cName: 'dropdown-link'
+      },
+      {
+        title: 'Fall 2021',
+        path: '/meetings/Fall2021',
+        cName: 'dropdown-link'
+      },
+      {
+        title: 'Spring 2021',
+        path: '/meetings/Spring2021',
+        cName: 'dropdown-link'
+      },
+      {
+        title: 'Fall 2020',
+        path: '/meetings/Fall2020',
+        cName: 'dropdown-link'
+      },
+    ];
+  }
+  else{
+    MenuItems = [
+      {
+        title: 'Upcoming',
+        path: '/meetings/Upcoming',
+        cName: 'dropdown-link'
+      },
+      {
+        title: 'Fall 2022',
+        path: '/meetings/Fall2022',
+        cName: 'dropdown-link'
+      },
+      {
+        title: 'Spring 2022',
+        path: '/meetings/Spring2022',
+        cName: 'dropdown-link'
+      },
+      {
+        title: 'Fall 2021',
+        path: '/meetings/Fall2021',
+        cName: 'dropdown-link'
+      },
+      {
+        title: 'Spring 2021',
+        path: '/meetings/Spring2021',
+        cName: 'dropdown-link'
+      },
+      {
+        title: 'Fall 2020',
+        path: '/meetings/Fall2020',
+        cName: 'dropdown-link'
+      },
+    ];
+  }
 
 
 const Dropdown = () => {

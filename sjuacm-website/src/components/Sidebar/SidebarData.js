@@ -2,6 +2,96 @@ import React from 'react';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 import * as RiIcons from 'react-icons/ri';
+import {upcomingMeetings} from '../UpcomingMeetings/data'
+
+var subNav = [];
+
+if (upcomingMeetings.length == 0){
+  subNav = [
+    {
+      title: 'All',
+      path: '/meetings',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
+      title: 'Fall 2022',
+      path: '/meetings/Fall2022',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
+      title: 'Spring 2022',
+      path: '/meetings/Spring2022',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
+      title: 'Fall 2021',
+      path: '/meetings/Fall2021',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
+      title: 'Spring 2021',
+      path: '/meetings/Spring2021',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
+      title: 'Fall 2020',
+      path: '/meetings/Fall2020',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    }
+  ]
+}
+else{
+  subNav = [
+    {
+      title: 'All',
+      path: '/meetings',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
+      title: 'Upcoming',
+      path: '/meetings/Upcoming',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
+      title: 'Fall 2022',
+      path: '/meetings/Fall2022',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
+      title: 'Spring 2022',
+      path: '/meetings/Spring2022',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
+      title: 'Fall 2021',
+      path: '/meetings/Fall2021',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
+      title: 'Spring 2021',
+      path: '/meetings/Spring2021',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
+      title: 'Fall 2020',
+      path: '/meetings/Fall2020',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    }
+  ]
+}
 
 
 export const SidebarData = [
@@ -17,38 +107,7 @@ export const SidebarData = [
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
-    subNav: [
-      {
-        title: 'Fall 2022',
-        path: '/meetings/Fall2022',
-        icon: <IoIcons.IoIosPaper />,
-        cName: 'sub-nav'
-      },
-      {
-        title: 'Spring 2022',
-        path: '/meetings/Spring2022',
-        icon: <IoIcons.IoIosPaper />,
-        cName: 'sub-nav'
-      },
-      {
-        title: 'Fall 2021',
-        path: '/meetings/Fall2021',
-        icon: <IoIcons.IoIosPaper />,
-        cName: 'sub-nav'
-      },
-      {
-        title: 'Spring 2021',
-        path: '/meetings/Spring2021',
-        icon: <IoIcons.IoIosPaper />,
-        cName: 'sub-nav'
-      },
-      {
-        title: 'Fall 2020',
-        path: '/meetings/Fall2020',
-        icon: <IoIcons.IoIosPaper />,
-        cName: 'sub-nav'
-      }
-    ]
+    subNav: subNav
   },
   {
     title: 'E-Board',

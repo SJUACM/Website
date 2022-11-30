@@ -96,7 +96,7 @@ export const UpcomingMeetingsTitle = styled.p`
     letter-spacing: 1px;
 
     @media screen and (max-width: 480px) {
-        font-size: 45px;
+        font-size: 33px;
     }
 `;
 

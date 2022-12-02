@@ -41,6 +41,7 @@ import hackathonPic3 from '../../img/meetingPics/hackathonCarousel/hackathonPic3
 import hackathonPic4 from '../../img/meetingPics/hackathonCarousel/hackathonPic4.jpg'
 import hackathonPic5 from '../../img/meetingPics/hackathonCarousel/hackathonPic5.jpg'
 import hackingWithMetasploit from '../../img/meetingPics/hackingWithMetasploit.jpg'
+import lifeAfterSJU from '../../img/meetingPics/lifeAfterSJU.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -50,10 +51,24 @@ import Women_and_NB from './MeetingFiles/SJU_ACM_Women_&_Non-Binary_in_Tech.pdf'
 import Fall2021KickoffSlides from './MeetingFiles/SJU_ACM_Fall_2021_Kickoff.pdf'
 import Fall2022KickoffSlides from './MeetingFiles/Fall_2022_Kickoff.pdf'
 import VideoGameDevIntro from './MeetingFiles/SJU_ACM_Video_Game_Development_Introduction.pdf'
+import lifeAfterSJUSlides from './MeetingFiles/Life_After_SJU.pdf'
 
 
 
 export const meetings = [
+    {
+        date: '12/1/2022',
+        name : 'Life After SJU: How to Build Your Career in Tech',
+        description : "Learn everything you need to know to make yourself stand out to recruiters and land your dream job. In this meeting, we discussed how to choose the career path for you, improve your resume, prepare for interviews, and much more!",
+        slidesLink: lifeAfterSJUSlides,
+        slidesName: 'Life_After_SJU.pdf',
+        codeLink: '',
+        youtubeLink: '',
+        img : lifeAfterSJU,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Fall 2022',
+    },
     {
         date: '11/17/2022',
         name : 'Hacking with Metasploit',

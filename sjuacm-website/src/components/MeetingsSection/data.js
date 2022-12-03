@@ -40,6 +40,7 @@ import hackathonPic2 from '../../img/meetingPics/hackathonCarousel/hackathonPic2
 import hackathonPic3 from '../../img/meetingPics/hackathonCarousel/hackathonPic3.jpg'
 import hackathonPic4 from '../../img/meetingPics/hackathonCarousel/hackathonPic4.jpg'
 import hackathonPic5 from '../../img/meetingPics/hackathonCarousel/hackathonPic5.jpg'
+import alumniPanelFall2022 from '../../img/meetingPics/alumniPanelFall2022.jpg'
 import hackingWithMetasploit from '../../img/meetingPics/hackingWithMetasploit.jpg'
 import lifeAfterSJU from '../../img/meetingPics/lifeAfterSJU.jpg'
 
@@ -80,6 +81,19 @@ export const meetings = [
         img : hackingWithMetasploit,
         margin_top : '0px',
         margin_left : true,
+        alt_margin : true,
+        semester : 'Fall 2022',
+    },
+    {
+        date: '11/10/2022',
+        name : 'SJU Alumni in Tech Panel (Fall 2022)',
+        description : "Get insights from former SJU students on how they landed their jobs and what life is like in the tech industry! Featuring Nicholas Doglio - Software Engineer at Zillow, Roshni Shukla - Cyber Risk Analyst at Deloitte, Peter Tadrous - Machine Learning Engineer at The NPD Group, and Lance Arena - Software Engineer at Meta.",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: '',
+        youtubeLink: 'https://youtu.be/QayT1MDL9wo',
+        img : alumniPanelFall2022,
+        margin_top : '0px',
         alt_margin : true,
         semester : 'Fall 2022',
     },
@@ -195,7 +209,7 @@ export const meetings = [
     },
     {
         date: '3/17/2022',
-        name : 'SJU Alumni In Tech Panel',
+        name : 'SJU Alumni in Tech Panel (Spring 2022)',
         description : "Get to hear from Samantha Vega - Data Scientist at Verizon, Kwesi Yankson - Software Engineer at Twitter, and Emily Lackraj - Solutions Advisor at Cybersafe Solutions on how they landed their jobs, what their day-to-day looks like, and advice they have for us students!",
         slidesLink: '',
         slidesName: '',
@@ -203,7 +217,6 @@ export const meetings = [
         youtubeLink: 'https://youtu.be/gab8pu4Maw4',
         img : alumniPanel,
         margin_top : '0px',
-        margin_left : true,
         alt_margin : true,
         semester : 'Spring 2022',
     },

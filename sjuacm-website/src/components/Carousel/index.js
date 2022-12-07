@@ -9,6 +9,14 @@ import labPic7 from '../../img/lab_pic7.jpg'
 import labPic8 from '../../img/lab_pic8.jpg'
 import labPic9 from '../../img/lab_pic9.jpg'
 import labPic10 from '../../img/lab_pic10.jpg'
+import swe_interviewprep from '../../img/sweInterviewPrep.jpg'
+import research from '../../img/research.jpg'
+
+
+import kickoff22 from '../../img/kickoff22.jpg'
+import hackathon from '../../img/hs_hackathon.jpg'
+import sap from '../../img/sap_office.jpg'
+import abet from '../../img/abet_event.JPG'
 
 
 import { CarouselContainer, CarouselImg } from './CarouselElements.js';
@@ -24,16 +32,20 @@ export const ImgCarousel = () => {
         <CarouselContainer>
             <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true}>
 
+                <CarouselImg src={ abet } />  
+                <CarouselImg src={ sap } />  
+                <CarouselImg src={ hackathon } />  
+                <CarouselImg src={ kickoff22 } />  
+                <CarouselImg src={ research } />
                 <CarouselImg src={ labPic1 } />  
                 <CarouselImg src={ labPic3 } />
-                <CarouselImg src={ labPic4 } />
                 <CarouselImg src={ labPic5 } />
                 <CarouselImg src={ labPic2 } />
-                <CarouselImg src={ labPic6 } />
                 <CarouselImg src={ labPic9 } />
-                <CarouselImg src={ labPic10 } />
                 <CarouselImg src={ labPic8 } />
-                <CarouselImg src={ labPic7 } />          
+                <CarouselImg src={ swe_interviewprep } />          
+                {/* <CarouselImg src={ labPic4 } /> */}
+                {/* <CarouselImg src={ labPic6 } /> */}
                 
             </Carousel>
         </CarouselContainer>

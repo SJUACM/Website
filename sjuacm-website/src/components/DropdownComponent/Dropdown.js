@@ -8,6 +8,11 @@ var MenuItems = [];
 if (upcomingMeetings.length == 0){
   MenuItems = [
       {
+        title: 'Spring 2023',
+        path: '/meetings/Spring2023',
+        cName: 'dropdown-link'
+      },
+      {
         title: 'Fall 2022',
         path: '/meetings/Fall2022',
         cName: 'dropdown-link'
@@ -39,6 +44,11 @@ if (upcomingMeetings.length == 0){
       {
         title: 'Upcoming',
         path: '/meetings/Upcoming',
+        cName: 'dropdown-link'
+      },
+      {
+        title: 'Spring 2023',
+        path: '/meetings/Spring2023',
         cName: 'dropdown-link'
       },
       {

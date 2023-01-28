@@ -43,6 +43,7 @@ import hackathonPic5 from '../../img/meetingPics/hackathonCarousel/hackathonPic5
 import alumniPanelFall2022 from '../../img/meetingPics/alumniPanelFall2022.jpg'
 import hackingWithMetasploit from '../../img/meetingPics/hackingWithMetasploit.jpg'
 import lifeAfterSJU from '../../img/meetingPics/lifeAfterSJU.jpg'
+import spring2023Kickoff from '../../img/meetingPics/spring2023Kickoff.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -53,10 +54,24 @@ import Fall2021KickoffSlides from './MeetingFiles/SJU_ACM_Fall_2021_Kickoff.pdf'
 import Fall2022KickoffSlides from './MeetingFiles/Fall_2022_Kickoff.pdf'
 import VideoGameDevIntro from './MeetingFiles/SJU_ACM_Video_Game_Development_Introduction.pdf'
 import lifeAfterSJUSlides from './MeetingFiles/Life_After_SJU.pdf'
+import Spring2023KickoffSlides from './MeetingFiles/Spring_2023_Kickoff.pdf'
 
 
 
 export const meetings = [
+    {
+        date: '1/26/2023',
+        name : 'Spring 2023 Kickoff | Basic Linux Commands',
+        description : "Hear about SJU ACM's plans for Spring 2023, such as our future meetings, cyber competitions, career opportunities, and much more! Also, learn about the Linux operating system, including its use cases and some basic terminal commands!",
+        slidesLink: Spring2023KickoffSlides,
+        slidesName: 'Spring_2023_Kickoff.pdf',
+        codeLink: '',
+        youtubeLink: '',
+        img : spring2023Kickoff,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Spring 2023',
+    },
     {
         date: '12/1/2022',
         name : 'Life After SJU: How to Build Your Career in Tech',

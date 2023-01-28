@@ -15,6 +15,12 @@ if (upcomingMeetings.length == 0){
       cName: 'sub-nav'
     },
     {
+      title: 'Spring 2023',
+      path: '/meetings/Spring2023',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
       title: 'Fall 2022',
       path: '/meetings/Fall2022',
       icon: <IoIcons.IoIosPaper />,
@@ -57,6 +63,12 @@ else{
     {
       title: 'Upcoming',
       path: '/meetings/Upcoming',
+      icon: <IoIcons.IoIosPaper />,
+      cName: 'sub-nav'
+    },
+    {
+      title: 'Spring 2023',
+      path: '/meetings/Spring2023',
       icon: <IoIcons.IoIosPaper />,
       cName: 'sub-nav'
     },

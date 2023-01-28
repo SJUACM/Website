@@ -20,6 +20,7 @@ function App() {
         <Route path="/meetings" element={<Meetings/>} />
 
         <Route path="/meetings/Upcoming" element={<Meetings semester='Upcoming' />} />
+        <Route path="/meetings/Spring2023" element={<Meetings semester='Spring 2023' />} />
         <Route path="/meetings/Fall2022" element={<Meetings semester='Fall 2022' />} />
         <Route path="/meetings/Spring2022" element={<Meetings semester='Spring 2022' />} />
         <Route path="/meetings/Fall2021" element={<Meetings semester='Fall 2021' />} />

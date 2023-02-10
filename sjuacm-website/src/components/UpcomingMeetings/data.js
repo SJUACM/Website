@@ -7,11 +7,11 @@ export const upcomingMeetings = [
     //     description : "Volunteer in helping campus ministry put together Christmas candy bags and hear from faculty members about the many research opportunities they offer and how you can get involved. Research is a great way to learn outside of the classroom and strengthen your resume while doing so!",
     // }
     {
-        date: 'Thursday, February 9, 2023',
+        date: 'Thursday, February 23, 2023',
         time: '1:50pm - 3:00pm',
         location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
-        name : 'Phishing Lab | Cyber Competitions Talk',
-        description : "Hear from faculty members about the return of cyber competitions and learn how to create and carry out your very own phishing attack!",
+        name : 'Introduction to Malware Development with C',
+        description : "Get familiar with some of the techniques used to deliver malicious payloads and experiment with malware in a virtual environment.",
     }
 
 ]

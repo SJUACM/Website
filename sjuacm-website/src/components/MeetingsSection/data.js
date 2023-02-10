@@ -44,6 +44,7 @@ import alumniPanelFall2022 from '../../img/meetingPics/alumniPanelFall2022.jpg'
 import hackingWithMetasploit from '../../img/meetingPics/hackingWithMetasploit.jpg'
 import lifeAfterSJU from '../../img/meetingPics/lifeAfterSJU.jpg'
 import spring2023Kickoff from '../../img/meetingPics/spring2023Kickoff.jpg'
+import goingPhishingLab from '../../img/meetingPics/goingPhishingLab.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -55,10 +56,25 @@ import Fall2022KickoffSlides from './MeetingFiles/Fall_2022_Kickoff.pdf'
 import VideoGameDevIntro from './MeetingFiles/SJU_ACM_Video_Game_Development_Introduction.pdf'
 import lifeAfterSJUSlides from './MeetingFiles/Life_After_SJU.pdf'
 import Spring2023KickoffSlides from './MeetingFiles/Spring_2023_Kickoff.pdf'
+import GoingPhishingSlides from './MeetingFiles/Going_Phishing_Lab.pdf'
 
 
 
 export const meetings = [
+    {
+        date: '2/9/2023',
+        name : 'Going Phishing Lab',
+        description : "Carry out your very own social engineering attack using a powerful phishing tool! Get into the mindset of a hacker in a simulated attack on a fake CEO and learn ways to identify potential phishing schemes for your own safety.",
+        slidesLink: GoingPhishingSlides,
+        slidesName: 'Going_Phishing_Lab.pdf',
+        codeLink: '',
+        youtubeLink: '',
+        img : goingPhishingLab,
+        margin_top : '0px',
+        margin_left : true,
+        alt_margin : true,
+        semester : 'Spring 2023',
+    },
     {
         date: '1/26/2023',
         name : 'Spring 2023 Kickoff | Basic Linux Commands',

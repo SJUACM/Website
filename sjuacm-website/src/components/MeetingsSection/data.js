@@ -45,6 +45,7 @@ import hackingWithMetasploit from '../../img/meetingPics/hackingWithMetasploit.j
 import lifeAfterSJU from '../../img/meetingPics/lifeAfterSJU.jpg'
 import spring2023Kickoff from '../../img/meetingPics/spring2023Kickoff.jpg'
 import goingPhishingLab from '../../img/meetingPics/goingPhishingLab.jpg'
+import malDevBasics from '../../img/meetingPics/malDevBasics.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -57,10 +58,23 @@ import VideoGameDevIntro from './MeetingFiles/SJU_ACM_Video_Game_Development_Int
 import lifeAfterSJUSlides from './MeetingFiles/Life_After_SJU.pdf'
 import Spring2023KickoffSlides from './MeetingFiles/Spring_2023_Kickoff.pdf'
 import GoingPhishingSlides from './MeetingFiles/Going_Phishing_Lab.pdf'
-
+import MalwareDevelopmentSlides from './MeetingFiles/Malware_Development_Basics.pdf'
 
 
 export const meetings = [
+    {
+        date: '2/23/2023',
+        name : 'Malware Development Basics',
+        description : "Discover the concepts behind malware development and how a hacker designs malicious payloads to accomplish a specific task. Analyze real malware and understand the steps in the malware process, including delivery, execution, and persistence.",
+        slidesLink: MalwareDevelopmentSlides,
+        slidesName: 'Malware_Development_Basics.pdf',
+        codeLink: '',
+        youtubeLink: '',
+        img : malDevBasics,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Spring 2023',
+    },
     {
         date: '2/9/2023',
         name : 'Going Phishing Lab',

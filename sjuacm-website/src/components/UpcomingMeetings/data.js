@@ -8,10 +8,10 @@ export const upcomingMeetings = [
     // }
     {
         date: 'Thursday, March 9, 2023',
-        time: '5:30pm - 6:30pm',
-        location: 'Location TBA',
-        name : 'Elevator Pitches and LinkedIn Review by Protiviti',
-        description : "In collaboration with the Tobin School of Business student organizations, learn how to effectively market yourself through elevator pitches and LinkedIn.",
+        time: '5:30pm - 7:00pm',
+        location: 'DAC 410',
+        name : 'How to Network with LinkedIn by Protiviti',
+        description : "In collaboration with the Tobin School of Business student organizations, learn from Protiviti representatives about how to effectively market yourself through elevator pitches and LinkedIn.",
     }
     // {
     //     date: 'Thursday, March 16, 2023',

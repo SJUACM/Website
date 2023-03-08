@@ -147,3 +147,7 @@ export const Subtitle = styled.p`
     letter-spacing: 0.9px;
     color: white;
 `;
+
+export const LinkWrapper = styled.div`
+    margin-bottom: 80px; 
+`;

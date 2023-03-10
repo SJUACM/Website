@@ -8,14 +8,6 @@ export const upcomingMeetings = [
     //     link: ""
     // }
     {
-        date: 'Thursday, March 9, 2023',
-        time: '5:30pm - 7:00pm',
-        location: 'DAC 410',
-        name : 'How to Network with LinkedIn by Protiviti',
-        description : "Hear tips from SJU alumni and Protiviti professionals about how to make LinkedIn work for you and get the chance to fine tune your elevator pitch with these professionals.",
-        link: "https://app.joinhandshake.com/stu/events/1260155"
-    },
-    {
         date: 'Thursday, March 16, 2023',
         time: '12:30pm -2:30pm',
         location: 'One Manhattan West, New York, NY, 10001',

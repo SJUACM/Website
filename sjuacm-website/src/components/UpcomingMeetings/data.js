@@ -8,12 +8,12 @@ export const upcomingMeetings = [
     //     link: ""
     // }
     {
-        date: 'Thursday, March 16, 2023',
-        time: '12:30pm -2:30pm',
-        location: 'One Manhattan West, New York, NY, 10001',
-        name : 'EY Cybersecurity Panel and Office Tour',
-        description : "Join us for networking, office tours, and a panel discussion to hear more about what life at EY looks like from EY technology professionals.",
-        link: "https://globaleysurvey.ey.com/jfe/form/SV_eONTq627W2i4Yn4"
+        date: 'Thursday, March 23, 2023',
+        time: '1:50pm - 3:00pm',
+        location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
+        name : 'Twitter Bots and APIs',
+        description : "Create your own twitter bot in this workshop where we will explore Python and the wide world of APIs!",
+        link: ""
     }
     
 ]

@@ -1,4 +1,3 @@
-
 import research from  '../../img/meetingPics/research.jpg'
 import ctf from  '../../img/meetingPics/ctf.jpg'
 import RatLab from  '../../img/meetingPics/RATLab.jpg'
@@ -46,6 +45,13 @@ import lifeAfterSJU from '../../img/meetingPics/lifeAfterSJU.jpg'
 import spring2023Kickoff from '../../img/meetingPics/spring2023Kickoff.jpg'
 import goingPhishingLab from '../../img/meetingPics/goingPhishingLab.jpg'
 import malDevBasics from '../../img/meetingPics/malDevBasics.jpg'
+import eyPic1 from '../../img/meetingPics/eyCarousel/eyPic1.jpg'
+import eyPic2 from '../../img/meetingPics/eyCarousel/eyPic2.jpg'
+import eyPic3 from '../../img/meetingPics/eyCarousel/eyPic3.jpg'
+import eyPic4 from '../../img/meetingPics/eyCarousel/eyPic4.jpg'
+import eyPic5 from '../../img/meetingPics/eyCarousel/eyPic5.jpg'
+import eyPic6 from '../../img/meetingPics/eyCarousel/eyPic6.jpg'
+// import sweRoadmap from '../../img/meetingPics/sweRoadmap.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -59,9 +65,37 @@ import lifeAfterSJUSlides from './MeetingFiles/Life_After_SJU.pdf'
 import Spring2023KickoffSlides from './MeetingFiles/Spring_2023_Kickoff.pdf'
 import GoingPhishingSlides from './MeetingFiles/Going_Phishing_Lab.pdf'
 import MalwareDevelopmentSlides from './MeetingFiles/Malware_Development_Basics.pdf'
+// import SWERoadmap from './MeetingFiles/Software_Engineering_Career_Roadmap.pdf'
 
 
 export const meetings = [
+    // {
+    //     date: '3/20/2023',
+    //     name : 'Software Engineering Career Roadmap by Headstarter',
+    //     description : "Guest speaker and CEO of Headstarter, Yasin Ehsan, presents the road to success in software engineering, including the tools and resources necessary to launch your career in tech. Learn about Yasin's journey from Queens College student, to 12x hackathon winner, to entrepreneur.",
+    //     slidesLink: SWERoadmap,
+    //     slidesName: 'Software_Engineering_Career_Roadmap.pdf',
+    //     codeLink: '',
+    //     youtubeLink: '',
+    //     img : sweRoadmap,
+    //     margin_top : '0px',
+    //     alt_margin : true,
+    //     semester : 'Spring 2023',
+    // },
+    {
+        date: '3/16/2023',
+        name : 'EY Cybersecurity Panel and Office Tour',
+        description : "In collaboration with Baruch College, SJU ACM members visited EY's One Manhattan West office for networking, office tours, and a panel discussion to hear more about what life at EY looks like from EY technology professionals.",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: '',
+        youtubeLink: '',
+        img : '',
+        carousel: [eyPic1, eyPic2, eyPic3, eyPic4, eyPic5, eyPic6],
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Spring 2023',
+    },
     {
         date: '2/23/2023',
         name : 'Malware Development Basics',

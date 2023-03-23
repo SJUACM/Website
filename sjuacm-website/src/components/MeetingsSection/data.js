@@ -52,6 +52,7 @@ import eyPic4 from '../../img/meetingPics/eyCarousel/eyPic4.jpg'
 import eyPic5 from '../../img/meetingPics/eyCarousel/eyPic5.jpg'
 import eyPic6 from '../../img/meetingPics/eyCarousel/eyPic6.jpg'
 import sweRoadmap from '../../img/meetingPics/sweRoadmap.jpg'
+import twitterBots from '../../img/meetingPics/twitterBots.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -66,9 +67,24 @@ import Spring2023KickoffSlides from './MeetingFiles/Spring_2023_Kickoff.pdf'
 import GoingPhishingSlides from './MeetingFiles/Going_Phishing_Lab.pdf'
 import MalwareDevelopmentSlides from './MeetingFiles/Malware_Development_Basics.pdf'
 import SWERoadmap from './MeetingFiles/Software_Engineering_Career_Roadmap.pdf'
+import TwitterBotsAndAPIs from './MeetingFiles/Twitter_Bots_and_APIs.pdf'
 
 
 export const meetings = [
+    {
+        date: '3/23/2023',
+        name : 'Twitter Bots and APIs',
+        description : "Explore the wide world of APIs by delving into how they work and why they are essential to how applications function. Using this newfound knowledge of APIs, learn how to create your own Twitter bot, featuring a special showcase of a bot created by e-board member Tomas!",
+        slidesLink: TwitterBotsAndAPIs,
+        slidesName: 'Twitter_Bots_and_APIs.pdf',
+        codeLink: '',
+        youtubeLink: '',
+        img : twitterBots,
+        margin_top : '0px',
+        alt_margin : true,
+        margin_left : true,
+        semester : 'Spring 2023',
+    },
     {
         date: '3/20/2023',
         name : 'Software Engineering Career Roadmap by Headstarter',
@@ -195,7 +211,7 @@ export const meetings = [
     {
         date: '10/28/2022',
         name : 'SAP Office Visit',
-        description : "Organized and lead by e-board member Teuta, SJU ACM members got the chance to visit the SAP office in Manhattan. On the visit, we toured the office and met with SAP employees to learn about SAP and what it's like working there.",
+        description : "Organized and led by e-board member Teuta, SJU ACM members got the chance to visit the SAP office in Manhattan. On the visit, we toured the office and met with SAP employees to learn about SAP and what it's like working there.",
         slidesLink: '',
         slidesName: '',
         codeLink: '',

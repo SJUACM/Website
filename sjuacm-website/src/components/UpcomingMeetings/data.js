@@ -12,7 +12,7 @@ export const upcomingMeetings = [
         time: '1:50pm - 3:00pm',
         location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
         name : 'Twitter Bots and APIs',
-        description : "Create your own twitter bot in this workshop where we will explore Python and the wide world of APIs!",
+        description : "Learn how to create your own twitter bot in this workshop, where we will also explore Python and the wide world of APIs!",
         link: ""
     }
     

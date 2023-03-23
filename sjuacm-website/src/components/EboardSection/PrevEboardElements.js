@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import {Card, Button} from 'react-bootstrap'
+import {Card} from 'react-bootstrap'
 
 export const CardContainer = styled.div`
     background: #0c0c0c;

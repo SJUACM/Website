@@ -1,9 +1,8 @@
 import React from 'react'
-import {BlogContainer, BlogContainer2, BlogContent, BlogTitle, BlogAuthor, BlogDate, BlogText, BlogText2, BlogTextContainer, BlogImg, BlogImg2, TextWrapper, TextWrapper2, ImgWrap, ImgWrap2, Column1, Column2, InfoRow} from '../BlogElements';
+import {BlogContainer, BlogContainer2, BlogContent, BlogTitle, BlogAuthor, BlogDate, BlogText, BlogText2, BlogTextContainer, BlogImg, BlogImg2, ImgWrap} from '../BlogElements';
 import bbg from '../../../img/blogPics/FaizanBlog/bbg.jpg'
 import mike from '../../../img/blogPics/FaizanBlog/mikebloomberg.jpg'
 import cnnmodel from '../../../img/blogPics/FaizanBlog/cnnmodel.png'
-import saliencymaps from '../../../img/blogPics/FaizanBlog/saliencymaps.png'
 import stockgrader from '../../../img/blogPics/FaizanBlog/stockgrader.png'
 import invwebapp from '../../../img/blogPics/FaizanBlog/inv_webapp.png'
 import googlesheet from '../../../img/blogPics/FaizanBlog/googlesheet.png'

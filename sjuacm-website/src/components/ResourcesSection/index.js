@@ -1,10 +1,10 @@
 import React from 'react'
 import { AltButton } from '../ButtonElements'
-import {CardContainer, CustomCard, CustomCardImg, CustomCardBody, CustomCardTitle, CustomCardText, CustomButton, InfoWrapper} from './ResourcesElements'
+import {CardContainer, CustomCard, CustomCardImg, CustomCardBody, CustomCardTitle, CustomCardText, InfoWrapper} from './ResourcesElements'
 import {content} from './data'
 import {youtubeChannels} from './data'
 
-function createCard({title, text, link, img, margin_top}) {
+function createCard({title, text, link, img}) {
     
     return (
         <CustomCard style={{marginTop : '0px', padding : '55px'}}>

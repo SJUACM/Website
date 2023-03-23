@@ -1,7 +1,7 @@
 import React from 'react'
 import { AltButton } from '../ButtonElements'
 import { CardContainer, CustomCardTitle, CustomCardText, CustomCardText2 } from './BlogElements'
-import {CustomCard, CustomCardImg, CustomCardBody, CustomButton, InfoWrapper} from '../ResourcesSection/ResourcesElements'
+import {CustomCard, CustomCardImg, CustomCardBody, InfoWrapper} from '../ResourcesSection/ResourcesElements'
 import {content} from './data'
 
 function createCard({title, text, author, link, img, margin_top}) {

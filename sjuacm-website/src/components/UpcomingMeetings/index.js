@@ -1,7 +1,5 @@
 import React from 'react'
-import { Button, AltButton } from '../ButtonElements'
-import { TitleContainer, UpcomingMeetingContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Heading2, Subtitle, BtnWrap, ImgWrap, Img, UpcomingMeetingsTitle, LinkWrapper } from './UpcomingMeetingElements'
-import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
+import { TitleContainer, UpcomingMeetingContainer, TextWrapper, TopLine, Heading, Heading2, Subtitle, UpcomingMeetingsTitle } from './UpcomingMeetingElements'
 import {upcomingMeetings} from './data'
 
 
@@ -23,10 +21,10 @@ function addUpcomingMeeting({date, time, location, name, description, link}) {
     )
 }
 
-const UpcomingMeetingsSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, margin_top}) => {
+const UpcomingMeetingsSection = () => {
     return (
         <>  
-        {(upcomingMeetings.length != 0) &&   
+        {(upcomingMeetings.length !== 0) &&   
             <>                      
             <TitleContainer >
                 <UpcomingMeetingsTitle>

@@ -1,8 +1,5 @@
 import styled from "styled-components";
 
-import {Card, Button} from 'react-bootstrap'
-
-
 export const CardContainer = styled.div`
     background: #0c0c0c;
     display: flex;

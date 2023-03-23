@@ -1,22 +1,13 @@
 import React from 'react'
-import { Button } from '../ButtonElements'
-import { DropdownSection, DropdownContainer, MeetingContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, LinkWrapper,  TopLine, Heading, Subtitle, ImgWrap, Img, TitleContainer, PastMeetingsTitle } from './MeetingElements'
+import { MeetingContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, LinkWrapper,  TopLine, Heading, Subtitle, ImgWrap, Img, TitleContainer, PastMeetingsTitle } from './MeetingElements'
 import { CarouselContainer } from './MeetingElements.js'
 import {meetings} from './data'
 import {upcomingMeetings} from '../UpcomingMeetings/data'
 
-import { useMemo, useState } from "react";  
-import Dropdown from 'react-dropdown';
+import { useMemo } from "react";  
 import 'react-dropdown/style.css';  
 import { MeetingCarousel } from '../Carousel'
 import UpcomingMeetingsSection from '../UpcomingMeetings'
-
-if (upcomingMeetings.length == 0){
-    const semesters = ['All', 'Fall 2022', 'Spring 2022', 'Fall 2021', 'Spring 2021', 'Fall 2020']
-}
-else{
-    const semesters = ['All', 'Upcoming', 'Fall 2022', 'Spring 2022', 'Fall 2021', 'Spring 2021', 'Fall 2020']
-}
 
 function addMeeting({date, name, description, slidesLink, codeLink, slidesName, youtubeLink, customMessage, customLink, img, carousel, margin_top, margin_left, alt_margin, alt_, start_sem}) { 
     
@@ -33,23 +24,23 @@ function addMeeting({date, name, description, slidesLink, codeLink, slidesName, 
                             <Subtitle>{description}</Subtitle>
                             
                             <LinkWrapper>
-                                {(slidesLink != '' && codeLink != '') && 
+                                {(slidesLink !== '' && codeLink !== '') && 
                                     <><a href={slidesLink} download={slidesName} style={{ color: 'white' }}>Download Slides</a><a href={codeLink} style={{ color: 'white', marginLeft: '40px' }}>Run the Source Code</a></>  
                                 }
 
-                                {(slidesLink != '' && codeLink == '') && 
+                                {(slidesLink !== '' && codeLink === '') && 
                                     <><a href={slidesLink} download={slidesName} style={{ color: 'white' }}>Download Slides</a></>  
                                 }
                                 
-                                {(slidesLink == '' && codeLink != '') && 
+                                {(slidesLink === '' && codeLink !== '') && 
                                     <><a href={codeLink} style={{ color: 'white'}}>Run the Source Code</a></>  
                                 }
 
-                                {(youtubeLink != '') && 
+                                {(youtubeLink !== '') && 
                                     <><a href={youtubeLink} style={{ color: 'white'}}>Watch the Recording on YouTube</a></>  
                                 }
 
-                                {(customMessage != '') && 
+                                {(customMessage !== '') && 
                                     <><a href={customLink} style={{ color: 'white'}}>{customMessage}</a></>  
                                 }
 
@@ -84,7 +75,7 @@ const MeetingSection = ({semester}) => {
     const filteredData = useMemo(() => {  
         if (!semester || semester === "All") return meetings;  
     
-        if (semester != "Upcoming") return meetings.filter(item => item.semester === semester);  
+        if (semester !== "Upcoming") return meetings.filter(item => item.semester === semester);  
     }, [semester]);  
     
     return (
@@ -93,7 +84,7 @@ const MeetingSection = ({semester}) => {
                 <> 
                     <UpcomingMeetingsSection />
                     <>
-                        {(semester != "Upcoming" && upcomingMeetings.length != 0) &&
+                        {(semester !== "Upcoming" && upcomingMeetings.length !== 0) &&
                             <TitleContainer>
                                 <PastMeetingsTitle>Past Meetings</PastMeetingsTitle>
                             </TitleContainer>
@@ -101,7 +92,7 @@ const MeetingSection = ({semester}) => {
                     </>
                 </>
             }
-            {(semester != "Upcoming") &&
+            {(semester !== "Upcoming") &&
                 <>
                     {filteredData.map(addMeeting)}
                 </>

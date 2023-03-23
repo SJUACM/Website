@@ -5,7 +5,7 @@ import {upcomingMeetings} from '../UpcomingMeetings/data'
 
 var MenuItems = [];
 
-if (upcomingMeetings.length == 0){
+if (upcomingMeetings.length === 0){
   MenuItems = [
       {
         title: 'Spring 2023',

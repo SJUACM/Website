@@ -1,5 +1,5 @@
 import React from 'react'
-import {BlogContainer, BlogContainer2, BlogContent, BlogDate, BlogTitle, BlogAuthor, BlogText, BlogText2, BlogTextContainer, BlogImg, BlogImg2, TextWrapper, TextWrapper2, ImgWrap, ImgWrap2, Column1, Column2, InfoRow} from '../BlogElements';
+import {BlogContainer, BlogContainer2, BlogContent, BlogDate, BlogTitle, BlogAuthor, BlogText, BlogText2, BlogTextContainer, BlogImg, ImgWrap} from '../BlogElements';
 import premed_cs from '../../../img/blogPics/premed_cs.jpeg'
 
 

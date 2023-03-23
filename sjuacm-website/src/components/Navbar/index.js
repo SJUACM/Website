@@ -2,16 +2,15 @@ import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks} from './NavbarElements'
 import logo from '../../img/sjuacmlogo.png';
-import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Dropdown from '../DropdownComponent/Dropdown';
 import './Navbar.css';
 
 const Navbar = ({ toggle, about_border_bottom, meeting_border_bottom, eboard_border_bottom, resources_border_bottom, blog_border_bottom }) => {
 
-    const [click, setClick] = useState(false);
+    const [setClick] = useState(false);
     const [dropdown, setDropdown] = useState(false);
 
-    const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
     const onMouseEnter = () => {

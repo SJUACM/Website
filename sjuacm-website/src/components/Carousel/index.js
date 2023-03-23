@@ -2,13 +2,9 @@
 import labPic1 from '../../img/lab_pic1.jpg'
 import labPic2 from '../../img/lab_pic2.jpg'
 import labPic3 from '../../img/lab_pic3.JPEG'
-import labPic4 from '../../img/lab_pic4.jpg'
 import labPic5 from '../../img/lab_pic5.jpg'
-import labPic6 from '../../img/lab_pic6.jpg'
-import labPic7 from '../../img/lab_pic7.jpg'
 import labPic8 from '../../img/lab_pic8.jpg'
 import labPic9 from '../../img/lab_pic9.jpg'
-import labPic10 from '../../img/lab_pic10.jpg'
 import swe_interviewprep from '../../img/sweInterviewPrep.jpg'
 import research from '../../img/research.jpg'
 
@@ -20,8 +16,7 @@ import abet from '../../img/abet_event.JPG'
 
 
 import { CarouselContainer, CarouselImg } from './CarouselElements.js';
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 

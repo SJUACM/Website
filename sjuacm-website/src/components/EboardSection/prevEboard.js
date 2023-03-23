@@ -6,9 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 function addEboardMember({name, gradYear, major, img, linkedIn, github, email, margin_top}) {
-    if (github == null) {
-        const isGithub = false;
-    }
     return (
         <CustomCard style={{marginTop : '0px', padding : '55px'}}>
             <CustomCardImg src={img}/>

@@ -6,7 +6,7 @@ import {upcomingMeetings} from '../UpcomingMeetings/data'
 
 var subNav = [];
 
-if (upcomingMeetings.length == 0){
+if (upcomingMeetings.length === 0){
   subNav = [
     {
       title: 'All',

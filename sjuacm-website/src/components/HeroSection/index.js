@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4'
 import { AltButton } from '../ButtonElements'
-import { HeroContainer, HeroMain, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, CarouselContainer } from './HeroElements'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, CarouselContainer } from './HeroElements'
 import { ImgCarousel } from '../Carousel'
 //import { CarouselContainer } from '../Carousel/CarouselElements'
 

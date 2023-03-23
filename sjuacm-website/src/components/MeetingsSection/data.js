@@ -51,7 +51,7 @@ import eyPic3 from '../../img/meetingPics/eyCarousel/eyPic3.jpg'
 import eyPic4 from '../../img/meetingPics/eyCarousel/eyPic4.jpg'
 import eyPic5 from '../../img/meetingPics/eyCarousel/eyPic5.jpg'
 import eyPic6 from '../../img/meetingPics/eyCarousel/eyPic6.jpg'
-// import sweRoadmap from '../../img/meetingPics/sweRoadmap.jpg'
+import sweRoadmap from '../../img/meetingPics/sweRoadmap.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -65,23 +65,23 @@ import lifeAfterSJUSlides from './MeetingFiles/Life_After_SJU.pdf'
 import Spring2023KickoffSlides from './MeetingFiles/Spring_2023_Kickoff.pdf'
 import GoingPhishingSlides from './MeetingFiles/Going_Phishing_Lab.pdf'
 import MalwareDevelopmentSlides from './MeetingFiles/Malware_Development_Basics.pdf'
-// import SWERoadmap from './MeetingFiles/Software_Engineering_Career_Roadmap.pdf'
+import SWERoadmap from './MeetingFiles/Software_Engineering_Career_Roadmap.pdf'
 
 
 export const meetings = [
-    // {
-    //     date: '3/20/2023',
-    //     name : 'Software Engineering Career Roadmap by Headstarter',
-    //     description : "Guest speaker and CEO of Headstarter, Yasin Ehsan, presents the road to success in software engineering, including the tools and resources necessary to launch your career in tech. Learn about Yasin's journey from Queens College student, to 12x hackathon winner, to entrepreneur.",
-    //     slidesLink: SWERoadmap,
-    //     slidesName: 'Software_Engineering_Career_Roadmap.pdf',
-    //     codeLink: '',
-    //     youtubeLink: '',
-    //     img : sweRoadmap,
-    //     margin_top : '0px',
-    //     alt_margin : true,
-    //     semester : 'Spring 2023',
-    // },
+    {
+        date: '3/20/2023',
+        name : 'Software Engineering Career Roadmap by Headstarter',
+        description : "Guest speaker and CEO of Headstarter, Yasin Ehsan, presents the road to success in software engineering, including the tools and resources necessary to launch your career in tech. Learn about Yasin's journey from Queens College student, to 12x hackathon winner, to entrepreneur.",
+        slidesLink: SWERoadmap,
+        slidesName: 'Software_Engineering_Career_Roadmap.pdf',
+        codeLink: '',
+        youtubeLink: '',
+        img : sweRoadmap,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Spring 2023',
+    },
     {
         date: '3/16/2023',
         name : 'EY Cybersecurity Panel and Office Tour',

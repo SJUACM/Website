@@ -53,6 +53,7 @@ import eyPic5 from '../../img/meetingPics/eyCarousel/eyPic5.jpg'
 import eyPic6 from '../../img/meetingPics/eyCarousel/eyPic6.jpg'
 import sweRoadmap from '../../img/meetingPics/sweRoadmap.jpg'
 import twitterBots from '../../img/meetingPics/twitterBots.jpg'
+import networking101 from '../../img/meetingPics/networking101.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -68,9 +69,24 @@ import GoingPhishingSlides from './MeetingFiles/Going_Phishing_Lab.pdf'
 import MalwareDevelopmentSlides from './MeetingFiles/Malware_Development_Basics.pdf'
 import SWERoadmap from './MeetingFiles/Software_Engineering_Career_Roadmap.pdf'
 import TwitterBotsAndAPIs from './MeetingFiles/Twitter_Bots_and_APIs.pdf'
+import Networking101 from './MeetingFiles/Networking_101.pdf'
 
 
 export const meetings = [
+    {
+        date: '4/13/2023',
+        name : 'Networking 101',
+        description : "A crash course on the fundamentals of computer networking and a demonstration of how to build and configure your own basic network using Cisco Packet Tracer! Students then put their skills to the test by competing against each other to see who can build out a small network the fastest.",
+        slidesLink: Networking101,
+        slidesName: 'Networking_101.pdf',
+        codeLink: '',
+        youtubeLink: '',
+        img : networking101,
+        margin_top : '0px',
+        alt_margin : true,
+        margin_left : true,
+        semester : 'Spring 2023',
+    },
     {
         date: '3/23/2023',
         name : 'Twitter Bots and APIs',

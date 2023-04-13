@@ -12,7 +12,7 @@ import jadePic from '../../img/eboardPics/jade_eboardpic.png';
 import isaacPic from '../../img/eboardPics/isaac.jpg';
 import jillPic from '../../img/eboardPics/jill.jpg';
 import nicolePic from '../../img/eboardPics/nicole.jpg';
-import vincePic from '../../img/eboardPics/vince.png';
+import vincePic from '../../img/eboardPics/vince_eboardpic.png';
 import dejontePic from '../../img/eboardPics/dejonte.jpg';
 import roshniPic from '../../img/eboardPics/roshni.jpg';
 

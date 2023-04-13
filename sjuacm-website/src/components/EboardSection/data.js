@@ -12,7 +12,7 @@ import jadePic from '../../img/eboardPics/jade_eboardpic.png';
 import isaacPic from '../../img/eboardPics/isaac.jpg';
 import jillPic from '../../img/eboardPics/jill.jpg';
 import nicolePic from '../../img/eboardPics/nicole.jpg';
-import vincePic from '../../img/eboardPics/vince.PNG';
+import vincePic from '../../img/eboardPics/vince.png';
 import dejontePic from '../../img/eboardPics/dejonte.jpg';
 import roshniPic from '../../img/eboardPics/roshni.jpg';
 
@@ -134,7 +134,7 @@ export const prevEboardMembers = [
     },
     {
         name: 'Jade Deo',
-        major: 'Social Media Coordinator',
+        major: 'Social Media Manager',
         gradYear : '2021-2022',
         email: 'jade.deo18@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/jadedeo/',

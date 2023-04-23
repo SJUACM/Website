@@ -9,14 +9,6 @@ export const upcomingMeetings = [
     // }
 
     {
-        date: 'Thursday, April 20, 2023',
-        time: '1:50pm - 3:00pm',
-        location: 'TBA',
-        name : 'Intro to Active Directory',
-        description : "Learn what Active Directory is and how it is implemented to distribute resources amongst users in an organization.",
-        link: ""
-    },
-    {
         date: 'Thursday, April 27, 2023',
         time: '1:50pm - 3:00pm',
         location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',

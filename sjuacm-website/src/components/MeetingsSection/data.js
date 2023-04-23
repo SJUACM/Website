@@ -54,6 +54,7 @@ import eyPic6 from '../../img/meetingPics/eyCarousel/eyPic6.jpg'
 import sweRoadmap from '../../img/meetingPics/sweRoadmap.jpg'
 import twitterBots from '../../img/meetingPics/twitterBots.jpg'
 import networking101 from '../../img/meetingPics/networking101.jpg'
+import activeDirectory from '../../img/meetingPics/activeDirectory.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -70,9 +71,23 @@ import MalwareDevelopmentSlides from './MeetingFiles/Malware_Development_Basics.
 import SWERoadmap from './MeetingFiles/Software_Engineering_Career_Roadmap.pdf'
 import TwitterBotsAndAPIs from './MeetingFiles/Twitter_Bots_and_APIs.pdf'
 import Networking101 from './MeetingFiles/Networking_101.pdf'
+import ActiveDirectory from './MeetingFiles/Introduction_to_Active_Directory.pdf'
 
 
 export const meetings = [
+    {
+        date: '4/20/2023',
+        name : 'Introduction to Active Directory',
+        description : "Learn what Active Directory is and how it can be used by an organization to manage its users, services, and computers. In this presentation, we cover the architecture of Active Directory, its security implications, and why this technology is essential in a corporate environment.",
+        slidesLink: ActiveDirectory,
+        slidesName: 'Introduction_to_Active_Directory.pdf',
+        codeLink: '',
+        youtubeLink: '',
+        img : activeDirectory,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Spring 2023',
+    },
     {
         date: '4/13/2023',
         name : 'Networking 101',

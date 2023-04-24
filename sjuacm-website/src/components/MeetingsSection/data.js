@@ -74,6 +74,8 @@ import Networking101 from './MeetingFiles/Networking_101.pdf'
 import ActiveDirectory from './MeetingFiles/Introduction_to_Active_Directory.pdf'
 
 
+// you found me! here's the flag: sjuacm{c0mm1tt3d_t0_g1thub}
+
 export const meetings = [
     {
         date: '4/20/2023',

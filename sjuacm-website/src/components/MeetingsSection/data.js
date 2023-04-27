@@ -55,6 +55,7 @@ import sweRoadmap from '../../img/meetingPics/sweRoadmap.jpg'
 import twitterBots from '../../img/meetingPics/twitterBots.jpg'
 import networking101 from '../../img/meetingPics/networking101.jpg'
 import activeDirectory from '../../img/meetingPics/activeDirectory.jpg'
+import ctf23 from '../../img/meetingPics/ctf23.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -74,9 +75,21 @@ import Networking101 from './MeetingFiles/Networking_101.pdf'
 import ActiveDirectory from './MeetingFiles/Introduction_to_Active_Directory.pdf'
 
 
-// you found me! here's the flag: sjuacm{c0mm1tt3d_t0_g1thub}
-
 export const meetings = [
+    {
+        date: '4/27/2023',
+        name : "Capture the Flag 2023",
+        description : "SJU ACM members closed out the school year by taking part in our annual Capture the Flag competition! Points were awarded by solving questions covering various topics, including programming, networking, cyber security, and many other relevant subjects. The top 5 participants with the most points went home with prizes!",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: '',
+        youtubeLink: '',
+        img : ctf23,
+        margin_top : '0px',
+        alt_margin : true,
+        margin_left : true,
+        semester : 'Spring 2023',
+    },
     {
         date: '4/20/2023',
         name : 'Introduction to Active Directory',

@@ -1,17 +1,29 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4'
 import { AltButton } from '../ButtonElements'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, CarouselContainer } from './HeroElements'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, HeroBtnContainer, ArrowForward, ArrowRight, CarouselContainer } from './HeroElements'
 import { ImgCarousel } from '../Carousel'
 //import { CarouselContainer } from '../Carousel/CarouselElements'
 
 
 const HeroSection = () => {
     
-    const [hover, setHover] = useState(false)
+    const [hover1, setHover1] = useState(false)
 
-    const onHover = () => {
-        setHover(!hover)
+    const onHover1 = () => {
+        setHover1(!hover1)
+    }
+
+    const [hover2, setHover2] = useState(false)
+
+    const onHover2 = () => {
+        setHover2(!hover2)
+    }
+
+    const [hover3, setHover3] = useState(false)
+
+    const onHover3 = () => {
+        setHover3(!hover3)
     }
 
     return (
@@ -26,12 +38,23 @@ const HeroSection = () => {
                 <HeroP>
                     SJU's Premier Organization for Computer Science and Cyber Security
                 </HeroP>
-                <HeroBtnWrapper>
-                    <AltButton onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' onClick={() => window.open('https://forms.gle/CGcyq93XaLUfMAkz9', '_blank', 'noopener,noreferrer') }>
-                        Join our Mailing List {hover ? <ArrowForward /> : <ArrowRight />}
-                    </AltButton>
-                    
-                </HeroBtnWrapper>
+                <HeroBtnContainer>
+                    <HeroBtnWrapper>
+                        <AltButton onMouseEnter={onHover1} onMouseLeave={onHover1} primary='true' dark='true' onClick={() => window.open('https://discord.com/invite/bw2ke7MgN', '_blank', 'noopener,noreferrer') }>
+                            Join our Discord Server {hover1 ? <ArrowForward /> : <ArrowRight />}
+                        </AltButton>                    
+                    </HeroBtnWrapper>
+                    <HeroBtnWrapper>
+                        <AltButton onMouseEnter={onHover2} onMouseLeave={onHover2} primary='true' dark='true' onClick={() => window.open('https://www.instagram.com/sjuacm/', '_blank', 'noopener,noreferrer') }>
+                            Follow us on Instagram {hover2 ? <ArrowForward /> : <ArrowRight />}
+                        </AltButton>                    
+                    </HeroBtnWrapper>
+                    <HeroBtnWrapper>
+                        <AltButton onMouseEnter={onHover3} onMouseLeave={onHover3} primary='true' dark='true' onClick={() => window.open('https://forms.gle/CGcyq93XaLUfMAkz9', '_blank', 'noopener,noreferrer') }>
+                            Subscribe to our Mailing List {hover3 ? <ArrowForward /> : <ArrowRight />}
+                        </AltButton>                    
+                    </HeroBtnWrapper>
+                </HeroBtnContainer>
             </HeroContent>
 
             <CarouselContainer>

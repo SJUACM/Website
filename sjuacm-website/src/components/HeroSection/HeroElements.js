@@ -21,9 +21,13 @@ export const HeroContainer = styled.div`
         background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 100%), linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
         z-index: 2;
     }
+    @media screen and (max-width: 768px) {
+        padding-top: 600px;
+        height: 1200px;
+    }
     @media screen and (max-width: 480px) {
         padding-top: 600px;
-        height: 800px;
+        height: 1200px;
     }
 `;
 
@@ -115,6 +119,18 @@ export const HeroBtnWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     letter-spacing: 0.7px;
+`;
+
+export const HeroBtnContainer = styled.div`
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 0.7px;
+    @media screen and (max-width: 768px) {
+        padding-bottom: 200px;
+    }
 `;
 
 

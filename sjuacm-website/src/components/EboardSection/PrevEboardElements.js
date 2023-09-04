@@ -8,13 +8,13 @@ export const CardContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 2000px;
+    height: 2600px;
     position: relative;
     z-index: 1;
     margin-bottom: 100px;
     flexWrap: wrap;
     margin-top: -180px;
-    padding-top: 500px;
+    padding-top: 600px;
 
     @media screen and (max-width: 1060px) {
         height: 2000px;
@@ -28,7 +28,7 @@ export const CardContainer = styled.div`
     }
 
     // @media screen and (max-width: 855px) {
-    //     padding-top: 2000px;
+    //     padding-top: 2600px;
     //     padding-bottom: 950px;
     // }
 
@@ -42,7 +42,7 @@ export const CardContainer = styled.div`
     @media screen and (max-width: 480px) {
         padding-top: 1500px
         padding-bottom: 1800px;
-        height: 4500px;
+        height: 5500px;
     }
 
 `;

@@ -26,13 +26,13 @@ export const ImgCarousel = () => {
     return (
         <CarouselContainer>
             <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true}>
-
-                <CarouselImg src={ abet } />  
-                <CarouselImg src={ sap } />  
-                <CarouselImg src={ hackathon } />  
-                <CarouselImg src={ kickoff22 } />  
+ 
+                <CarouselImg src={ kickoff22 } />
+                <CarouselImg src={ hackathon } /> 
+                <CarouselImg src={ sap } />     
                 <CarouselImg src={ research } />
                 <CarouselImg src={ labPic1 } />  
+                <CarouselImg src={ abet } /> 
                 <CarouselImg src={ labPic3 } />
                 <CarouselImg src={ labPic5 } />
                 <CarouselImg src={ labPic2 } />

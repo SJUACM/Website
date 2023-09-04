@@ -84,7 +84,7 @@ export const Tomas = {
 export const Ignacio = {
     name: 'Ignacio Antequera Sanchez',
     position: 'Committee Chair',
-    major: 'Computer Science',
+    major: 'Computer Science & Mathematics',
     gradYear: 'December 2023',
     email: 'ignacio.antequera21@stjohns.edu',
     linkedIn : 'https://www.linkedin.com/in/ignacio-antequera/',

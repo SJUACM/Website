@@ -56,6 +56,7 @@ import twitterBots from '../../img/meetingPics/twitterBots.jpg'
 import networking101 from '../../img/meetingPics/networking101.jpg'
 import activeDirectory from '../../img/meetingPics/activeDirectory.jpg'
 import ctf23 from '../../img/meetingPics/ctf23.jpg'
+import fallKickoff23 from '../../img/meetingPics/fallKickoff23.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -73,9 +74,23 @@ import SWERoadmap from './MeetingFiles/Software_Engineering_Career_Roadmap.pdf'
 import TwitterBotsAndAPIs from './MeetingFiles/Twitter_Bots_and_APIs.pdf'
 import Networking101 from './MeetingFiles/Networking_101.pdf'
 import ActiveDirectory from './MeetingFiles/Introduction_to_Active_Directory.pdf'
+import Fall2023KickoffSlides from './MeetingFiles/Fall_2023_Kickoff.pdf'
 
 
 export const meetings = [
+    {
+        date: '9/14/2023',
+        name : "Fall 2023 Kickoff | Web Server DoS Attack",
+        description : "Both new and returning members were welcomed to the Fall 2023 semester of SJU ACM with an introduction to the new e-board, club initiatives for this school year, and a sneak peek at some of the meetings coming soon. Our kickoff concluded with a demonstration of a denial of service attack against a live web server.",
+        slidesLink: Fall2023KickoffSlides,
+        slidesName: 'Fall_2023_Kickoff.pdf',
+        codeLink: '',
+        youtubeLink: '',
+        img : fallKickoff23,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Fall 2023',
+    },
     {
         date: '4/27/2023',
         name : "Capture the Flag 2023",
@@ -306,7 +321,7 @@ export const meetings = [
         img : research,
         margin_top : '0px',
         alt_margin : true,
-        semester : 'Spring 2022',
+        semester : '2021-2022',
     },
     {
         date: '4/28/2022',
@@ -320,7 +335,7 @@ export const meetings = [
         margin_top : '0px',
         margin_left : true,
         alt_margin : true,
-        semester : 'Spring 2022',
+        semester : '2021-2022',
     },
     {
         date: '4/7/2022',
@@ -333,7 +348,7 @@ export const meetings = [
         img : RatLab,
         margin_top : '0px',
         alt_margin : true,
-        semester : 'Spring 2022',
+        semester : '2021-2022',
     },
     {
         date: '3/31/2022',
@@ -346,7 +361,7 @@ export const meetings = [
         img : nfts,
         margin_top : '0px',
         alt_margin : true,
-        semester : 'Spring 2022',
+        semester : '2021-2022',
     },
     {
         date: '3/17/2022',
@@ -359,7 +374,7 @@ export const meetings = [
         img : alumniPanel,
         margin_top : '0px',
         alt_margin : true,
-        semester : 'Spring 2022',
+        semester : '2021-2022',
     },
     {
         date: '2/24/2022',
@@ -372,7 +387,7 @@ export const meetings = [
         img : aiML,
         margin_top : '0px',
         alt_margin : true,
-        semester : 'Spring 2022',
+        semester : '2021-2022',
     },
     {
         date: '2/3/2022',
@@ -384,7 +399,7 @@ export const meetings = [
         img : dosLab,
         margin_top : '0px',
         alt_margin : true,
-        semester : 'Spring 2022',
+        semester : '2021-2022',
     },
     {
         date: '1/27/2022',
@@ -396,7 +411,7 @@ export const meetings = [
         img : activitesFair,
         margin_top : '0px',
         alt_margin : true,
-        semester : 'Spring 2022',
+        semester : '2021-2022',
     },
     {
         date: '11/18/2021',
@@ -409,7 +424,7 @@ export const meetings = [
         img : sweInterviewPrep,
         margin_top : '0px',
         alt_margin : true,
-        semester : 'Fall 2021',
+        semester : '2021-2022',
     },
     {
         date: '11/4/2021',
@@ -421,7 +436,7 @@ export const meetings = [
         youtubeLink: '',
         img : revEng,
         alt_ : true,
-        semester : 'Fall 2021',
+        semester : '2021-2022',
     },
     {
         date: '10/28/2021',
@@ -431,7 +446,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: '',
         img : dayInTheLife,
-        semester : 'Fall 2021',
+        semester : '2021-2022',
     },
     {
         date: '10/18/2021',
@@ -442,7 +457,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: '',
         img : womenInTech,
-        semester : 'Fall 2021',
+        semester : '2021-2022',
     },
     {
         date: '10/7/2021',
@@ -454,7 +469,7 @@ export const meetings = [
         img : gameDev,
         customMessage : 'Download the Game',
         customLink : 'https://tektonik-software.itch.io/sky-cycle',
-        semester : 'Fall 2021',
+        semester : '2021-2022',
     },
     {
         date: '9/30/2021',
@@ -464,7 +479,7 @@ export const meetings = [
         codeLink: 'https://colab.research.google.com/github/SJUACM/COVID-19-Data-Analysis/blob/main/COVID_19_Data_Analysis_Lab.ipynb',
         youtubeLink: '',
         img : dataAnalytics,
-        semester : 'Fall 2021'
+        semester : '2021-2022'
     },
     {
         date: '9/23/2021',
@@ -476,7 +491,7 @@ export const meetings = [
         youtubeLink: '',
         img : kickoff,
         margin_left: '',
-        semester : 'Fall 2021',
+        semester : '2021-2022',
     },
     {
         date: '3/25/2021',
@@ -487,7 +502,7 @@ export const meetings = [
         youtubeLink: 'https://www.youtube.com/watch?v=ugCHGbzswGE',
         img : computerVision,
         start_sem : true,
-        semester : 'Spring 2021',
+        semester : '2020-2021',
     },
     {
         date: '3/04/2021',
@@ -497,7 +512,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: 'https://www.youtube.com/watch?v=w3MfpAT218o',
         img : metasploitable,
-        semester : 'Spring 2021',
+        semester : '2020-2021',
     },
     {
         date: '2/18/2021',
@@ -507,7 +522,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: 'https://www.youtube.com/watch?v=-Zt8-Zbwy0s',
         img : spring2021Kickoff,
-        semester : 'Spring 2021',
+        semester : '2020-2021',
     },
     {
         date: '11/12/2020',
@@ -518,7 +533,7 @@ export const meetings = [
         youtubeLink: 'https://www.youtube.com/watch?v=abW7AQ-Lc9E',
         img : javaProjects,
         start_sem : true,
-        semester : 'Fall 2020',
+        semester : '2020-2021',
     },
     {
         date: '11/5/2020',
@@ -528,7 +543,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: 'https://www.youtube.com/watch?v=xDqmxO7v67U',
         img : RAT_,
-        semester : 'Fall 2020',
+        semester : '2020-2021',
     },
     {
         date: '10/22/2020',
@@ -538,7 +553,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: 'https://www.youtube.com/watch?v=hgEiYBjft8A',
         img : chatBot,
-        semester : 'Fall 2020',
+        semester : '2020-2021',
     },
     {
         date: '10/15/2020',
@@ -548,7 +563,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: 'https://www.youtube.com/watch?v=Us8T9r-rIFI',
         img : passwordCracking,
-        semester : 'Fall 2020',
+        semester : '2020-2021',
     },
     {
         date: '10/1/2020',
@@ -558,7 +573,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: 'https://www.youtube.com/watch?v=c77nc8Iod4o',
         img : htmlCss,
-        semester : 'Fall 2020',
+        semester : '2020-2021',
     },
     {
         date: '9/24/2020',
@@ -568,7 +583,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: 'https://www.youtube.com/watch?v=zz3YTqDcDO0',
         img : webscraping,
-        semester : 'Fall 2020',
+        semester : '2020-2021',
     },
     {
         date: '9/17/2020',
@@ -578,7 +593,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: 'https://www.youtube.com/watch?v=8EBEDDgp2e8',
         img : phishing,
-        semester : 'Fall 2020',
+        semester : '2020-2021',
     },
     {
         date: '9/10/2020',
@@ -588,7 +603,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: 'https://www.youtube.com/watch?v=DWtHq1m-a1k',
         img : internshipAdvice,
-        semester : 'Fall 2020',
+        semester : '2020-2021',
     },
     {
         date: '9/10/2020',
@@ -598,7 +613,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: 'https://www.youtube.com/watch?v=BhQXfHv4nKw',
         img : pygame,
-        semester : 'Fall 2020',
+        semester : '2020-2021',
     },
     {
         date: '9/3/2020',
@@ -608,7 +623,7 @@ export const meetings = [
         codeLink: '',
         youtubeLink: 'https://www.youtube.com/watch?v=8bECiNq460Y',
         img : fall2020Kickoff,
-        semester : 'Fall 2020',
+        semester : '2020-2021',
     }
 
 ];

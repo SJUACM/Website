@@ -8,16 +8,6 @@ export const upcomingMeetings = [
     //     link: ""
     // },
 
-
-    {
-        date: 'Thursday, September 14, 2023',
-        time: '1:50pm - 3:00pm',
-        location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
-        name : 'Fall 2023 Kickoff',
-        description : "Join us as we kickoff the Fall semester with e-board introductions, an overview of SJU ACM, an outline of some of the meetings we have planned, and a demonstration how to perform a denial of service attack (which you will get to try out for yourselves)!",
-        link: ""
-    },
-
     {
         date: 'Thursday, September 28, 2023',
         time: '12:00pm - 4:00pm',

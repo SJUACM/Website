@@ -20,12 +20,11 @@ function App() {
         <Route path="/meetings" element={<Meetings/>} />
 
         <Route path="/meetings/Upcoming" element={<Meetings semester='Upcoming' />} />
+        <Route path="/meetings/Fall2023" element={<Meetings semester='Fall 2023' />} />
         <Route path="/meetings/Spring2023" element={<Meetings semester='Spring 2023' />} />
         <Route path="/meetings/Fall2022" element={<Meetings semester='Fall 2022' />} />
-        <Route path="/meetings/Spring2022" element={<Meetings semester='Spring 2022' />} />
-        <Route path="/meetings/Fall2021" element={<Meetings semester='Fall 2021' />} />
-        <Route path="/meetings/Spring2021" element={<Meetings semester='Spring 2021'/>} />
-        <Route path="/meetings/Fall2020" element={<Meetings semester='Fall 2020'/>} />
+        <Route path="/meetings/2021-2022" element={<Meetings semester='2021-2022' />} />
+        <Route path="/meetings/2020-2021" element={<Meetings semester='2020-2021'/>} />
 
         <Route path="/resources" element={<Resources/>} />
         <Route path="/blog" element={<Blog/>} />

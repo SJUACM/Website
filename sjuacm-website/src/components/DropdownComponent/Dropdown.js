@@ -13,6 +13,11 @@ if (upcomingMeetings.length === 0){
       //   cName: 'dropdown-link'
       // },
       {
+        title: 'Fall 2023',
+        path: '/meetings/Fall2023',
+        cName: 'dropdown-link'
+      },
+      {
         title: 'Spring 2023',
         path: '/meetings/Spring2023',
         cName: 'dropdown-link'
@@ -23,23 +28,13 @@ if (upcomingMeetings.length === 0){
         cName: 'dropdown-link'
       },
       {
-        title: 'Spring 2022',
-        path: '/meetings/Spring2022',
+        title: '2021-2022',
+        path: '/meetings/2021-2022',
         cName: 'dropdown-link'
       },
       {
-        title: 'Fall 2021',
-        path: '/meetings/Fall2021',
-        cName: 'dropdown-link'
-      },
-      {
-        title: 'Spring 2021',
-        path: '/meetings/Spring2021',
-        cName: 'dropdown-link'
-      },
-      {
-        title: 'Fall 2020',
-        path: '/meetings/Fall2020',
+        title: '2020-2021',
+        path: '/meetings/2020-2021',
         cName: 'dropdown-link'
       },
     ];
@@ -57,6 +52,11 @@ if (upcomingMeetings.length === 0){
       //   cName: 'dropdown-link'
       // },
       {
+        title: 'Fall 2023',
+        path: '/meetings/Fall2023',
+        cName: 'dropdown-link'
+      },
+      {
         title: 'Spring 2023',
         path: '/meetings/Spring2023',
         cName: 'dropdown-link'
@@ -67,23 +67,13 @@ if (upcomingMeetings.length === 0){
         cName: 'dropdown-link'
       },
       {
-        title: 'Spring 2022',
-        path: '/meetings/Spring2022',
+        title: '2021-2022',
+        path: '/meetings/2021-2022',
         cName: 'dropdown-link'
       },
       {
-        title: 'Fall 2021',
-        path: '/meetings/Fall2021',
-        cName: 'dropdown-link'
-      },
-      {
-        title: 'Spring 2021',
-        path: '/meetings/Spring2021',
-        cName: 'dropdown-link'
-      },
-      {
-        title: 'Fall 2020',
-        path: '/meetings/Fall2020',
+        title: '2020-2021',
+        path: '/meetings/2020-2021',
         cName: 'dropdown-link'
       },
     ];

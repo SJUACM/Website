@@ -24,15 +24,15 @@ function addMeeting({date, name, description, slidesLink, codeLink, slidesName, 
                             <Subtitle>{description}</Subtitle>
                             
                             <LinkWrapper>
-                                {(slidesLink !== '' && codeLink !== '') && 
+                                {(slidesLink !== '' && codeLink !== '' && customMessage === '') && 
                                     <><a href={slidesLink} download={slidesName} style={{ color: 'white' }}>Download Slides</a><a href={codeLink} style={{ color: 'white', marginLeft: '40px' }}>Run the Source Code</a></>  
                                 }
 
-                                {(slidesLink !== '' && codeLink === '') && 
+                                {(slidesLink !== '' && codeLink === '' && customMessage === '') && 
                                     <><a href={slidesLink} download={slidesName} style={{ color: 'white' }}>Download Slides</a></>  
                                 }
                                 
-                                {(slidesLink === '' && codeLink !== '') && 
+                                {(slidesLink === '' && codeLink !== '' && customMessage === '') && 
                                     <><a href={codeLink} style={{ color: 'white'}}>Run the Source Code</a></>  
                                 }
 
@@ -40,7 +40,11 @@ function addMeeting({date, name, description, slidesLink, codeLink, slidesName, 
                                     <><a href={youtubeLink} style={{ color: 'white'}}>Watch the Recording on YouTube</a></>  
                                 }
 
-                                {(customMessage !== '') && 
+                                {(slidesLink !== '' && customMessage !== '') && 
+                                    <><a href={slidesLink} download={slidesName} style={{ color: 'white' }}>Download Slides</a><a href={customLink} style={{ color: 'white', marginLeft: '40px' }}>{customMessage}</a></>  
+                                }
+
+                                {(slidesLink === '' && customMessage !== '') && 
                                     <><a href={customLink} style={{ color: 'white'}}>{customMessage}</a></>  
                                 }
 

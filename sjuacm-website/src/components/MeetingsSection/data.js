@@ -57,7 +57,10 @@ import networking101 from '../../img/meetingPics/networking101.jpg'
 import activeDirectory from '../../img/meetingPics/activeDirectory.jpg'
 import ctf23 from '../../img/meetingPics/ctf23.jpg'
 import fallKickoff23 from '../../img/meetingPics/fallKickoff23.jpg'
-
+import cluePic1 from '../../img/meetingPics/clueCarousel/cluePic1.jpg'
+import cluePic2 from '../../img/meetingPics/clueCarousel/cluePic2.jpg'
+import cluePic3 from '../../img/meetingPics/clueCarousel/cluePic3.jpg'
+import cluePic4 from '../../img/meetingPics/clueCarousel/cluePic4.jpg'
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
 import SWEInterviewPrep from './MeetingFiles/SJU_ACM_Software_Engineering_Interview_Prep.pdf'
@@ -75,9 +78,26 @@ import TwitterBotsAndAPIs from './MeetingFiles/Twitter_Bots_and_APIs.pdf'
 import Networking101 from './MeetingFiles/Networking_101.pdf'
 import ActiveDirectory from './MeetingFiles/Introduction_to_Active_Directory.pdf'
 import Fall2023KickoffSlides from './MeetingFiles/Fall_2023_Kickoff.pdf'
+import DigitalForensicsInvestigation from './MeetingFiles/Digital_Forensics_Investigation_Lab.pdf'
 
 
 export const meetings = [
+    {
+        date: '10/5/2023',
+        name : "Digital Forensics Investigations + SJU ACM Clue",
+        description : "HELP! St. John’s University has been HACKED and SJU ACM members have been recruited to investigate. Learn how to conduct a digital forensics investigation and put your skills to the test by examining the culprit’s USB drive to figure out who did it, where they did it, and what malware they used.",
+        slidesLink: DigitalForensicsInvestigation,
+        slidesName: 'Digital_Forensics_Investigation_Lab.pdf',
+        codeLink: '',
+        customMessage : "USB Drive Image",
+        customLink : "https://github.com/SJUACM/Clue",
+        youtubeLink: '',
+        img : '',
+        carousel: [cluePic1, cluePic2, cluePic3, cluePic4],
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Fall 2023',
+    },
     {
         date: '9/14/2023',
         name : "Fall 2023 Kickoff | Web Server DoS Attack",

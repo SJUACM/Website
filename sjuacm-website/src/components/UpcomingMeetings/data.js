@@ -8,21 +8,13 @@ export const upcomingMeetings = [
     //     link: ""
     // },
 
-    {
-        date: 'Thursday, September 28, 2023',
-        time: '12:00pm - 4:00pm',
-        location: 'Taffner Field House',
-        name : 'Fall Career & Internship Expo 2023',
-        description : "Looking for an internship or full-time position for Summer 2024? Attend this expo to get the chance to meet and speak with over 100 different employers! Make sure to dress in business casual and bring several copies of your resume!",
-        link: "https://stjohns.joinhandshake.com/stu/career_fairs/40708?ref=events-search"
-    },
 
     {
-        date: 'Thursday, October 5, 2023',
+        date: 'Thursday, October 12, 2023',
         time: '1:50pm - 3:00pm',
         location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
-        name : 'Digital Forensics Investigation Lab',
-        description : "In this workshop, you will get the chance to perform a digital forensics investigation on a USB drive and uncover all of the secrets that lie within it...",
+        name : 'Intro to Web Development',
+        description : "Learn about how websites are created, including the general structure of their source code and the various languages used to build them.",
         link: ""
     },
 

@@ -125,7 +125,6 @@ export const TextWrapper = styled.div`
 
 export const LinkWrapper = styled.div`
     margin-bottom: 80px;
-
     
     
 `;

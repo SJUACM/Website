@@ -24,19 +24,23 @@ function addMeeting({date, name, description, slidesLink, codeLink, slidesName, 
                             <Subtitle>{description}</Subtitle>
                             
                             <LinkWrapper>
-                                {(slidesLink !== '' && codeLink !== '' && customMessage === '') && 
+                                {(slidesLink !== '' && codeLink !== '' && customMessage === '' && youtubeLink === '') && 
                                     <><a href={slidesLink} download={slidesName} style={{ color: 'white' }}>Download Slides</a><a href={codeLink} style={{ color: 'white', marginLeft: '40px' }}>Run the Source Code</a></>  
                                 }
 
-                                {(slidesLink !== '' && codeLink === '' && customMessage === '') && 
+                                {(slidesLink !== '' && codeLink === '' && customMessage === '' && youtubeLink === '') && 
                                     <><a href={slidesLink} download={slidesName} style={{ color: 'white' }}>Download Slides</a></>  
                                 }
                                 
-                                {(slidesLink === '' && codeLink !== '' && customMessage === '') && 
+                                {(slidesLink === '' && codeLink !== '' && customMessage === '' && youtubeLink === '') && 
                                     <><a href={codeLink} style={{ color: 'white'}}>Run the Source Code</a></>  
                                 }
 
-                                {(youtubeLink !== '') && 
+                                {(slidesLink !== '' && codeLink === '' && customMessage === '' && youtubeLink !== '') && 
+                                    <><a href={slidesLink} download={slidesName} style={{ color: 'white' }}>Download Slides</a><a href={youtubeLink} style={{ color: 'white', marginLeft: '40px' }}>Watch the Recording</a></>
+                                }
+
+                                {(slidesLink === '' && youtubeLink !== '') && 
                                     <><a href={youtubeLink} style={{ color: 'white'}}>Watch the Recording on YouTube</a></>  
                                 }
 

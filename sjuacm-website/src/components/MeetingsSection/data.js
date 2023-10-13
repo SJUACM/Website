@@ -61,6 +61,8 @@ import cluePic1 from '../../img/meetingPics/clueCarousel/cluePic1.jpg'
 import cluePic2 from '../../img/meetingPics/clueCarousel/cluePic2.jpg'
 import cluePic3 from '../../img/meetingPics/clueCarousel/cluePic3.jpg'
 import cluePic4 from '../../img/meetingPics/clueCarousel/cluePic4.jpg'
+import introWebDev from '../../img/meetingPics/introWebDev.jpg'
+
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
 import SWEInterviewPrep from './MeetingFiles/SJU_ACM_Software_Engineering_Interview_Prep.pdf'
@@ -79,9 +81,25 @@ import Networking101 from './MeetingFiles/Networking_101.pdf'
 import ActiveDirectory from './MeetingFiles/Introduction_to_Active_Directory.pdf'
 import Fall2023KickoffSlides from './MeetingFiles/Fall_2023_Kickoff.pdf'
 import DigitalForensicsInvestigation from './MeetingFiles/Digital_Forensics_Investigation_Lab.pdf'
+import IntroWebDev from './MeetingFiles/Intro_to_Web_Development.pdf'
 
 
 export const meetings = [
+    {
+        date: '10/12/2023',
+        name : "Intro to Web Development",
+        description : "Ever wonder how websites are created? In this meeting, we covered the basics of web development and the fundamentals of the three core languages used for websites: HTML, CSS, and JavaScript. We saw these technologies in action by exploring a custom meme gallery website created by e-board member Tomas!",
+        slidesLink: IntroWebDev,
+        slidesName: 'Intro_to_Web_Development.pdf',
+        codeLink: 'https://github.com/SJUACM/Intro-to-Web-Dev-Website-Example',
+        customMessage : "",
+        customLink : "",
+        youtubeLink: '',
+        img : introWebDev,
+        margin_top : '0px',
+        alt_margin : true,
+        semester : 'Fall 2023',
+    },
     {
         date: '10/5/2023',
         name : "Digital Forensics Investigations + SJU ACM Clue",

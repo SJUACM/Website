@@ -10,11 +10,11 @@ export const upcomingMeetings = [
 
 
     {
-        date: 'Thursday, October 12, 2023',
+        date: 'Thursday, November 2, 2023',
         time: '1:50pm - 3:00pm',
         location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
-        name : 'Intro to Web Development',
-        description : "Learn about how websites are created, including the general structure of their source code and the various languages used to build them.",
+        name : 'Host Your Own Help Desk',
+        description : "Create your own help desk server and portal in this basic IT workshop. Get familiar with Linux server configuration, Docker containers, and cloud hosting, all throughout this workshop!",
         link: ""
     },
 

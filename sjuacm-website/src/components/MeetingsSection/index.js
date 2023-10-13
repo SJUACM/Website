@@ -25,7 +25,7 @@ function addMeeting({date, name, description, slidesLink, codeLink, slidesName, 
                             
                             <LinkWrapper>
                                 {(slidesLink !== '' && codeLink !== '' && customMessage === '' && youtubeLink === '') && 
-                                    <><a href={slidesLink} download={slidesName} style={{ color: 'white' }}>Download Slides</a><a href={codeLink} style={{ color: 'white', marginLeft: '40px' }}>Run the Source Code</a></>  
+                                    <><a href={slidesLink} download={slidesName} style={{ color: 'white' }}>Download Slides</a><a href={codeLink} style={{ color: 'white', marginLeft: '40px' }}>View the Source Code</a></>  
                                 }
 
                                 {(slidesLink !== '' && codeLink === '' && customMessage === '' && youtubeLink === '') && 
@@ -33,7 +33,7 @@ function addMeeting({date, name, description, slidesLink, codeLink, slidesName, 
                                 }
                                 
                                 {(slidesLink === '' && codeLink !== '' && customMessage === '' && youtubeLink === '') && 
-                                    <><a href={codeLink} style={{ color: 'white'}}>Run the Source Code</a></>  
+                                    <><a href={codeLink} style={{ color: 'white'}}>View the Source Code</a></>  
                                 }
 
                                 {(slidesLink !== '' && codeLink === '' && customMessage === '' && youtubeLink !== '') && 
@@ -41,7 +41,7 @@ function addMeeting({date, name, description, slidesLink, codeLink, slidesName, 
                                 }
 
                                 {(slidesLink === '' && youtubeLink !== '') && 
-                                    <><a href={youtubeLink} style={{ color: 'white'}}>Watch the Recording on YouTube</a></>  
+                                    <><a href={youtubeLink} style={{ color: 'white'}}>Watch the Recording</a></>  
                                 }
 
                                 {(slidesLink !== '' && customMessage !== '') && 

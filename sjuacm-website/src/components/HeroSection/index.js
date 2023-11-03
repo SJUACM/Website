@@ -40,7 +40,7 @@ const HeroSection = () => {
                 </HeroP>
                 <HeroBtnContainer>
                     <HeroBtnWrapper>
-                        <AltButton onMouseEnter={onHover1} onMouseLeave={onHover1} primary='true' dark='true' onClick={() => window.open('https://discord.com/invite/bw2ke7MgN', '_blank', 'noopener,noreferrer') }>
+                        <AltButton onMouseEnter={onHover1} onMouseLeave={onHover1} primary='true' dark='true' onClick={() => window.open('https://discord.gg/fjMSxbER4F', '_blank', 'noopener,noreferrer') }>
                             Join our Discord Server {hover1 ? <ArrowForward /> : <ArrowRight />}
                         </AltButton>                    
                     </HeroBtnWrapper>

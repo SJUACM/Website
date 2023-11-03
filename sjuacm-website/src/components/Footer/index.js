@@ -20,7 +20,7 @@ const Footer = ({margin_top, margin_bottom, padding_bottom, padding_top, res_adj
                                     <FontAwesomeIcon icon={faInstagram} fixedWidth aria-hidden={true} style={{fontSize : '2.0rem'}} />
                                 </a>
                                
-                                <a className="icon-link" href="https://discord.gg/8m7C9PgBQE" target="_blank" rel="noreferrer noopener" aria-label="SJU ACM Discord">
+                                <a className="icon-link" href="https://discord.gg/fjMSxbER4F" target="_blank" rel="noreferrer noopener" aria-label="SJU ACM Discord">
                                     <FontAwesomeIcon icon={faDiscord} fixedWidth aria-hidden={true} style={{fontSize : '2.0rem', marginLeft: '20px'}}/>
                                 </a>
                                

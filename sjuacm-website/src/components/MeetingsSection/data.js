@@ -62,6 +62,7 @@ import cluePic2 from '../../img/meetingPics/clueCarousel/cluePic2.jpg'
 import cluePic3 from '../../img/meetingPics/clueCarousel/cluePic3.jpg'
 import cluePic4 from '../../img/meetingPics/clueCarousel/cluePic4.jpg'
 import introWebDev from '../../img/meetingPics/introWebDev.jpg'
+import helpDesk from '../../img/meetingPics/helpDesk.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -82,9 +83,26 @@ import ActiveDirectory from './MeetingFiles/Introduction_to_Active_Directory.pdf
 import Fall2023KickoffSlides from './MeetingFiles/Fall_2023_Kickoff.pdf'
 import DigitalForensicsInvestigation from './MeetingFiles/Digital_Forensics_Investigation_Lab.pdf'
 import IntroWebDev from './MeetingFiles/Intro_to_Web_Development.pdf'
+import HelpDesk from './MeetingFiles/Host_Your_Own_Help_Desk.pdf'
 
 
 export const meetings = [
+    {
+        date: '11/2/2023',
+        name : "Host Your Own Help Desk",
+        description : "Do you have a ticket? Well now you do! In this meeting, members learned about the world of IT help desk and created their own ticketing system, using either a Linode server in the cloud or a Linux VM. They then completed a challenge to resolve their first help desk ticket!",
+        slidesLink: HelpDesk,
+        slidesName: 'Host_Your_Own_Help_Desk.pdf',
+        codeLink: '',
+        customMessage : "",
+        customLink : "",
+        youtubeLink: '',
+        img : helpDesk,
+        margin_top : '0px',
+        alt_margin : true,
+        margin_left: true,
+        semester : 'Fall 2023',
+    },
     {
         date: '10/12/2023',
         name : "Intro to Web Development",
@@ -98,6 +116,7 @@ export const meetings = [
         img : introWebDev,
         margin_top : '0px',
         alt_margin : true,
+        margin_left: true,
         semester : 'Fall 2023',
     },
     {

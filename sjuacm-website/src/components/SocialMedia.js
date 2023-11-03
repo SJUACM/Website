@@ -22,7 +22,7 @@ function SocialMedia(props) {
                 <a className="icon-link" href="https://www.instagram.com/sjuacm" target="_blank" rel="noreferrer noopener" aria-label="SJU ACM Instagram">
                     <FontAwesomeIcon icon={faInstagram} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '2.0rem'}} />
                 </a>
-                <a className="icon-link" href="https://discord.gg/8m7C9PgBQE" target="_blank" rel="noreferrer noopener" aria-label="SJU ACM Discord">
+                <a className="icon-link" href="https://discord.gg/fjMSxbER4F" target="_blank" rel="noreferrer noopener" aria-label="SJU ACM Discord">
                     <FontAwesomeIcon icon={faDiscord} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '2.0rem', marginLeft: '20px'}}/>
                 </a>
                 <a className="icon-link" href="https://www.youtube.com/channel/UCuIcwbZDPnZYNQ0pFhmaNwQ/videos" target="_blank" rel="noreferrer noopener" aria-label="SJU ACM YouTube">

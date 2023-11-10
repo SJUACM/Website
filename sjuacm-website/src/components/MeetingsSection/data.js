@@ -63,6 +63,7 @@ import cluePic3 from '../../img/meetingPics/clueCarousel/cluePic3.jpg'
 import cluePic4 from '../../img/meetingPics/clueCarousel/cluePic4.jpg'
 import introWebDev from '../../img/meetingPics/introWebDev.jpg'
 import helpDesk from '../../img/meetingPics/helpDesk.jpg'
+import pythonGameDev from '../../img/meetingPics/pythonGameDev.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -84,9 +85,26 @@ import Fall2023KickoffSlides from './MeetingFiles/Fall_2023_Kickoff.pdf'
 import DigitalForensicsInvestigation from './MeetingFiles/Digital_Forensics_Investigation_Lab.pdf'
 import IntroWebDev from './MeetingFiles/Intro_to_Web_Development.pdf'
 import HelpDesk from './MeetingFiles/Host_Your_Own_Help_Desk.pdf'
+import PythonGameDev from './MeetingFiles/Python_Game_Development.pdf'
 
 
 export const meetings = [
+    {
+        date: '11/9/2023',
+        name : "SJU ACM x SJU GET Club: Python Game Development",
+        description : "In this code-along workshop, we demonstrated how to create your own video game using the Pygame Python library. At the end, members had developed a functional fighting game that they can play with their friends and continue to develop further!",
+        slidesLink: PythonGameDev,
+        slidesName: 'Python_Game_Development.pdf',
+        codeLink: 'https://github.com/SJUACM/Pygame-Demo',
+        customMessage : "",
+        customLink : "",
+        youtubeLink: '',
+        img : pythonGameDev,
+        margin_top : '0px',
+        alt_margin : true,
+        margin_left: false,
+        semester : 'Fall 2023',
+    },
     {
         date: '11/2/2023',
         name : "Host Your Own Help Desk",

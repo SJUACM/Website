@@ -64,6 +64,7 @@ import cluePic4 from '../../img/meetingPics/clueCarousel/cluePic4.jpg'
 import introWebDev from '../../img/meetingPics/introWebDev.jpg'
 import helpDesk from '../../img/meetingPics/helpDesk.jpg'
 import pythonGameDev from '../../img/meetingPics/pythonGameDev.jpg'
+import aiDiscordBots from '../../img/meetingPics/aiDiscordBots.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -89,6 +90,22 @@ import PythonGameDev from './MeetingFiles/Python_Game_Development.pdf'
 
 
 export const meetings = [
+    {
+        date: '11/13/2023',
+        name : "AI and ML Discord Bots with Headstarter",
+        description : "Co-founder of Headstarter, St. John's alumnus, and former SJU ACM president, Faizan Ahmed, returned to lead a hands-on coding workshop that taught students how to utilize OpenAI's GPT API in their code and showcased how it can be used to create a Discord bot that performs a variety of customizable tasks.",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: 'https://github.com/SJUACM/AI-Lab',
+        customMessage : "",
+        customLink : "",
+        youtubeLink: 'https://www.loom.com/share/d1b1cbd70d574749a8820f1644400b35',
+        img : aiDiscordBots,
+        margin_top : '0px',
+        alt_margin : true,
+        margin_left: false,
+        semester : 'Fall 2023',
+    },
     {
         date: '11/9/2023',
         name : "SJU ACM x SJU GET Club: Python Game Development",

@@ -8,16 +8,6 @@ export const upcomingMeetings = [
     //     link: ""
     // },
 
-
-    {
-        date: 'Monday, November 13, 2023',
-        time: '1:50pm - 3:15pm',
-        location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
-        name : 'AI and ML Discord Bots with Headstarter',
-        description : "Experience a hands-on coding workshop from Headstarter that will utilize popular AI tools, such as OpenAI's GPT API and the HuggingFace API, to create a Discord bot that can solve homework problems and generate memes!",
-        link: ""
-    },
-
     {
         date: 'Thursday, November 16, 2023',
         time: '1:50pm - 3:15pm',
@@ -26,5 +16,6 @@ export const upcomingMeetings = [
         description : "In this meeting, we'll show you how you can turn those daunting technical interviews into a piece of cake. You'll be introduced to the Python programming language as well as strategies for practicing for your interviews.",
         link: ""
     },
+    
 
 ]

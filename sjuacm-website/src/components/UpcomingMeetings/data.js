@@ -9,11 +9,11 @@ export const upcomingMeetings = [
     // },
 
     {
-        date: 'Thursday, November 16, 2023',
-        time: '1:50pm - 3:15pm',
-        location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
-        name : 'Python Technical Interview Prep',
-        description : "In this meeting, we'll show you how you can turn those daunting technical interviews into a piece of cake. You'll be introduced to the Python programming language as well as strategies for practicing for your interviews.",
+        date: 'Thursday, November 30, 2023',
+        time: '5:30pm - 7:00pm',
+        location: 'Virtual Meeting',
+        name : 'SJU Alumni in Tech Panel (Fall 2023)',
+        description : "Hear from SJU ACM e-board alumni about their experiences in the workforce so far and how SJU ACM helped them to begin their careers.",
         link: ""
     },
     

@@ -65,6 +65,7 @@ import introWebDev from '../../img/meetingPics/introWebDev.jpg'
 import helpDesk from '../../img/meetingPics/helpDesk.jpg'
 import pythonGameDev from '../../img/meetingPics/pythonGameDev.jpg'
 import aiDiscordBots from '../../img/meetingPics/aiDiscordBots.jpg'
+import pythonTechnicalInterviewPrep from '../../img/meetingPics/pythonTechnicalInterviewPrep.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -87,9 +88,26 @@ import DigitalForensicsInvestigation from './MeetingFiles/Digital_Forensics_Inve
 import IntroWebDev from './MeetingFiles/Intro_to_Web_Development.pdf'
 import HelpDesk from './MeetingFiles/Host_Your_Own_Help_Desk.pdf'
 import PythonGameDev from './MeetingFiles/Python_Game_Development.pdf'
+import PythonTechnicalInterviewPrep from './MeetingFiles/Python_Technical_Interview_Prep.pdf'
 
 
 export const meetings = [
+    {
+        date: '11/17/2023',
+        name : "Python Technical Interview Prep",
+        description : "Dreading those scary coding interviews? In this meeting, e-board member Ben lays out practice and preparation strategies to make sure you're ready. He demonstrated how to use the NeetCode website and led all attendees in solving their first LeetCode problem!",
+        slidesLink: PythonTechnicalInterviewPrep,
+        slidesName: 'Python_Technical_Interview_Prep.pdf',
+        codeLink: '',
+        customMessage : "",
+        customLink : "",
+        youtubeLink: '',
+        img : pythonTechnicalInterviewPrep,
+        margin_top : '0px',
+        alt_margin : true,
+        margin_left: false,
+        semester : 'Fall 2023',
+    },
     {
         date: '11/13/2023',
         name : "AI and ML Discord Bots with Headstarter",

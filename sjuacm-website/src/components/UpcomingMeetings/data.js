@@ -10,10 +10,10 @@ export const upcomingMeetings = [
 
     {
         date: 'Thursday, November 30, 2023',
-        time: '5:30pm - 7:00pm',
-        location: 'Virtual Meeting',
-        name : 'SJU Alumni in Tech Panel (Fall 2023)',
-        description : "Hear from SJU ACM e-board alumni about their experiences in the workforce so far and how SJU ACM helped them to begin their careers.",
+        time: '1:50pm - 3:15pm',
+        location: 'St. John Hall Room 208',
+        name : 'End of Semester Fireside Chat (Fall 2023)',
+        description : "Join us as we wrap up the Fall with a fireside chat to debrief the semester, hang out, and eat some snacks!",
         link: ""
     },
     

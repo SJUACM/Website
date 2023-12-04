@@ -66,6 +66,7 @@ import helpDesk from '../../img/meetingPics/helpDesk.jpg'
 import pythonGameDev from '../../img/meetingPics/pythonGameDev.jpg'
 import aiDiscordBots from '../../img/meetingPics/aiDiscordBots.jpg'
 import pythonTechnicalInterviewPrep from '../../img/meetingPics/pythonTechnicalInterviewPrep.jpg'
+import eosFiresideChat from '../../img/meetingPics/eosFiresideChat.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -92,6 +93,22 @@ import PythonTechnicalInterviewPrep from './MeetingFiles/Python_Technical_Interv
 
 
 export const meetings = [
+    {
+        date: '11/30/2023',
+        name : "End of Semester Fireside Chat",
+        description : "SJU ACM members closed out the Fall 2023 semester with a relaxing fireside chat, where we debriefed the semester, shared advice about preparing for the future of their St. John's journey, and ate some snacks!",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: '',
+        customMessage : "",
+        customLink : "",
+        youtubeLink: '',
+        img : eosFiresideChat,
+        margin_top : '0px',
+        alt_margin : true,
+        margin_left: false,
+        semester : 'Fall 2023',
+    },
     {
         date: '11/17/2023',
         name : "Python Technical Interview Prep",

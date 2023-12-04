@@ -8,14 +8,6 @@ export const upcomingMeetings = [
     //     link: ""
     // },
 
-    {
-        date: 'Thursday, November 30, 2023',
-        time: '1:50pm - 3:15pm',
-        location: 'St. John Hall Room 208',
-        name : 'End of Semester Fireside Chat (Fall 2023)',
-        description : "Join us as we wrap up the Fall with a fireside chat to debrief the semester, hang out, and eat some snacks!",
-        link: ""
-    },
     
 
 ]

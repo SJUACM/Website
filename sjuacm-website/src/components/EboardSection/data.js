@@ -2,7 +2,6 @@ import raymondPic from '../../img/eboardPics/raymond2.jpg';
 import jakePic from '../../img/eboardPics/jake2.jpg';
 import davidPic from '../../img/eboardPics/david2.jpg';
 import tomasPic from '../../img/eboardPics/tomas.jpg';
-import ignacioPic from '../../img/eboardPics/ignacio2.jpg';
 import benPic from '../../img/eboardPics/ben.jpg';
 import aqueenaPic from '../../img/eboardPics/aqueena.jpg';
 import fairoozPic from '../../img/eboardPics/fairooz.jpg';
@@ -19,6 +18,7 @@ import dejontePic from '../../img/eboardPics/dejonte.jpg';
 import roshniPic from '../../img/eboardPics/roshni.jpg';
 import teutaPic from '../../img/eboardPics/teuta_eboardpic.JPG';
 import katarinaPic from '../../img/eboardPics/katarina_eboardpic.JPG';
+import ignacioPic from '../../img/eboardPics/ignacio2.jpg';
 
 
 
@@ -44,7 +44,7 @@ export const Jake = {
     email: 'jake.enea20@stjohns.edu',
     linkedIn : 'https://www.linkedin.com/in/jakeenea/',
     github : 'https://github.com/jakeenea51',
-    achievements: ['Previously interned at UPS in their Security Operations Center', 'Interested in security automation and cloud technologies'],
+    achievements: ['Previously interned at UPS in their Security Operations Center', 'Interested in incident response, security automation, and cloud technologies'],
     img: jakePic,
     margin_top: '-1200px',
     altFontSize: true
@@ -76,21 +76,6 @@ export const Tomas = {
     github : 'https://github.com/tomassantos484',
     achievements: ["Mentor for the R.I.S.E. Network and St. John's E.P.I.C. Mentorship Program", 'Created the RandomSeasonSim Twitter Bot, written in Python and using the Twitter/X API'],
     img: tomasPic,
-    altFontSize: true,
-    margin_top: '-1200px',
-};
-
-
-export const Ignacio = {
-    name: 'Ignacio Antequera Sanchez',
-    position: 'Committee Chair',
-    major: 'Computer Science & Mathematics',
-    gradYear: 'December 2023',
-    email: 'ignacio.antequera21@stjohns.edu',
-    linkedIn : 'https://www.linkedin.com/in/ignacio-antequera/',
-    github : 'https://github.com/nachoantequera2001',
-    achievements: ["Student-Athlete on the men's soccer team", 'Main interests are machine learning, AI, and data science'],
-    img: ignacioPic,
     altFontSize: true,
     margin_top: '-1200px',
 };
@@ -142,10 +127,17 @@ export const Fairooz = {
 
 export const prevEboardMembers = [
     {
+        name: 'Ignacio Antequera Sanchez',
+        major: 'Committee Chair',
+        gradYear : '2023',
+        linkedIn: 'https://www.linkedin.com/in/ignacio-antequera/',
+        github: 'https://github.com/Ignacio-Antequera',
+        img : ignacioPic,
+    },
+    {
         name: 'Teuta Elezaj',
         major: 'Vice President',
         gradYear : '2023',
-        email: 'teuta.elezaj19@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/teutaelezaj/',
         github: 'https://github.com/teutaelezaj',
         img : teutaPic,
@@ -154,7 +146,6 @@ export const prevEboardMembers = [
         name: 'Katarina Kobetitsch',
         major: 'Social Media Coordinator',
         gradYear : '2023',
-        email: 'katarina.kobetitsch20@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/katarina-kobetitsch/',
         img : katarinaPic,
     },
@@ -162,7 +153,6 @@ export const prevEboardMembers = [
         name: 'Faizan Ahmed',
         major: 'President',
         gradYear : '2022',
-        email: 'faizan.ahmed18@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/faizan-ahmed-7ab0',
         github: 'https://github.com/faizancodes',
         img : faizanPic,
@@ -171,7 +161,6 @@ export const prevEboardMembers = [
         name: 'Thomas Latona',
         major: 'Vice President',
         gradYear : '2022',
-        email: 'thomas.latona18@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/thomaslatona/',
         img : tomPic,
     },
@@ -179,7 +168,6 @@ export const prevEboardMembers = [
         name: 'Ava McNevin',
         major: 'Committee Chair',
         gradYear : '2022',
-        email: 'ava.mcnevin20@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/ava-mcnevin-1553b2220',
         img : avaPic,
     },
@@ -187,7 +175,6 @@ export const prevEboardMembers = [
         name: 'Jade Deo',
         major: 'Social Media Coordinator',
         gradYear : '2022',
-        email: 'jade.deo18@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/jadedeo/',
         img : jadePic,
     },
@@ -195,7 +182,6 @@ export const prevEboardMembers = [
         name: 'Isaac Sierra',
         major: 'Co-President',
         gradYear : '2021',
-        email: 'isaac.sierra17@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/isaac-sierra-cyb/',
         img : isaacPic,
     },
@@ -203,7 +189,6 @@ export const prevEboardMembers = [
         name: 'Vincent Monteleone',
         major: 'Co-President',
         gradYear : '2021',
-        email: 'vincent.monteleone17@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/vince-monte',
         img : vincePic,
     },
@@ -211,7 +196,6 @@ export const prevEboardMembers = [
         name: 'Roshni Shukla',
         major: 'Vice President',
         gradYear : '2021',
-        email: 'roshni.shukla18@stjohns.edu',
         linkedIn : 'https://www.linkedin.com/in/roshni-shukla',
         img: roshniPic,
     },
@@ -219,7 +203,6 @@ export const prevEboardMembers = [
         name: 'DeJonte July',
         major: 'Treasurer',
         gradYear : '2021',
-        email: 'dejonte.july19@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/dejonte-july-b2b455173',
         img : dejontePic,
     },
@@ -227,7 +210,6 @@ export const prevEboardMembers = [
         name: 'Nicole Roman',
         major: 'Events Coordinator',
         gradYear : '2021',
-        email: 'nicole.roman18@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/nicole-romanxv',
         img : nicolePic,
     },
@@ -235,7 +217,6 @@ export const prevEboardMembers = [
         name: 'Jillian Dorego',
         major: 'Social Media Coordinator',
         gradYear : '2021',
-        email: 'jillian.dorego17@stjohns.edu',
         linkedIn: 'https://www.linkedin.com/in/jilliankdorego',
         img : jillPic,
     },

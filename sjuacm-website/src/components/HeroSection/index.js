@@ -49,11 +49,11 @@ const HeroSection = () => {
                             Follow us on Instagram {hover2 ? <ArrowForward /> : <ArrowRight />}
                         </AltButton>                    
                     </HeroBtnWrapper>
-                    <HeroBtnWrapper>
+                    {/* <HeroBtnWrapper>
                         <AltButton onMouseEnter={onHover3} onMouseLeave={onHover3} primary='true' dark='true' onClick={() => window.open('https://forms.gle/CGcyq93XaLUfMAkz9', '_blank', 'noopener,noreferrer') }>
                             Subscribe to our Mailing List {hover3 ? <ArrowForward /> : <ArrowRight />}
                         </AltButton>                    
-                    </HeroBtnWrapper>
+                    </HeroBtnWrapper> */}
                 </HeroBtnContainer>
             </HeroContent>
 

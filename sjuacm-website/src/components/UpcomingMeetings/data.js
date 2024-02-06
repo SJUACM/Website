@@ -8,12 +8,12 @@ export const upcomingMeetings = [
     //     link: ""
     // },
 
-        {
-        date: 'Thursday, February 1, 2024',
+    {
+        date: 'Thursday, February 15, 2024',
         time: '1:50pm - 3:15pm',
         location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
-        name : 'Spring 2024 Kickoff | Python in a Cybersecurity Context',
-        description : "Join us in kicking off the Spring 2024 semester with an introduction to SJU ACM along with the exciting meetings and events we have planned, which will be coming soon!",     
+        name : 'Python Libraries and Modules',
+        description : "Understanding how to implement its plethora of libraries is essential to getting the most out of coding in Python. In this meeting, we will show you how to use some popular Python libraries and modules!",     
         link: ""
     },
 

@@ -13,6 +13,11 @@ if (upcomingMeetings.length === 0){
       //   cName: 'dropdown-link'
       // },
       {
+        title: 'Spring 2024',
+        path: '/meetings/Spring2024',
+        cName: 'dropdown-link'
+      },
+      {
         title: 'Fall 2023',
         path: '/meetings/Fall2023',
         cName: 'dropdown-link'
@@ -51,6 +56,11 @@ if (upcomingMeetings.length === 0){
       //   path: '/meetings/Fall2024',
       //   cName: 'dropdown-link'
       // },
+      {
+        title: 'Spring 2024',
+        path: '/meetings/Spring2024',
+        cName: 'dropdown-link'
+      },
       {
         title: 'Fall 2023',
         path: '/meetings/Fall2023',

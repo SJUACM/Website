@@ -67,6 +67,7 @@ import pythonGameDev from '../../img/meetingPics/pythonGameDev.jpg'
 import aiDiscordBots from '../../img/meetingPics/aiDiscordBots.jpg'
 import pythonTechnicalInterviewPrep from '../../img/meetingPics/pythonTechnicalInterviewPrep.jpg'
 import eosFiresideChat from '../../img/meetingPics/eosFiresideChat.jpg'
+import spring2024Kickoff from '../../img/meetingPics/spring2024Kickoff.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -90,9 +91,26 @@ import IntroWebDev from './MeetingFiles/Intro_to_Web_Development.pdf'
 import HelpDesk from './MeetingFiles/Host_Your_Own_Help_Desk.pdf'
 import PythonGameDev from './MeetingFiles/Python_Game_Development.pdf'
 import PythonTechnicalInterviewPrep from './MeetingFiles/Python_Technical_Interview_Prep.pdf'
+import Spring2024Kickoff from './MeetingFiles/Spring_2024_Kickoff.pdf'
 
 
 export const meetings = [
+    {
+        date: '2/1/2024',
+        name : "Spring 2024 Kickoff | Scripting in Cybersecurity",
+        description : "Hear about the exciting upcoming events SJU ACM has planned for the Spring 2024 semester! Our Python theme for this semester began with a lab on scripting in cybersecurity.",
+        slidesLink: Spring2024Kickoff,
+        slidesName: 'Spring_2024_Kickoff.pdf',
+        codeLink: '',
+        customMessage : "",
+        customLink : "",
+        youtubeLink: '',
+        img : spring2024Kickoff,
+        margin_top : '0px',
+        alt_margin : true,
+        margin_left: false,
+        semester : 'Spring 2024',
+    },
     {
         date: '11/30/2023',
         name : "End of Semester Fireside Chat",

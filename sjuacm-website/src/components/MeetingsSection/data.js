@@ -68,6 +68,7 @@ import aiDiscordBots from '../../img/meetingPics/aiDiscordBots.jpg'
 import pythonTechnicalInterviewPrep from '../../img/meetingPics/pythonTechnicalInterviewPrep.jpg'
 import eosFiresideChat from '../../img/meetingPics/eosFiresideChat.jpg'
 import spring2024Kickoff from '../../img/meetingPics/spring2024Kickoff.jpg'
+import pythonLibraries from '../../img/meetingPics/pythonLibraries.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -92,9 +93,26 @@ import HelpDesk from './MeetingFiles/Host_Your_Own_Help_Desk.pdf'
 import PythonGameDev from './MeetingFiles/Python_Game_Development.pdf'
 import PythonTechnicalInterviewPrep from './MeetingFiles/Python_Technical_Interview_Prep.pdf'
 import Spring2024Kickoff from './MeetingFiles/Spring_2024_Kickoff.pdf'
+import PythonLibraries from './MeetingFiles/Intro_to_Python_Libraries_&_Modules.pdf'
 
 
 export const meetings = [
+    {
+        date: '2/15/2024',
+        name : "Intro to Python Libraries & Modules",
+        description : "Understanding how to implement its plethora of libraries is essential to getting the most out of coding in Python. In this meeting, we showed our members how to use some popular Python libraries and modules, including a code-along lab using the PythonTurtle library!",
+        slidesLink: PythonLibraries,
+        slidesName: 'Intro_to_Python_Libraries_&_Modules.pdf',
+        codeLink: '',
+        customMessage : "",
+        customLink : "",
+        youtubeLink: '',
+        img : pythonLibraries,
+        margin_top : '0px',
+        alt_margin : true,
+        margin_left: false,
+        semester : 'Spring 2024',
+    },
     {
         date: '2/1/2024',
         name : "Spring 2024 Kickoff | Scripting in Cybersecurity",

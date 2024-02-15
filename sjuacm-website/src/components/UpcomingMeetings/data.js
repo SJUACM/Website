@@ -9,11 +9,19 @@ export const upcomingMeetings = [
     // },
 
     {
-        date: 'Thursday, February 15, 2024',
+        date: 'Thursday, February 22, 2024',
+        time: '5:30pm - 6:30pm',
+        location: 'DAC 306',
+        name : 'Case Study Interviews w/ Protiviti',
+        description : "Join us in collaboration with Protiviti and Tobin student organizations for case study interview prep and to learn more about the firm!",     
+        link: "https://stjohns.joinhandshake.com/stu/events/1492276"
+    },
+    {
+        date: 'Thursday, March 7, 2024',
         time: '1:50pm - 3:15pm',
         location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
-        name : 'Python Libraries and Modules',
-        description : "Understanding how to implement its plethora of libraries is essential to getting the most out of coding in Python. In this meeting, we will show you how to use some popular Python libraries and modules!",     
+        name : 'Open Source Intelligence Lab',
+        description : "Explore the various ways in which hackers collect publicly available information to hack their targets.",     
         link: ""
     },
 

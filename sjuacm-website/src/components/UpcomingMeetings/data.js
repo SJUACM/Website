@@ -9,20 +9,12 @@ export const upcomingMeetings = [
     // },
 
     {
-        date: 'Thursday, February 22, 2024',
-        time: '5:30pm - 6:30pm',
-        location: 'DAC 306',
-        name : 'Case Study Interviews w/ Protiviti',
-        description : "Join us in collaboration with Protiviti and Tobin student organizations for case study interview prep and to learn more about the firm!",     
-        link: "https://stjohns.joinhandshake.com/stu/events/1492276"
-    },
-    {
-        date: 'Thursday, March 7, 2024',
-        time: '1:50pm - 3:15pm',
-        location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
-        name : 'Open Source Intelligence Lab',
-        description : "Explore the various ways in which hackers collect publicly available information to hack their targets.",     
-        link: ""
+        date: 'Saturday, March 16, 2024',
+        time: '10:00am - 8:00pm',
+        location: 'St. Augustine Hall, 2nd Floor',
+        name : 'SJU ACM x Headstarter AI Hackathon',
+        description : "Join us at St. John’s University on Saturday, March 16th, 2024, from 10:00 AM to 8:00 PM for an AI Hackathon hosted by SJU ACM & Headstarter! Work in teams of 3-4 to build an AI project for your resume while also being able to attend workshops and present your project.",     
+        link: "https://sjuit.formstack.com/forms/acm_march_16th_event_copy?sso=65d778dd6a0b8"
     },
 
 ]

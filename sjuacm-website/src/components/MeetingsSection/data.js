@@ -69,6 +69,13 @@ import pythonTechnicalInterviewPrep from '../../img/meetingPics/pythonTechnicalI
 import eosFiresideChat from '../../img/meetingPics/eosFiresideChat.jpg'
 import spring2024Kickoff from '../../img/meetingPics/spring2024Kickoff.jpg'
 import pythonLibraries from '../../img/meetingPics/pythonLibraries.jpg'
+import aiHackathon1 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon1.jpg'
+import aiHackathon2 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon2.jpg'
+import aiHackathon3 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon3.jpg'
+import aiHackathon4 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon4.jpg'
+import aiHackathon5 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon5.jpg'
+import aiHackathon6 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon6.jpg'
+import aiHackathon7 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon7.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -97,6 +104,23 @@ import PythonLibraries from './MeetingFiles/Intro_to_Python_Libraries_&_Modules.
 
 
 export const meetings = [
+    {
+        date: '3/16/2024',
+        name : "SJU ACM x Headstarter AI Hackathon",
+        description : "In this exciting AI hackathon hosted by SJU ACM and Headstarter, St. John's students worked in teams of 3-4 to build a fully functional application or chat bot that incorporates artificial intelligence to solve a common business need. The winning team won a Summer 2024 internship at Headstarter!",
+        slidesLink: '',
+        slidesName: '',
+        codeLink: '',
+        customMessage : "",
+        customLink : "",
+        youtubeLink: '',
+        img : '',
+        carousel : [aiHackathon1, aiHackathon2, aiHackathon3, aiHackathon4, aiHackathon5, aiHackathon6, aiHackathon7],
+        margin_top : '0px',
+        alt_margin : true,
+        margin_left: false,
+        semester : 'Spring 2024',
+    },
     {
         date: '2/15/2024',
         name : "Intro to Python Libraries & Modules",

@@ -76,6 +76,7 @@ import aiHackathon4 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon4
 import aiHackathon5 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon5.jpg'
 import aiHackathon6 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon6.jpg'
 import aiHackathon7 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon7.jpg'
+import pythonTechnicalInterviewsPt2 from '../../img/meetingPics/pythonTechnicalInterviewsPt2.jpg'
 
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
@@ -101,9 +102,26 @@ import PythonGameDev from './MeetingFiles/Python_Game_Development.pdf'
 import PythonTechnicalInterviewPrep from './MeetingFiles/Python_Technical_Interview_Prep.pdf'
 import Spring2024Kickoff from './MeetingFiles/Spring_2024_Kickoff.pdf'
 import PythonLibraries from './MeetingFiles/Intro_to_Python_Libraries_&_Modules.pdf'
+import PythonTechnicalInterviewsPart2 from './MeetingFiles/Python_Technical_Interviews_Part_2.pdf'
 
 
 export const meetings = [
+    {
+        date: '3/21/2024',
+        name : "Python Technical Interview Prep Part 2",
+        description : "Following up on our Fall 2023 Python Interview Prep meeting, members continued their guided practice with NeetCode, solving even more complex programming challenges that they may see in future technical interviews.",
+        slidesLink: PythonTechnicalInterviewsPart2,
+        slidesName: 'Python_Technical_Interviews_Part_2.pdf',
+        codeLink: '',
+        customMessage : "Resources",
+        customLink : "/resources/InterviewPrep",
+        youtubeLink: '',
+        img : pythonTechnicalInterviewsPt2,
+        margin_top : '0px',
+        alt_margin : true,
+        margin_left: false,
+        semester : 'Spring 2024',
+    },
     {
         date: '3/16/2024',
         name : "SJU ACM x Headstarter AI Hackathon",
@@ -176,8 +194,8 @@ export const meetings = [
         slidesLink: PythonTechnicalInterviewPrep,
         slidesName: 'Python_Technical_Interview_Prep.pdf',
         codeLink: '',
-        customMessage : "",
-        customLink : "",
+        customMessage : "Resources",
+        customLink : "/resources/InterviewPrep",
         youtubeLink: '',
         img : pythonTechnicalInterviewPrep,
         margin_top : '0px',

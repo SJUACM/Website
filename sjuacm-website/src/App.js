@@ -6,6 +6,7 @@ import About from './pages/About'
 import Eboard from './pages/Eboard'
 import Meetings from './pages/Meetings'
 import Resources from './pages/Resources';
+import InterviewPrep from './components/ResourcesSection/InterviewPrep/InterviewPrep';
 import Blog from './pages/Blog';
 import FaizanJourneytoBTBlog from './components/BlogSection/Blogs/FaizanJourneytoBT';
 import TeutaBlog from './components/BlogSection/Blogs/TeutaBlogTemplate';
@@ -28,6 +29,8 @@ function App() {
         <Route path="/meetings/2020-2021" element={<Meetings semester='2020-2021'/>} />
 
         <Route path="/resources" element={<Resources/>} />
+        <Route path="/resources/InterviewPrep" element={<InterviewPrep/>} />
+
         <Route path="/blog" element={<Blog/>} />
         <Route path="/blog/FaizansJourneytoBigTech" element={<FaizanJourneytoBTBlog/>} />
         <Route path="/blog/TeutasPivotToComputerScience" element={<TeutaBlog/>} />

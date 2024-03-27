@@ -1,9 +1,7 @@
 import React from 'react'
-import { AltButton } from '../ButtonElements'
-import {CardContainer, CustomCard, CustomCardImg, CustomCardBody, CustomCardTitle, CustomCardText, InfoWrapper} from './ResourcesElements'
-import {collections} from './data'
+import { AltButton } from '../../ButtonElements'
+import {CardContainer, CustomCard, CustomCardImg, CustomCardBody, CustomCardTitle, CustomCardText, InfoWrapper} from './InterviewPrepElements'
 import {content} from './data'
-import {youtubeChannels} from './data'
 
 function createCard({title, text, link, img}) {
     
@@ -21,34 +19,23 @@ function createCard({title, text, link, img}) {
     )
   }
 
-const ResourcesSection = () => {
+const InterviewPrep = () => {
     
     return (
         <>  
             <CardContainer>
                <InfoWrapper>
 
-               <h1 style={{textAlign : 'center', color: 'white', marginTop: '50px'}}>Collections</h1>
-
-               <div style={{ display: "flex", flexWrap: "wrap" }}>
-                    {collections.map(createCard)}
-                </div>
-
-               <h1 style={{textAlign : 'center', color: 'white', marginTop: '50px'}}>Helpful Websites</h1>
+               <h1 style={{textAlign : 'center', color: 'white', marginTop: '50px'}}>Technical Interview Prep Resources</h1>
 
                <div style={{ display: "flex", flexWrap: "wrap" }}>
                     {content.map(createCard)}
                 </div>
 
-                <h1 style={{textAlign : 'center', color: 'white', marginTop: '50px'}}>YouTube Channels to Watch</h1>
-
-                <div style={{ display: "flex", flexWrap: "wrap", paddingTop: '50px' }}>
-                    {youtubeChannels.map(createCard)}
-                </div>
                 </InfoWrapper>
             </CardContainer>
         </>
     )
 }
 
-export default ResourcesSection
+export default InterviewPrep

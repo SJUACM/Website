@@ -1,9 +1,12 @@
+import interviewPrep from '../../img/resourcesPics/interviewPrep.png'
+
 import forage from '../../img/resourcesPics/forage.png'
 import levels from '../../img/resourcesPics/levels.fyi.png'
 import datacamp from '../../img/resourcesPics/datacamp.jpg'
 import googleCerts from '../../img/resourcesPics/googleCareerCertificates.png'
 import ciscoAcad from '../../img/resourcesPics/ciscoAcad.png'
 import profMesser from '../../img/resourcesPics/profMesser.png'
+import hackerRank from '../../img/resourcesPics/interviewPrep/hackerRank.png'
 
 import fireship from '../../img/resourcesPics/fireship.png'
 import freecodecamp from '../../img/resourcesPics/freecodecamp.png'
@@ -12,6 +15,15 @@ import bukola from '../../img/resourcesPics/bukola.png'
 import chuck from '../../img/resourcesPics/chuck.png'
 import johnHammond from '../../img/resourcesPics/johnHammond.png'
 import neetcode from '../../img/resourcesPics/neetcode.png'
+
+export const collections = [
+    {
+        title: 'Technical Interview Prep',
+        text: 'Our best resources for preparing for your technical interviews!',
+        link: '/resources/InterviewPrep',
+        img: interviewPrep,
+    }
+];
 
 export const content = [
     {
@@ -49,6 +61,12 @@ export const content = [
         text: 'Prepare for your Security+ exam with over 177 free training videos from Professor Messer! ',
         link: 'https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/sy0-601-comptia-security-plus-course/',
         img: profMesser,
+    },
+    {
+        title: 'HackerRank',
+        text: 'A website that provides certification exams for various programming languages and frameworks.',
+        link: 'https://www.hackerrank.com/skills-verification',
+        img: hackerRank,
     }
 ];
 

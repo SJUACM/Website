@@ -14,7 +14,7 @@ import clement from '../../img/resourcesPics/clement.png'
 import bukola from '../../img/resourcesPics/bukola.png'
 import chuck from '../../img/resourcesPics/chuck.png'
 import johnHammond from '../../img/resourcesPics/johnHammond.png'
-import neetcode from '../../img/resourcesPics/neetcode.png'
+import neetcode from '../../img/resourcesPics/neetcode.jpg'
 
 export const collections = [
     {
@@ -67,6 +67,12 @@ export const content = [
         text: 'A website that provides certification exams for various programming languages and frameworks.',
         link: 'https://www.hackerrank.com/skills-verification',
         img: hackerRank,
+    },
+    {
+        title: 'NeetCode',
+        text: "One of the best websites to use for technical interview prep. NeetCode provides an organized roadmap to help you practice for those dreaded interviews.",
+        link: 'https://www.youtube.com/c/neetcode',
+        img: neetcode,
     }
 ];
 
@@ -106,11 +112,5 @@ export const youtubeChannels = [
         text: 'John Hammond is a highly respected cyber security researcher who creates content related to malware analysis, penetration testing, and CTFs. Catered towards a more advanced audience.',
         link: 'https://www.youtube.com/c/JohnHammond010',
         img: johnHammond,
-    },
-    {
-        title: 'NeetCode',
-        text: "Dreading the technical interviews for software engineering jobs? Look no further. NeetCode provides detailed walkthroughs for the industry's most commonly used interview questions.",
-        link: 'https://www.youtube.com/c/neetcode',
-        img: neetcode,
     }
 ]

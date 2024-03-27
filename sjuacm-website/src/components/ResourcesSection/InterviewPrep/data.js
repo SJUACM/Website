@@ -1,5 +1,5 @@
 import pythonCourse from '../../../img/resourcesPics/interviewPrep/pythonCourse.png'
-import neetcode from '../../../img/resourcesPics/neetcode.png'
+import neetcode from '../../../img/resourcesPics/neetcode.jpg'
 import pythonFromJava from '../../../img/resourcesPics/interviewPrep/pythonFromJava.png'
 import hackerRank from '../../../img/resourcesPics/interviewPrep/hackerRank.png'
 import clement from '../../../img/resourcesPics/clement.png'
@@ -13,7 +13,7 @@ export const content = [
     },
     {
         title: 'NeetCode',
-        text: "Dreading the technical interviews for software engineering jobs? Look no further. NeetCode provides detailed walkthroughs for the industry's most commonly used interview questions.",
+        text: "One of the best websites to use for technical interview prep. NeetCode provides an organized roadmap to help you practice for those dreaded interviews.",
         link: 'https://www.youtube.com/c/neetcode',
         img: neetcode,
     },

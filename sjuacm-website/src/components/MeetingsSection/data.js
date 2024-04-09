@@ -78,7 +78,7 @@ import aiHackathon5 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon5
 import aiHackathon6 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon6.jpg'
 import aiHackathon7 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon7.jpg'
 import pythonTechnicalInterviewsPt2 from '../../img/meetingPics/pythonTechnicalInterviewsPt2.jpg'
-import OpenSourceIntel1 from '../../img/meetingPic/openSourceIntel.jpg.JPEG'
+import OpenSourceIntel1 from '../../img/meetingPics/openSourceIntel.JPEG'
 import trellix1 from '../../img/meetingPics/trellixCarousel/trellix1.jpg'
 import trellix2 from '../../img/meetingPics/trellixCarousel/trellix2.JPEG'
 import trellix3 from '../../img/meetingPics/trellixCarousel/trellix3.JPEG'

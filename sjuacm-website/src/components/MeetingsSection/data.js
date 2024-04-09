@@ -1,3 +1,4 @@
+//Pictures
 import research from  '../../img/meetingPics/research.jpg'
 import ctf from  '../../img/meetingPics/ctf.jpg'
 import RatLab from  '../../img/meetingPics/RATLab.jpg'
@@ -77,7 +78,16 @@ import aiHackathon5 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon5
 import aiHackathon6 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon6.jpg'
 import aiHackathon7 from '../../img/meetingPics/aiHackathonCarousel/aiHackathon7.jpg'
 import pythonTechnicalInterviewsPt2 from '../../img/meetingPics/pythonTechnicalInterviewsPt2.jpg'
+import OpenSourceIntel1 from '../../img/meetingPics/OpenSourceIntel1.jpg'
+import trellix1 from '../../img/meetingPics/trellix1.jpg'
+import trellix2 from '../../img/meetingPics/trellix2.jpg'
+import trellix3 from '../../img/meetingPics/trellix3.jpg'
+import trellix4 from '../../img/meetingPics/trellix4.jpg'
+import trellix5 from '../../img/meetingPics/trellix5.jpg'
+import trellix6 from '../../img/meetingPics/trellix6.jpg'
+import trellix7 from '../../img/meetingPics/trellix7.jpg'
 
+//Slides
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
 import aiMLSlides from './MeetingFiles/SJU_ACM_Intro_to_AI_&_ML.pdf'
 import SWEInterviewPrep from './MeetingFiles/SJU_ACM_Software_Engineering_Interview_Prep.pdf'
@@ -103,9 +113,50 @@ import PythonTechnicalInterviewPrep from './MeetingFiles/Python_Technical_Interv
 import Spring2024Kickoff from './MeetingFiles/Spring_2024_Kickoff.pdf'
 import PythonLibraries from './MeetingFiles/Intro_to_Python_Libraries_&_Modules.pdf'
 import PythonTechnicalInterviewsPart2 from './MeetingFiles/Python_Technical_Interviews_Part_2.pdf'
+import OpenSourceIntel from './MeetingFiles/Open_Source_Int_Lab.pdf'
 
 
 export const meetings = [
+    {
+        date:'4/8/2024',
+        name:"Open Source Intelligence Lab",
+        description:"Publicly available information is oftentimes a hacker's best weapon. Learn just how powerful open-source intelligence (OSINT) can be in a mock investigation where we use social media posts and other public knowledgebases to determine where a person lives.",
+        slidesLink: OpenSourceIntel,
+        slidesName:'Open_Source_Intelligence_Lab.pdf',
+        codeLink: '',
+        customMessage: '',
+        customLink: '',
+        youtubeLink: '',
+        img: OpenSourceIntel1,
+        margin_top: '0px',
+        alt_margin: true,
+        margin_left: false,
+        semester: 'Spring 2024',
+
+    },
+
+
+
+    {
+        date:'4/4/2024',
+        name:"Trellix Incident Response and Info Session",
+        description:"Our friends at Trellix provided us with a networking event and presentation where we learned about working in incident response and remediation, walked through fascinating cyberattack scenarios, and watched a demonstration of the Trellix EDR/XDR product!",
+        slidesLink: '',
+        slidesName:'',
+        codeLink: '',
+        customMessage: '',
+        customLink: '',
+        youtubeLink: '',
+        img: '',
+        carousel: [trellix1, trellix2, trellix3, trellix4, trellix5, trellix6, trellix7],
+        margin_top: '0px',
+        alt_margin: true,
+        margin_left: false,
+        semester: 'Spring 2024',
+
+    },
+
+
     {
         date: '3/21/2024',
         name : "Python Technical Interview Prep Part 2",

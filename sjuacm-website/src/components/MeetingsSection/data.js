@@ -86,6 +86,15 @@ import trellix4 from '../../img/meetingPics/trellixCarousel/trellix4.jpg'
 import trellix5 from '../../img/meetingPics/trellixCarousel/trellix5.jpg'
 import trellix6 from '../../img/meetingPics/trellixCarousel/trellix6.jpg'
 import trellix7 from '../../img/meetingPics/trellixCarousel/trellix7.jpg'
+import BuildingAppWithAWSpic from '../../img/meetingPics/BuildingAppAWSpic.JPEG'
+import PythonMalwareDevPic from '../../img/meetingPics/PythonMalwareDevPic.jpg'
+import cluePt2Thumbnail from '../../img/meetingPics/cluePt2Carousel/Clue_Pt2_Thumbnail.png'
+import cluePt2_1 from '../../img/meetingPics/cluePt2Carousel/Clue_Pt2_1.jpg'
+import cluePt2_2 from '../../img/meetingPics/cluePt2Carousel/Clue_Pt2_2.jpg'    
+import cluePt2_3 from '../../img/meetingPics/cluePt2Carousel/Clue_Pt2_3.jpg'
+import cluePt2_4 from '../../img/meetingPics/cluePt2Carousel/Clue_Pt2_4.jpg'
+import cluePt2_5 from '../../img/meetingPics/cluePt2Carousel/Clue_Pt2_5.jpg'
+import cluePt2_6 from '../../img/meetingPics/cluePt2Carousel/Clue_Pt2_6.jpg'
 
 //Slides
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
@@ -114,9 +123,75 @@ import Spring2024Kickoff from './MeetingFiles/Spring_2024_Kickoff.pdf'
 import PythonLibraries from './MeetingFiles/Intro_to_Python_Libraries_&_Modules.pdf'
 import PythonTechnicalInterviewsPart2 from './MeetingFiles/Python_Technical_Interviews_Part_2.pdf'
 import OpenSourceIntel from './MeetingFiles/Open_Source_Int_Lab.pdf'
-
+import BuildingAppWithAWS from './MeetingFiles/Building_an_Application_AWS.pdf'
+import SJUACMCluePt2 from './MeetingFiles/SJU_ACM_Clue_Pt2_Slides.pdf'
 
 export const meetings = [
+
+    // 4/18/2024 Meeting
+
+    {
+        date:"4/18/2024",
+        name:"Cloud Incident Response + ACM Clue Pt 2",
+        description:"HELP! SJU ACM has been HACKED, and members have been recruited to investigate. Join us this Thursday, April 18, in the Cyber Lab during Common Hour for a continuation of our SJU ACM Clue series. This time, you’ll get the chance to interact with Microsoft Azure and examine an incident produced by the Sentinel SIEM! Use the various Azure services to figure out who caused the incident, where it happened, and what malware was used.",
+        slidesLink: SJUACMCluePt2,
+        slidesName:"SJU_ACM_Clue_Pt2_Slides.pdf",
+        codeLink:"",
+        customMessage:"Watch Walkthrough",
+        customLink:"https://youtu.be/fjgw7Md_-jE?si=Op3Ij8DcqYpXQy7R",
+        youtubeLink:"",
+        img:"",
+        carousel: [cluePt2Thumbnail, cluePt2_1, cluePt2_2, cluePt2_3, cluePt2_4, cluePt2_5, cluePt2_6],
+        margin_top:"0px",
+        alt_margin:true,
+        margin_left:false,
+        semester:"Spring 2024",
+
+    },
+
+
+    // 4/15/2024 Meeting
+
+    {
+        date:"4/15/2024",
+        name:"Python Malware Development",
+        description:"In this lab, E-Board Member David guided participants through the complex and intriguing world of Python malware development. Attendees gained hands-on experience in writing and understanding malware scripts using Python, exploring both the technical aspects and ethical considerations. The lab focused on demonstrating the power of Python in creating sophisticated malware while emphasizing the importance of cybersecurity measures to protect against such threats.",
+        slidesLink:"",
+        slidesName:"",
+        codeLink:"",
+        customMessage:"",
+        customLink:"",
+        youtubeLink:"",
+        img: PythonMalwareDevPic,
+        margin_top:"0px",
+        alt_margin:true,
+        margin_left:false,
+        semester:"Spring 2024",
+
+    },
+
+
+    // 4/11/2024 Meeting
+
+    {
+        date:"4/11/2024",
+        name:"Building an Application with AWS",
+        description:"This event provided attendees with a comprehensive guide to developing applications using AWS, the world's leading cloud computing platform. Participants learned about the extensive features and services offered by AWS that can be harnessed to create robust, scalable applications. The event featureda n expert-led session by E-Board Member Ben that covered practical strategies and best practices for leveraging AWS in application development.",
+        slidesLink: BuildingAppWithAWS,
+        slidesName:"Building_an_Application_AWS.pdf",
+        codeLink:"",
+        customMessage:"",
+        customLink:"",
+        youtubeLink:"",
+        img: BuildingAppWithAWSpic,
+        margin_top:"0px",
+        alt_margin:true,
+        margin_left:false,
+        semester:"Spring 2024",
+
+    },
+
+
     {
         date:'4/8/2024',
         name:"Open Source Intelligence Lab",
@@ -134,8 +209,6 @@ export const meetings = [
         semester: 'Spring 2024',
 
     },
-
-
 
     {
         date:'4/4/2024',
@@ -155,7 +228,6 @@ export const meetings = [
         semester: 'Spring 2024',
 
     },
-
 
     {
         date: '3/21/2024',

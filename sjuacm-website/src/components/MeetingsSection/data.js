@@ -95,6 +95,15 @@ import cluePt2_3 from '../../img/meetingPics/cluePt2Carousel/Clue_Pt2_3.jpg'
 import cluePt2_4 from '../../img/meetingPics/cluePt2Carousel/Clue_Pt2_4.jpg'
 import cluePt2_5 from '../../img/meetingPics/cluePt2Carousel/Clue_Pt2_5.jpg'
 import cluePt2_6 from '../../img/meetingPics/cluePt2Carousel/Clue_Pt2_6.jpg'
+import AWS_1 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_1.jpg'
+import AWS_2 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_2.jpg'
+import AWS_3 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_3.jpg'
+import AWS_4 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_4.jpg'
+import AWS_5 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_5.jpg'
+import AWS_6 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_6.jpg'
+import AWS_7 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_7.jpg'
+import AWS_8 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_8.jpg'
+import AWS_9 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_9.jpg'
 
 //Slides
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
@@ -128,14 +137,34 @@ import SJUACMCluePt2 from './MeetingFiles/SJU_ACM_Clue_Pt2_Slides.pdf'
 
 export const meetings = [
 
+    // 4/25/2024 Meeting
+    {
+        date: "4/25/2024",
+        name: "AWS Career Insight + GenAI Information Session",
+        description: "In this event, DeJonte, an AWS Solutions Architect + SJU alum, alongside his colleagues, provided attendees with a comprehensive overview of the AWS platform and a captivating Gen AI demonstration. Participants gained valuable insights into building careers in cloud computing, drawing from the expertise and experiences shared by industry professionals.",
+        slidesName: "",
+        slidesLink: "",
+        codeLink: "",
+        customMessage: "",
+        customLink: "",
+        youtubeLink: "",
+        img: "",
+        carousel: [AWS_1, AWS_2, AWS_3, AWS_4, AWS_5, AWS_6, AWS_7, AWS_8, AWS_9],
+        margin_top: "0px",
+        alt_margin: true,
+        margin_left: false,
+        semester: "Spring 2024",
+
+    },
+
     // 4/18/2024 Meeting
 
     {
         date:"4/18/2024",
         name:"Cloud Incident Response + ACM Clue Pt 2",
-        description:"HELP! SJU ACM has been HACKED, and members have been recruited to investigate. Join us this Thursday, April 18, in the Cyber Lab during Common Hour for a continuation of our SJU ACM Clue series. This time, you’ll get the chance to interact with Microsoft Azure and examine an incident produced by the Sentinel SIEM! Use the various Azure services to figure out who caused the incident, where it happened, and what malware was used.",
+        description:"HELP! SJU ACM has been HACKED, and members have been recruited to investigate. This is a continuation of our SJU ACM Clue series. This time, you’ll get the chance to interact with Microsoft Azure and examine an incident produced by the Sentinel SIEM! Use the various Azure services to figure out who caused the incident, where it happened, and what malware was used.",
         slidesLink: SJUACMCluePt2,
-        slidesName:"SJU_ACM_Clue_Pt2_Slides.pdf",
+        slidesName:'SJU_ACM_Clue_Pt2_Slides.pdf',
         codeLink:"",
         customMessage:"Watch Walkthrough",
         customLink:"https://youtu.be/fjgw7Md_-jE?si=Op3Ij8DcqYpXQy7R",
@@ -155,7 +184,7 @@ export const meetings = [
     {
         date:"4/15/2024",
         name:"Python Malware Development",
-        description:"In this lab, E-Board Member David guided participants through the complex and intriguing world of Python malware development. Attendees gained hands-on experience in writing and understanding malware scripts using Python, exploring both the technical aspects and ethical considerations. The lab focused on demonstrating the power of Python in creating sophisticated malware while emphasizing the importance of cybersecurity measures to protect against such threats.",
+        description:"In this lab, E-Board Member David guided participants through the complex and intriguing world of Python malware development. Attendees gained hands-on experience in writing and understanding malware scripts using Python, exploring both the technical aspects and ethical considerations.",
         slidesLink:"",
         slidesName:"",
         codeLink:"",
@@ -176,9 +205,9 @@ export const meetings = [
     {
         date:"4/11/2024",
         name:"Building an Application with AWS",
-        description:"This event provided attendees with a comprehensive guide to developing applications using AWS, the world's leading cloud computing platform. Participants learned about the extensive features and services offered by AWS that can be harnessed to create robust, scalable applications. The event featureda n expert-led session by E-Board Member Ben that covered practical strategies and best practices for leveraging AWS in application development.",
+        description:"In this event, E-Board Member Ben provided attendees with a comprehensive guide to developing applications using AWS, the world's leading cloud computing platform. Participants learned about the extensive features and services offered by AWS that can be harnessed to create robust, scalable applications.",
         slidesLink: BuildingAppWithAWS,
-        slidesName:"Building_an_Application_AWS.pdf",
+        slidesName:'Building_an_Application_AWS.pdf',
         codeLink:"",
         customMessage:"",
         customLink:"",

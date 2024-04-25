@@ -8,19 +8,8 @@ export const upcomingMeetings = [
     //     link: ""
     // },
 
-
     {
-        date:'Monday, April 25, 2024',
-        time:'1:50pm - 3:15pm',
-        location:'Cyber Lab (St. Augustine Hall, 2nd Floor)',
-        name:'AWS Career Insight + Generative AI Information Session',
-        description:"Unlock Your Future with AWS! Join our AWS Career Insight + Generative AI Information Session to discover career opportunities with AWS and delve into the exciting world of Generative AI, guided by an AWS expert alum. Seats and donuts will be available on a first-come, first-serve basis. We look forward to seeing you all there for this information session!",
-        link:""
-
-    },
-
-    {
-        date:"Thursday, April 29, 2024",
+        date:"Monday, April 29, 2024",
         time:"1:50pm - 3:15pm",
         location:'Cyber Lab (St. Augustine Hall, 2nd Floor)',
         name:'Capture the Flag',

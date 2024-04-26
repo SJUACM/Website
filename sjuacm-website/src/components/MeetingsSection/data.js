@@ -187,7 +187,7 @@ export const meetings = [
         description:"In this lab, E-Board Member David guided participants through the complex and intriguing world of Python malware development. Attendees gained hands-on experience in writing and understanding malware scripts using Python, exploring both the technical aspects and ethical considerations.",
         slidesLink:"",
         slidesName:"",
-        codeLink:"",
+        codeLink:"https://github.com/SJUACM/Python-Reverse-Shell",
         customMessage:"",
         customLink:"",
         youtubeLink:"",

@@ -1,3 +1,5 @@
+// ACM{u_f0und_m3_1n_m33tings}
+
 //Pictures
 import research from  '../../img/meetingPics/research.jpg'
 import ctf from  '../../img/meetingPics/ctf.jpg'

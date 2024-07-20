@@ -104,6 +104,14 @@ import AWS_6 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_6.jpg'
 import AWS_7 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_7.jpg'
 import AWS_8 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_8.jpg'
 import AWS_9 from '../../img/meetingPics/AWSCareerInsightCarousel/AWS_9.jpg'
+import CTF_1 from "../../img/meetingPics/ctf2024Carousel/CTF_1.jpg"
+import CTF_2 from "../../img/meetingPics/ctf2024Carousel/CTF_2.jpg"
+import CTF_3 from "../../img/meetingPics/ctf2024Carousel/CTF_3.jpg"
+import CTF_4 from "../../img/meetingPics/ctf2024Carousel/CTF_4.JPEG"
+import CTF_5 from "../../img/meetingPics/ctf2024Carousel/CTF_5.jpg"
+import CTF_6 from "../../img/meetingPics/ctf2024Carousel/CTF_6.jpg"
+import CTF_7 from "../../img/meetingPics/ctf2024Carousel/CTF_7.JPEG"
+
 
 //Slides
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
@@ -136,6 +144,28 @@ import BuildingAppWithAWS from './MeetingFiles/Building_an_Application_AWS.pdf'
 import SJUACMCluePt2 from './MeetingFiles/SJU_ACM_Clue_Pt2_Slides.pdf'
 
 export const meetings = [
+
+    // 4/29/2024 Meeting
+
+    {
+        date:"4/29/2024",
+        name: "Capture the Flag",
+        description: "SJU ACM members closed out the school year by taking part in our annual Capture the Flag competition! Points were awarded by solving questions covering various topics, including programming, networking, cybersecurity, and many other relevant subjects. The top 5 participants with the most points went home with prizes! To top it all off, the new E-Board was announced, and the club reflected on the year's accomplishments.",
+        slidesName: "",
+        slidesLink: "",
+        codeLink: "",
+        customMessage: "",
+        customLink: "",
+        youtubeLink: "",
+        img: "",
+        carousel: [CTF_1, CTF_2, CTF_3, CTF_4, CTF_5, CTF_6, CTF_7],
+        margin_top: "0px",
+        alt_margin: true,
+        margin_left: false,
+        semester: "Spring 2024",
+    },
+
+
 
     // 4/25/2024 Meeting
     {

@@ -1,4 +1,4 @@
-import { faGithub, faInstagram, faDiscord, faYoutube} from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faInstagram, faDiscord, faYoutube, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import styled from 'styled-components';
@@ -30,6 +30,9 @@ function SocialMedia(props) {
                 </a>
                 <a className="icon-link" href="https://www.github.com/sjuacm" target="_blank" rel="noreferrer noopener" aria-label="SJU ACM GitHub">
                     <FontAwesomeIcon icon={faGithub} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '2.0rem', marginLeft : '20px'}} />
+                </a>
+                <a className="icon-link" href="https://www.linkedin.com/company/sjuacm/" target="_blank" rel="noreferrer noopener" aria-label="SJU ACM LinkedIn">
+                    <FontAwesomeIcon icon={faLinkedin} fixedWidth aria-hidden={true} style={{color : 'white', fontSize : '2.0rem', marginLeft : '20px'}} />
                 </a>
             </span>
         </SocialMediaWrapper>

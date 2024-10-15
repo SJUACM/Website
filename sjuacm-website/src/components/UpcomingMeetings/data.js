@@ -11,11 +11,11 @@ export const upcomingMeetings = [
     // },
 
     {
-        date:"Monday, September 9th, 2024",
+        date:"Thursday, October 17th, 2024",
         time:"1:50pm - 3:15pm",
-        location:'Great Lawn (Outside of St. Augustine Hall)',
-        name:'Fall Activities Fair',
-        description:"Representatives of more than 120 student organizations will gather on the Great Lawn to showcase their work, mission, and community spirit at St. John’s University’s Fall Student Activities Fair, including the SJU ACM! Stop by and learn about what we do, how to get involved, and how to join our community!",
+        location:'Cyber Lab (St. Augustine Hall, 2nd Floor)',
+        name:'Surprise Event',
+        description:"A surprise event is coming your way! Stay tuned for more information.",
         link:""
 
     },

@@ -1,4 +1,3 @@
-// ACM{u_f0und_m3_1n_m33tings}
 
 //Pictures
 import research from  '../../img/meetingPics/research.jpg'
@@ -113,7 +112,16 @@ import CTF_4 from "../../img/meetingPics/ctf2024Carousel/CTF_4.JPEG"
 import CTF_5 from "../../img/meetingPics/ctf2024Carousel/CTF_5.jpg"
 import CTF_6 from "../../img/meetingPics/ctf2024Carousel/CTF_6.jpg"
 import CTF_7 from "../../img/meetingPics/ctf2024Carousel/CTF_7.JPEG"
-
+import F24K_1 from "../../img/meetingPics/fallKickoff2024Carousel/F24K_1.jpg"
+import F24K_2 from "../../img/meetingPics/fallKickoff2024Carousel/F24K_2.jpg"
+import F24K_3 from "../../img/meetingPics/fallKickoff2024Carousel/F24K_3.jpg"
+import F24K_4 from "../../img/meetingPics/fallKickoff2024Carousel/F24K_4.jpg"
+import F24K_5 from "../../img/meetingPics/fallKickoff2024Carousel/F24K_5.jpg"
+import F24K_6 from "../../img/meetingPics/fallKickoff2024Carousel/F24K_6.jpg"
+import F24K_7 from "../../img/meetingPics/fallKickoff2024Carousel/F24K_7.jpg"
+import ResumeLinkedIn from "../../img/meetingPics/ResumeLinked.jpeg"
+import AIandYOUPic2 from "../../img/meetingPics/AI_You_2.jpeg"
+import DTFigma1 from "../../img/meetingPics/DTFigma1.jpg"
 
 //Slides
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
@@ -144,11 +152,94 @@ import PythonTechnicalInterviewsPart2 from './MeetingFiles/Python_Technical_Inte
 import OpenSourceIntel from './MeetingFiles/Open_Source_Int_Lab.pdf'
 import BuildingAppWithAWS from './MeetingFiles/Building_an_Application_AWS.pdf'
 import SJUACMCluePt2 from './MeetingFiles/SJU_ACM_Clue_Pt2_Slides.pdf'
+import Fall2024Kickoff from './MeetingFiles/Fall_2024_Kickoff.pdf'
+import ResumeLinkedInWorkshop from './MeetingFiles/Resume_LinkedIn_Workshop.pdf'
+import AIandYOU from './MeetingFiles/AI_and_YOU.pdf'
+import DesignThinkingFigma from './MeetingFiles/Design_Thinking_Figma.pdf'
 
 export const meetings = [
+    
+    //10/17/2024 Meeting (Future)
+
+    //10/10/2024 Meeting
+    {
+        date:"10/10/2024",
+        name: "Design Thinking With Figma",
+        description: "In this hands-on workshop, ACM President, Tomas, explored UI/UX design principles and learned to use Figma to create user-friendly interfaces. The session covered essential design thinking concepts and practical tools for both beginners and experienced designers. Attendees participated in a mini-competition to design the best login page, with the winner receiving free Discord Nitro!",
+        slidesLink: DesignThinkingFigma,
+        slidesName: "Design_Thinking_Figma.pdf",
+        codeLink: "",
+        customMessage: "",
+        customLink: "",
+        youtubeLink: "",
+        img: DTFigma1,
+        margin_top: "0px",
+        alt_margin: true,
+        margin_left: false,
+        semester: "Fall 2024",
+    },
+
+
+    //10/3/2024 Meeting
+    {
+        date:"10/3/2024",
+        name: "AI, and YOU! How to Effectively Use AI Tools as a Tech Major",
+        description: "In this workshop, our Treasurer, Richard, demonstrated advanced techniques for leveraging AI tools in tech beyond basic applications. Attendees learned about various AI platforms and effective strategies for using them to enhance productivity and tackle complex tasks efficiently.",
+        slidesLink: AIandYOU,
+        slidesName: "AI_and_YOU.pdf",
+        codeLink: "",
+        customMessage: "",
+        customLink: "",
+        youtubeLink: "",
+        img: AIandYOUPic2,
+        margin_top: "0px",
+        alt_margin: true,
+        margin_left: false,
+        semester: "Fall 2024",
+    },
+
+    // 9/18/2024 Meeting
+    {
+        date:"9/18/2024",
+        name: "Resume + LinkedIn Workshop",
+        description: "In this workshop, our Information Officer, Hinna, provided attendees with a comprehensive guide to crafting effective resumes and LinkedIn profiles. Participants learned about the importance of a strong online presence in the job market and how to use LinkedIn to its full potential.",
+        slidesLink: ResumeLinkedInWorkshop,
+        slidesName: "Resume_LinkedIn_Workshop.pdf",
+        codeLink: "",
+        customMessage: "",
+        customLink: "",
+        youtubeLink: "",
+        img: ResumeLinkedIn,
+        margin_top: "0px",
+        alt_margin: true,
+        margin_left: false,
+        semester: "Fall 2024",
+    },
+
+
+    // 9/12/2024 Meeting
+    {
+        date:"9/12/2024",
+        name: "Fall 2024 Kickoff",
+        description: "STJ ACM kicked off the academic year with a BANG! We welcomed new and returning members to the club by presenting the new E-Board, discussing the club's plans for the year, and doing a TryHackMe room together as a group!",
+        slidesLink: Fall2024Kickoff,
+        slidesName: "Fall_2024_Kickoff.pdf",
+        codeLink: "",
+        customMessage: "",
+        customLink: "",
+        youtubeLink: "",
+        img: "",
+        carousel: [F24K_1, F24K_2, F24K_3, F24K_4, F24K_5, F24K_6, F24K_7],
+        margin_top: "0px",
+        alt_margin: true,
+        margin_left: false,
+        semester: "Fall 2024",
+    },
+
+    // Start of Fall 2024
+
 
     // 4/29/2024 Meeting
-
     {
         date:"4/29/2024",
         name: "Capture the Flag",

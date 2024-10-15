@@ -153,7 +153,7 @@ import OpenSourceIntel from './MeetingFiles/Open_Source_Int_Lab.pdf'
 import BuildingAppWithAWS from './MeetingFiles/Building_an_Application_AWS.pdf'
 import SJUACMCluePt2 from './MeetingFiles/SJU_ACM_Clue_Pt2_Slides.pdf'
 import Fall2024Kickoff from './MeetingFiles/Fall_2024_Kickoff.pdf'
-import ResumeLinkedInWorkshop from './MeetingFiles/Resume_LinkedIn_Workshop.pdf'
+import ResumeLinkedInWorkshop from './MeetingFiles/ResumeLinkedIn_Workshop.pdf'
 import AIandYOU from './MeetingFiles/AI_and_YOU.pdf'
 import DesignThinkingFigma from './MeetingFiles/Design_Thinking_Figma.pdf'
 

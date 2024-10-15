@@ -238,6 +238,7 @@ export const meetings = [
 
     // Start of Fall 2024
 
+    //End of Spring 2024
 
     // 4/29/2024 Meeting
     {

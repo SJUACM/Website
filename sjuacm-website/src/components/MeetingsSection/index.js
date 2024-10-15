@@ -86,7 +86,6 @@ const MeetingSection = ({semester}) => {
     
     const filteredData = useMemo(() => {  
         if (!semester || semester === "All") return meetings;  
-    
         if (semester !== "Upcoming") return meetings.filter(item => item.semester === semester);  
     }, [semester]);  
     

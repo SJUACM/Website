@@ -11,13 +11,12 @@ export const upcomingMeetings = [
     // },
 
     {
-        date:"Thursday, October 17th, 2024",
-        time:"1:50pm - 3:15pm",
-        location:'Cyber Lab (St. Augustine Hall, 2nd Floor)',
-        name:'Surprise Event',
-        description:"A surprise event is coming your way! Stay tuned for more information.",
-        link:""
-
+        date: "Thursday, October 17th, 2024",
+        time: "1:50pm - 3:15pm",
+        location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
+        name: 'Surprise Event',
+        description: "A surprise event is coming your way! Stay tuned for more information.",
+        link: ""
     },
-
-]
+    // ... other upcoming meetings ...
+];

@@ -27,6 +27,18 @@ function App() {
         <Route path="/meetings/Fall2022" element={<Meetings semester='Fall 2022' />} />
         <Route path="/meetings/2021-2022" element={<Meetings semester='2021-2022' />} />
         <Route path="/meetings/2020-2021" element={<Meetings semester='2020-2021'/>} />
+        <Route path="/meetings/Fall2024" element={<Meetings semester='Fall 2024' />} />
+        {/* Route for Spring 2025 meetings */}
+        {/* <Route path="/meetings/Spring2025" element={<Meetings semester='Spring 2025' />} /> */}
+
+        {/* Route for Fall 2025 meetings */}
+        {/* <Route path="/meetings/Fall2025" element={<Meetings semester='Fall 2025' />} /> */}
+
+        {/* Route for Spring 2026 meetings */}
+        {/* <Route path="/meetings/Spring2026" element={<Meetings semester='Spring 2026' />} /> */}
+
+        {/* Route for Fall 2026 meetings */}
+        {/* <Route path="/meetings/Fall2026" element={<Meetings semester='Fall 2026' />} /> */}
 
         <Route path="/resources" element={<Resources/>} />
         <Route path="/resources/InterviewPrep" element={<InterviewPrep/>} />

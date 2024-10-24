@@ -2,7 +2,7 @@ export const upcomingMeetings = [
     // Example of how to add a meeting:
     
     // {
-    //     date: 'Thursday, April 27, 2023',
+    //     date: 'Thursday, April 27, 2025',
     //     time: '1:50pm - 3:15pm',
     //     location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
     //     name : 'Capture the Flag',
@@ -11,7 +11,7 @@ export const upcomingMeetings = [
     // },
 
     {
-        date: "Thursday, October 17th, 2024",
+        date: "Monday, October 28th, 2024",
         time: "1:50pm - 3:15pm",
         location: 'Cyber Lab (St. Augustine Hall, 2nd Floor)',
         name: 'Surprise Event',

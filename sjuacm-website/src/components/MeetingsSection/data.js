@@ -122,6 +122,7 @@ import F24K_7 from "../../img/meetingPics/fallKickoff2024Carousel/F24K_7.jpg"
 import ResumeLinkedIn from "../../img/meetingPics/ResumeLinked.jpeg"
 import AIandYOUPic2 from "../../img/meetingPics/AI_You_2.jpeg"
 import DTFigma1 from "../../img/meetingPics/DTFigma1.jpg"
+import CloudEssentialsAWSMinecraft from "../../img/meetingPics/Cloud_Essen1.jpeg"
 
 //Slides
 import nftSlides from './MeetingFiles/SJU_ACM_x_SJU_Muse_NFTs.pdf'
@@ -158,8 +159,28 @@ import AIandYOU from './MeetingFiles/AI_and_YOU.pdf'
 import DesignThinkingFigma from './MeetingFiles/Design_Thinking_Figma.pdf'
 
 export const meetings = [
+
+    //10/28/2024 (STJ ACM x AWS Gen AI Workshop)
     
-    //10/17/2024 Meeting (Future)
+    //10/17/2024 Meeting 
+    {
+        date:"10/17/2024",
+        name:"Cloud Essentials With AWS and Minecraft",
+        description:"In this meeting, ACM Treaurer, Richard, demonstrated the basics of cloud computing using AWS and Minecraft. Attendees learned how to set up and configure an AWS server, and then connected it to their own Minecraft servers!",
+        slidesLink:"",
+        slidesName:"",
+        codeLink:"",
+        customMessage:"",
+        customLink:"",
+        youtubeLink:"",
+        img:CloudEssentialsAWSMinecraft,
+        margin_top: "0px",
+        alt_margin: true,
+        margin_left: false,
+        semester: "Fall 2024",
+
+    },
+
 
     //10/10/2024 Meeting
     {
